@@ -1,0 +1,19 @@
+/**
+* @file
+* _button
+*
+* Button
+*/
+
+.btn-allmyles {
+	color: $withe;
+	background: $primaryBrandColor;
+	text-transform: uppercase;
+	padding: 1em 6em 0.85em 6em;
+	letter-spacing: 2px;
+
+	&:hover {
+		color: $withe;
+		background: $primaryBrandColorHover;
+	}
+}

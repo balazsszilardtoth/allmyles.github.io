@@ -1,0 +1,27 @@
+/**
+* @file
+* _what_we_do.scss
+*
+* What We Do
+*/
+
+.page-what_we_do {
+	#featured-image-wwd {
+		background-image: url("../img/what_we_do.jpg");
+		background-size: cover;
+	}
+
+	.summary {
+		font-size: 1.3em;
+		margin-bottom: 3em;
+	}
+
+	.quote-block {
+		margin-bottom: 3.2em;
+	}
+
+	#timeline {
+		border-top: 1px solid $light;
+		padding-top: 2em;
+	}
+}

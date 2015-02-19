@@ -1,0 +1,44 @@
+/**
+* @files
+* _general.scss
+*
+* General
+*/
+
+html,
+body {
+	font-family: 'Hind', sans-serif;
+	color: $defaultFontColor;
+	font-size: $defaultFontSize;
+	background-image: url('../img/farmer.png');
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Hind', sans-serif;
+	font-size: 0.6em;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	color: $defaultHeadingColor;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: $defaultHeadingColor;
+}
+
+a {
+	color: $primaryBrandColor;
+
+	&:hover {
+		color: $primaryBrandColorHover;
+		text-decoration: none;
+	}
+}

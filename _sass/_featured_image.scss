@@ -1,0 +1,40 @@
+/**
+* @files
+* _featured_image.scss
+*
+* Featured image
+*/
+
+.featured-image {
+	display: table;
+	width: 100%;
+	height: 500px;
+
+	.inner {
+		display: table-cell;
+		vertical-align: middle;
+		background: $featuredImageOverlay;
+
+		.content {
+			width: 100%;
+			text-align: center;
+			margin: 0 auto;
+			color: $withe;
+
+			h1 {
+				font-size: 4em;
+				letter-spacing: 4px;
+				line-height: 1em;
+				margin-bottom: 20px
+			}
+
+			span {
+				font-size: 1.4em;
+				display: block;
+				letter-spacing: 1px;
+				line-height: 1.5em;
+				margin: 20px auto;
+			}
+		}
+	}
+}

@@ -1,0 +1,141 @@
+/**
+* @files
+* _frontpage.scss
+*
+* Frontpage
+*/
+
+.page-frontpage {
+	/* General */
+	.container {
+		margin-top: 0 !important;
+	}
+
+	.page-section {
+		line-height: 180%;
+		margin-bottom: 100px;
+
+		&:first-child {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		h2 {
+			font-size: 1.4em;
+		}
+
+		h3 {
+			font-size: 0.91em;
+			line-height: 1.2em;
+			letter-spacing: 2px;
+		}
+
+		header {
+			margin-bottom: 2.3em;
+		}
+	}
+
+
+	/* Featured image */
+	#featured-image-frontpage {
+		background-image: url("../img/featured-image.jpg");
+		background-size: cover;
+
+		.btn-get-started {
+			margin: 20px auto;
+			@extend .btn-allmyles;
+		}
+	}
+
+	/* PreWelcome */
+	#prewelcome {
+		text-align: center;
+		font-size: 2em;
+		margin: 2em 0;
+
+		h2 {
+			font-size: 0.63em;
+		}
+
+		p {
+			font-size: 0.4em;
+			font-weight: bold;
+			line-height: 1.2em;
+			letter-spacing: 2px;
+
+			&:last-child {
+				line-height: 1.6em;
+				letter-spacing: 0;
+				color: $secondaryFontColor;
+			}
+		}
+	}
+
+	/* Welcome */
+	#welcome {
+		h3 {
+			letter-spacing: 2px;
+			line-height: 1.6em;
+			text-align: center;
+		}
+
+		p {
+			font-size: 0.9em;
+			text-align: center;
+			line-height: 1.6em;
+		}
+	}
+
+	/* Text Section 1 */
+	#text-section-1 {
+		h2 {
+			text-align: center;
+		}
+
+		.col-md-6 {
+			&:first-child {
+				figure {
+					margin-top: 1.5em;
+					margin-bottom: 2em;
+					margin-left: 3.5em;
+
+					img {
+						width: 70%;
+					}
+				}
+			}
+		}
+	}
+
+	/* Text Section 2 */
+	#text-section-2 {
+		text-align: center;
+
+	}
+
+	/* Text Section 3 */
+	#text-section-3 {
+		h2 {
+			text-align: center;
+		}
+
+		.col-md-6 {
+
+			&:first-child {
+				h3 {
+					text-align: left;
+				}
+			}
+
+			&:last-child {
+				img {
+					width: 30%;
+				}
+			}
+		}
+	}
+}
