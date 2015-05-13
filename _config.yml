@@ -1,6 +1,8 @@
 title: Allmyles
 permalink: pretty
 relative_permalinks: true
+exclude:
+  - vendor
 sass:
   sass_dir: _sass
   style: compressed
