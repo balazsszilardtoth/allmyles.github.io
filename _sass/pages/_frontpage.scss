@@ -99,10 +99,6 @@
 		.col-md-6 {
 			&:first-child {
 				figure {
-					margin-top: 1.5em;
-					margin-bottom: 2em;
-					margin-left: 3.5em;
-
 					img {
 						width: 70%;
 					}
@@ -137,5 +133,9 @@
 				}
 			}
 		}
+	}
+	
+	figure {
+		text-align: center;
 	}
 }
