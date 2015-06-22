@@ -29,7 +29,7 @@
 		padding: 0.4em 0;
 
 		.icon-bar {
-			background: $withe;
+			background: $white;
 
 		}
 	}
@@ -40,7 +40,7 @@
 			font-size: 0.7em;
 
 			a {
-				color: $withe;
+				color: $white;
 				background: $mainHeaderColor;
 				letter-spacing: 2px;
 				padding: 1em;
@@ -49,19 +49,19 @@
 				border-radius: 3px;
 
 				&:hover {
-					color: $totalWithe;
+					color: $totalWhite;
 				}
 			}
 
 			&:last-child {
 				a {
-					border: 2px solid $withe;
+					border: 2px solid $white;
 					border-radius: 3px;
 					margin-left: 1em;
 
 					&:hover {
 						color: $totalBlack;
-						background: $withe;
+						background: $white;
 					}
 				}
 			}
