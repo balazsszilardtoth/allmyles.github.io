@@ -2,10 +2,15 @@
 * @file
 * _how.scss
 *
-* Privacy Policy
+* How
 */
 
 .page-how {
+	#featured-image-how {
+		background-image: url('../img/how.jpg');
+		background-size: cover;
+	}
+
 	h2 {
 		text-align: center;
 		margin: 0 auto 2em;
