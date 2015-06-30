@@ -6,18 +6,18 @@
 **/
 
 .page-why {
-	#featured-image-why {
-		background-image: url('../img/why.jpg');
-		background-size: cover;
+  #featured-image-why {
+    background-image: url('../img/why.jpg');
+    background-size: cover;
 
-		.btn-online-as-different {
-			margin-top: 5.2em;
-			@extend .btn-allmyles;
-		}
-	}
+    .btn-online-as-different {
+      margin-top: 5.2em;
+      @extend .btn-allmyles;
+    }
+  }
 
-	.summary {
-		font-size: 1.3em;
-		padding-bottom: 2.5em;
-	}
+  .summary {
+    font-size: 1.3em;
+    padding-bottom: 2.5em;
+  }
 }

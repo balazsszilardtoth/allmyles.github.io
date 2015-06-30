@@ -6,20 +6,20 @@
 */
 
 .quote-block {
-	margin-top: 2em;
-	text-align: center;
+  margin-top: 2em;
+  text-align: center;
 
-	.fa-quote-left {
-		color: $light;
-	}
+  .fa-quote-left {
+    color: $light;
+  }
 
-	.quote-text {
-		font-size: 0.9em;
-	}
+  .quote-text {
+    font-size: 0.9em;
+  }
 
-	.quote-by {
-		small {
-			color: $darkBrandColor;
-		}
-	}
+  .quote-by {
+    small {
+      color: $darkBrandColor;
+    }
+  }
 }

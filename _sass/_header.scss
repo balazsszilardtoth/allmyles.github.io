@@ -6,64 +6,64 @@
 */
 
 .navbar-allmyles {
-	background: $mainHeaderColor;
-	padding: 0 1em;
-	border-radius: 0;
-	margin: 0;
-	border: 0;
+  background: $mainHeaderColor;
+  padding: 0 1em;
+  border-radius: 0;
+  margin: 0;
+  border: 0;
 
-	.container-fluid {
-		padding: 20px 0;
-	}
+  .container-fluid {
+    padding: 20px 0;
+  }
 
-	.navbar-brand {
-		height: 36px;
-		padding: 4px 15px;
+  .navbar-brand {
+    height: 36px;
+    padding: 4px 15px;
 
-		img {
- 			height: 36px;
-		}
-	}
+    img {
+       height: 36px;
+    }
+  }
 
-	.navbar-toggle {
-		padding: 0.4em 0;
+  .navbar-toggle {
+    padding: 0.4em 0;
 
-		.icon-bar {
-			background: $white;
+    .icon-bar {
+      background: $white;
 
-		}
-	}
+    }
+  }
 
-	.navbar-nav {
-		li {
-			text-transform: uppercase;
-			font-size: 0.7em;
+  .navbar-nav {
+    li {
+      text-transform: uppercase;
+      font-size: 0.7em;
 
-			a {
-				color: $white;
-				background: $mainHeaderColor;
-				letter-spacing: 2px;
-				padding: 1em;
-				line-height: 1em;
-				border: 2px solid transparent;
-				border-radius: 3px;
+      a {
+        color: $white;
+        background: $mainHeaderColor;
+        letter-spacing: 2px;
+        padding: 1em;
+        line-height: 1em;
+        border: 2px solid transparent;
+        border-radius: 3px;
 
-				&:hover {
-					color: $totalWhite;
-				}
-			}
+        &:hover {
+          color: $totalWhite;
+        }
+      }
 
-			&:last-child {
-				a {
-					border: 2px solid $white;
-					border-radius: 3px;
+      &:last-child {
+        a {
+          border: 2px solid $white;
+          border-radius: 3px;
 
-					&:hover {
-						color: $totalBlack;
-						background: $white;
-					}
-				}
-			}
-		}
-	}
+          &:hover {
+            color: $totalBlack;
+            background: $white;
+          }
+        }
+      }
+    }
+  }
 }

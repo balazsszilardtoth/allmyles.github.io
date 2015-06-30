@@ -6,38 +6,38 @@
 */
 
 #pricing {
-	text-align: center;
+  text-align: center;
 
-	.col-md-4 {
-		h3 {
-			text-transform: lowercase;
-		}
+  .col-md-4 {
+    h3 {
+      text-transform: lowercase;
+    }
 
-		ul {
-			list-style: none;
-			padding: 0;
+    ul {
+      list-style: none;
+      padding: 0;
 
-			li {
-				padding-top: 0.5em;
-				padding-bottom: 1em;
-			}
-		}
+      li {
+        padding-top: 0.5em;
+        padding-bottom: 1em;
+      }
+    }
 
-		.cost {
-			font-weight: bold;
-		}
+    .cost {
+      font-weight: bold;
+    }
 
-		.btn-pricing {
-			@extend .btn-allmyles;
-		}
-	}
+    .btn-pricing {
+      @extend .btn-allmyles;
+    }
+  }
 
-	.custom-package {
-		margin-top: 6em;
+  .custom-package {
+    margin-top: 6em;
 
-		span {
-			font-size: 0.9em;
-			margin-bottom: 0.9em;
-		}
-	}
+    span {
+      font-size: 0.9em;
+      margin-bottom: 0.9em;
+    }
+  }
 }

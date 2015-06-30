@@ -10,4 +10,3 @@ task :test do
     :href_ignore => [/^.+(linkedin\.com|itasoftware\.com).+$/]
   }).run
 end
-
