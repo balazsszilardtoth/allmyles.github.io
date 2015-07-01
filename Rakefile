@@ -7,7 +7,7 @@ task :test do
     :verbose => true,
     :check_html => true,
     :check_favicon => true,
-    :href_ignore => [/^.+linkedin\.com.+$/, /^.+itasoftware\.com.+$/]
+    :href_ignore => [/^.+(linkedin\.com|itasoftware\.com).+$/]
   }).run
 end
 
