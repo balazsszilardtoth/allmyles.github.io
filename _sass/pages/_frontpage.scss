@@ -39,10 +39,9 @@
     }
   }
 
-
   /* Featured image */
   #featured-image-frontpage {
-    background-image: url("../img/featured-image.jpg");
+    background-image: url("../img/featured_images/frontpage.jpg");
     background-size: cover;
 
     .btn-get-started {
@@ -51,8 +50,8 @@
     }
   }
 
-  /* PreWelcome */
-  #prewelcome {
+  /* Hello */
+  #hello {
     text-align: center;
     font-size: 2em;
     margin: 2em 0;
@@ -75,8 +74,8 @@
     }
   }
 
-  /* Welcome */
-  #welcome {
+  /* About Us */
+  #about-us {
     h3 {
       letter-spacing: 2px;
       line-height: 1.6em;
@@ -90,8 +89,8 @@
     }
   }
 
-  /* Text Section 1 */
-  #text-section-1 {
+  /* Without restrictions */
+  #without-restrictions {
     h2 {
       text-align: center;
     }
@@ -107,20 +106,18 @@
     }
   }
 
-  /* Text Section 2 */
-  #text-section-2 {
+  /* Content Integration */
+  #content-integration {
     text-align: center;
-
   }
 
-  /* Text Section 3 */
-  #text-section-3 {
+  /* Use It */
+  #use-it {
     h2 {
       text-align: center;
     }
 
     .col-md-6 {
-
       &:first-child {
         h3 {
           text-align: left;
@@ -137,5 +134,43 @@
 
   figure {
     text-align: center;
+  }
+
+  /* Pricing */
+  #pricing {
+    text-align: center;
+
+    .col-md-4 {
+      h3 {
+        text-transform: lowercase;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          padding-top: 0.5em;
+          padding-bottom: 1em;
+        }
+      }
+
+      .cost {
+        font-weight: bold;
+      }
+
+      .btn-pricing {
+        @extend .btn-allmyles;
+      }
+    }
+
+    .custom-package {
+      margin-top: 6em;
+
+      span {
+        font-size: 0.9em;
+        margin-bottom: 0.9em;
+      }
+    }
   }
 }

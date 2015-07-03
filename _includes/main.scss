@@ -1,16 +1,15 @@
-@import "variables";
-@import "button";
-@import "quote";
+@import "global/variables";
+@import "global/general";
+@import "global/subpages";
+@import "global/featured_image";
+@import "global/button";
+@import "global/quote";
 
-@import "general";
-@import "header";
-@import "featured_image";
-@import "social_links";
-@import "footer";
+@import "layout/header";
+@import "layout/social_links";
+@import "layout/footer";
 
 @import "pages/frontpage";
-@import "pages/frontpage_pricing";
-@import "pages/subpages_global";
 @import "pages/news";
 @import "pages/why";
 @import "pages/how";
@@ -18,5 +17,3 @@
 @import "pages/tos";
 @import "pages/privacy_policy";
 @import "pages/contact";
-
-@import "responsive";

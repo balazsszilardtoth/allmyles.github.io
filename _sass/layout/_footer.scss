@@ -5,7 +5,7 @@
 * Footer
 */
 
-#footer {
+.site-footer {
   font-size: 0.7em;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -14,21 +14,17 @@
   color: $white;
   padding: 1.8em;
 
-  #footer-info {
-    #footer-menu {
-      ul {
-        list-style: none;
-        margin: 1.6em;
+  ul {
+    list-style: none;
+    margin: 1.6em;
 
-        li {
-          display: inline-block;
-          margin: 1.1em;
+    li {
+      display: inline-block;
+      margin: 1.1em;
 
-          a {
-            text-decoration: none;
-            color: $white;
-          }
-        }
+      a {
+        text-decoration: none;
+        color: $white;
       }
     }
 

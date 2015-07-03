@@ -7,7 +7,7 @@
 
 .page-what_we_do {
   #featured-image-wwd {
-    background-image: url("../img/what_we_do.jpg");
+    background-image: url("../img/featured_images/what_we_do.jpg");
     background-size: cover;
   }
 
@@ -20,7 +20,7 @@
     margin-bottom: 3.2em;
   }
 
-  #timeline {
+  .timeline {
     border-top: 1px solid $light;
     padding-top: 2em;
   }

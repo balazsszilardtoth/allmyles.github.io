@@ -7,19 +7,18 @@
 
 html,
 body {
-  font-family: 'Hind', sans-serif;
+  font-family: $defaultFont;
   color: $defaultFontColor;
   font-size: $defaultFontSize;
-  background-image: url('../img/farmer.png');
+  background-image: url('../img/background.png');
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $headingFont;
   text-transform: uppercase;
 }
 
 h2 {
-  font-family: 'Hind', sans-serif;
   font-size: 0.6em;
   letter-spacing: 2px;
   line-height: 1.2em;
@@ -28,7 +27,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $headingFont;
   font-size: 1em;
   text-transform: uppercase;
   color: $defaultHeadingColor;
