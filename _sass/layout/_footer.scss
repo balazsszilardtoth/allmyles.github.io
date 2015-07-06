@@ -27,12 +27,10 @@
         color: $white;
       }
     }
+  }
 
-    p {
-      &:last-child {
-        text-transform: none;
-        margin: 2em;
-      }
-    }
+  .copyright {
+      text-transform: none;
+      margin: 2em;
   }
 }
