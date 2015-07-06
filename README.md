@@ -1,2 +1,4 @@
-allmyles.com in Jekyll
-======================
+allmyles.com
+============
+
+Source code of allmyles.com
