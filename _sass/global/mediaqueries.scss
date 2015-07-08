@@ -8,7 +8,7 @@
 @media (max-width: 768px) {
   html,
   body {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .page {
@@ -25,10 +25,23 @@
 
   .page-frontpage {
     .container {
+      .page-section {
+        .row {
+          .col-md-4,
+          .col-md-6 {
+            margin-bottom: 4em;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+
       #pricing {
         .row {
           .col-md-4 {
-            margin-bottom: 8em;
+            margin-bottom: 6em;
           }
         }
 
@@ -63,7 +76,7 @@
 @media (min-width: 375px) {
   html,
   body {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .page-why {
