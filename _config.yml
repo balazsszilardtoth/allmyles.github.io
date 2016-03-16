@@ -1,6 +1,4 @@
 title: Allmyles
-permalink: pretty
-relative_permalinks: true
 exclude:
   - vendor
 sass:
