@@ -9,10 +9,11 @@
   #featured-image-how {
     background-image: url('../img/featured_images/how.jpg');
     background-size: cover;
+    
     .btn-just-try-it {
-	      margin-top: 5.2em;
-	      @extend .btn-allmyles;
-	    }
+      margin-top: 5.2em;
+      @extend .btn-allmyles;
+   }
   }
 
   h2 {
