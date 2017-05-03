@@ -9,6 +9,11 @@
   #featured-image-wwd {
     background-image: url("../img/featured_images/what_we_do.jpg");
     background-size: cover;
+    .btn-check-it-out {
+	   margin-top: 5.2em;
+	   @extend .btn-allmyles;
+	    }
+	  }
   }
 
   .summary {
