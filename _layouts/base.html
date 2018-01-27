@@ -7,10 +7,11 @@ layout: compress
       <meta name="X-UA-Compatible" content="IE=Edge, chrome=1">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta charset="utf-8">
+      <meta prefix="og: http://ogp.me/ns#" property="og:description" content="{% if page.description %}{{ page.description}}{% else %}{{ site.data.general.description}}{% endif %}">
       
       
       <link rel="icon" href="/img/favicon.ico">
-      {% seo %}
+      
       <meta name="author" content="Allmyles Ltd.">
       <meta name="google-site-verification" content="tB_3wuPCitQ4x9xONjL160sH4Ub7rDV6yq3USlPKvZ4" />
       <link href="//fonts.googleapis.com/css?family=Montserrat:700|Hind:300,600" rel="stylesheet" type="text/css">
