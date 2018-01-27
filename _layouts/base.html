@@ -7,7 +7,7 @@ layout: compress
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="X-UA-Compatible" content="IE=Edge, chrome=1">
-      <title>{{ page.title }}</title>
+      <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
       <meta name="description" content="{% include head.html %}" />
       {% seo %}
       <link rel="icon" href="/img/favicon.ico">
