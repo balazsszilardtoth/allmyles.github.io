@@ -5,11 +5,11 @@ layout: compress
 <html lang="en">
    <head>
       <meta charset="utf-8">
+      {% seo %}
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="X-UA-Compatible" content="IE=Edge, chrome=1">
       <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
       <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-      {% seo %}
       <link rel="icon" href="/img/favicon.ico">
       <meta name="author" content="Allmyles Ltd.">
       <meta name="google-site-verification" content="tB_3wuPCitQ4x9xONjL160sH4Ub7rDV6yq3USlPKvZ4" />
