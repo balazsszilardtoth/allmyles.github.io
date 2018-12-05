@@ -8,19 +8,19 @@ layout: compress
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="robots" content="index, follow">
       <meta charset="utf-8">
-      <title>Travel booking APIs | Flight, Hotel, Car booking API | Allmyles</title>
+      <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
       <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
       <meta property="og:site_name" content="Allmyles"/>
-      <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Travel booking APIs | Flight, Hotel, Car booking API | Allmyles">
+      <meta prefix="og: http://ogp.me/ns#" property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
       <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website">
       <meta prefix="og: http://ogp.me/ns#" property="og:image" content="img/allmyles_logo.png">
       <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://allmyles.com/">
       <meta prefix="og: http://ogp.me/ns#" property="og:description" content="{% if page.description %}{{ page.description}}{% else %}{{ site.data.general.description}}{% endif %}">
       <meta name="author" content="Allmyles Ltd.">
-      <meta itemprop="name" content="Travel booking APIs | Flight, Hotel, Car booking API | Allmyles"/>
+      <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
       <meta itemprop="url" content="https://allmyles.com/"/>
       <meta itemprop="description" content="{% if page.description %}{{ page.description}}{% else %}{{ site.data.general.description}}{% endif %}"/>
-      <meta name="twitter:title" content="Travel booking APIs | Flight, Hotel, Car booking API | Allmyles"/>
+      <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
       <meta name="twitter:url" content="https://allmyles.com/"/>
       <meta name="twitter:card" content="summary"/>
       <meta name="twitter:description" content="{% if page.description %}{{ page.description}}{% else %}{{ site.data.general.description}}{% endif %}"/>
