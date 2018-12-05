@@ -9,6 +9,7 @@ layout: compress
       <meta name="robots" content="index, follow">
       <meta charset="utf-8">
       <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+      <meta name="description" content="{% if page.description %}{{ page.description}}{% else %}{{ site.data.general.description}}{% endif %}"/>
       <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
       <meta property="og:site_name" content="Allmyles"/>
       <meta prefix="og: http://ogp.me/ns#" property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
@@ -24,7 +25,6 @@ layout: compress
       <meta name="twitter:url" content="https://allmyles.com/"/>
       <meta name="twitter:card" content="summary"/>
       <meta name="twitter:description" content="{% if page.description %}{{ page.description}}{% else %}{{ site.data.general.description}}{% endif %}"/>
-      <meta name="description" content="{% if page.description %}{{ page.description}}{% else %}{{ site.data.general.description}}{% endif %}"/>
       <meta name="google-site-verification" content="tB_3wuPCitQ4x9xONjL160sH4Ub7rDV6yq3USlPKvZ4" />
       <link href="//fonts.googleapis.com/css?family=Montserrat:700|Hind:300,600" rel="stylesheet" type="text/css">
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
