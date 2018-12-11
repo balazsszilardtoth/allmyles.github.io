@@ -1,7 +1,22 @@
-title: Travel booking APIs | Flight, Hotel, Car booking API by Allmyles
-description: Travel APIs by Allmyles is the only Global Flight, Hotel, Car Rental booking API provides access to bookable travel content to build innovative web or native apps.
-email: info@allmyles.com
-author: Allmyles
+name:           Allmyles Llc
+title:          Travel booking APIs | Flight, Hotel, Car booking API by Allmyles
+description:    Travel APIs by Allmyles is the only Global Flight, Hotel, Car Rental booking API provides access to bookable travel content to build innovative web or native apps.
+email:          info@allmyles.com
+author:         Allmyles
+url:            https://allmyles.com # URL of site, include http://, do not include a trailing slash
+baseurl:        /base # does not include hostname
+logo:           /assets/img/logo.png # /assets/img/logo.png [best 300px X 300px]
+timezone:       Europe/London # eg. Asia/Kathmandu
+locale:         en_us # eg. en_us
+author:
+  facebook:     szilard toth # site author facebook page
+  twitter:      @balazs_szilard # site author twitter page
+facebook:
+  app_id:       114993862613882 # site facebook app id
+  publisher:    1518850708364296 # site facebook page id
+  admins:       100006445211905 # site admin facebook profile id
+twitter:
+  username:     @allmylesconnect # site twitter page
 
 
 exclude:
