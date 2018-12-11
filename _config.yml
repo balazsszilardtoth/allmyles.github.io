@@ -8,7 +8,7 @@ url:            https://allmyles.com # URL of site, include http://, do not incl
 baseurl:        /base # does not include hostname
 logo:           /img/allmyles_logo.png # /assets/img/logo.png [best 300px X 300px]
 timezone:       Europe/London # eg. Asia/Kathmandu
-locale:         en_us # eg. en_us
+locale:         en_gb # eg. en_us
 author:
   facebook:     szilard toth # site author facebook page
   twitter:      @balazs_szilard # site author twitter page
