@@ -91,33 +91,9 @@ layout: compress
    </head>
 
 <body>
-  <nav class="navbar navbar-allmyles">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navigation">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/"><img src="/img/allmyles_logo.png" alt="Allmyles logo"></a>
-      </div>
+	{% include nav.html %}
 
-      <div class="collapse navbar-collapse" id="main-navigation">
-        <ul class="nav navbar-nav navbar-right">
-	  <li><a href="/#pricing">Pricing</a></li>
-          <li {% if page.url == "/why.html" %}class="active"{% endif %}><a href="/why">Why</a></li>
-          <li><a href="/how">How</a></li>
-          <li><a href="/what">What We Do</a></li>
-          <li><a href="/news">News</a></li>
-          <li><a href="https://docs.allmyles.com">Docs</a></li>
-	  <li><a href="https://status.allmyles.com/">Incidents</a></li>
-          <li><a href="https://dashboard.allmyles.com/">Log In</a></li>
-          <li><a href="https://dashboard.allmyles.com/signup">Get Started</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  
 
   {{ content }}
 	
