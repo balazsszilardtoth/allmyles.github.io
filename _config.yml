@@ -5,7 +5,7 @@ email:          info@allmyles.com
 author:         Allmyles
 url:            https://allmyles.com # URL of site, include http://, do not include a trailing slash
 baseurl:        /base # does not include hostname
-logo:           /assets/img/logo.png # /assets/img/logo.png [best 300px X 300px]
+logo:           /img/allmyles_logo.png # /assets/img/logo.png [best 300px X 300px]
 timezone:       Europe/London # eg. Asia/Kathmandu
 locale:         en_us # eg. en_us
 author:
