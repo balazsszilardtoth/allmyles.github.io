@@ -13,6 +13,7 @@ layout: compress
       <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
       <meta property="og:locale" content="en_US">
       <meta property="og:type" content="website">
+      <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
       <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
       
       <meta name="google-site-verification" content="tB_3wuPCitQ4x9xONjL160sH4Ub7rDV6yq3USlPKvZ4" />
