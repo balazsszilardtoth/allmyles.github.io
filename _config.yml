@@ -1,8 +1,4 @@
 
-title: Travel booking APIs | Flight, Hotel, Car booking API by Allmyles
-description: Travel APIs by Allmyles is the only Global Flight, Hotel, Car Rental booking API provides access to bookable travel content to build innovative web or native apps.
-
-
 exclude:
   - vendor
 sass:
