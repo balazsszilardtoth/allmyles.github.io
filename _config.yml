@@ -1,4 +1,4 @@
-url: https://allmyles.com/
+url: "https://allmyles.com/"
 
 exclude:
   - vendor
