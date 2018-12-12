@@ -9,6 +9,7 @@ layout: compress
       <meta name="robots" content="index, follow">
       <meta charset="utf-8">
       <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+      <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}></title>
       
       
       <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
