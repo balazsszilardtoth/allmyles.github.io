@@ -1,4 +1,6 @@
 url: "https://allmyles.com"
+extlinks:
+   attributes: {rel: nofollow, target: _blank}
 
 exclude:
   - vendor
