@@ -14,12 +14,12 @@
   .page-section {
     line-height: 180%;
     margin-bottom: 3em;
-    padding-bottom: 3em;
+    padding-top: 3em;
 
     &:first-child {
       margin-top: 0;
       margin-bottom: 0;
-      padding-bottom: 0;
+      padding-top: 0;
     }
 
     &:last-child {
