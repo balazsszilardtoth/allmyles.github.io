@@ -11,12 +11,12 @@ layout: compress
       <link rel="canonical" href="{{ page.url | prepend: site.url }}">
       <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}></title>
       <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
-      <meta property="og:locale" content="en_US">
-      <meta property="og:type" content="website">
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="website" />
       <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-      <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+      <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
       <meta property="og:image" content="https://allmyles.com/img/featured_images/frontpage.jpg" />
-      <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+      <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
       <meta property="fb:app_id" content="114993862613882"/>
       <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
       
