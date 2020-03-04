@@ -2,6 +2,7 @@ description: Travel APIs for Flights, Hotels, Car rental by Allmyles. The only G
 url: "https://allmyles.com"
 permalink: pretty
 site.title: Allmyles 
+site.name: Allmyles Travel APIs
 
 
 exclude:
