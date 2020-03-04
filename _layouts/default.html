@@ -17,6 +17,7 @@
       <meta name="robots" content="index, follow">
       <meta charset="utf-8">
       <base href="{{ site.url }}">
+	   {% seo %}
       <link rel="canonical" href="{{ site.url }}{{ page.url }}">
       <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
       <meta name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
