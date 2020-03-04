@@ -8,7 +8,7 @@ twitter:
   card: summary_large_image
 facebook:
   app_id: 114993862613882
-  publisher: 1518850708364296
+  #publisher: 1518850708364296
   admins: balazs.toth@allmyles.com
 logo: /img/allmyles_logo.png
 webmaster_verifications:
