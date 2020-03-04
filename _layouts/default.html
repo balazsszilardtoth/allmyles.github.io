@@ -17,9 +17,9 @@
       <meta name="robots" content="index, follow">
       <meta charset="utf-8">
       <base href="{{ site.url }}">
-      
-      
-      
+      <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+      <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+      <meta name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
       <meta property="og:locale" content="en_US" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
@@ -28,7 +28,6 @@
       <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
       <meta property="fb:app_id" content="114993862613882"/>
       <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-      
       <meta name="google-site-verification" content="tB_3wuPCitQ4x9xONjL160sH4Ub7rDV6yq3USlPKvZ4" />
       <link href="//fonts.googleapis.com/css?family=Montserrat:700%7CHind:300,600" rel="stylesheet" type="text/css">
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
