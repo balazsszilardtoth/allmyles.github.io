@@ -7,6 +7,7 @@ twitter:
   username: allmylesconnect
   card: summary_large_image
 facebook:
+  type: website
   app_id: 114993862613882
   publisher: 1518850708364296
   admins: balazs.toth@allmyles.com
