@@ -3,85 +3,9 @@
 ---
 <!doctype html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
-   <head>
-      <!-- Google Tag Manager -->
-       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-WMV9FM');</script>
-      <!-- End Google Tag Manager -->
-     
-      <meta name="X-UA-Compatible" content="IE=Edge, chrome=1">
-      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-      <meta name="robots" content="index, follow">
-      <meta charset="utf-8">
-      <base href="{{ site.url }}">
-	   {% seo %}
-     
-      <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-      
-      <link href="//fonts.googleapis.com/css?family=Montserrat:700%7CHind:300,600" rel="stylesheet" type="text/css">
-      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
-      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-	    
-      <script type="text/javascript">
-         window.smartlook||(function(d) {
-         var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-         var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-         c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
-         })(document);
-         smartlook('init', '57ce1377e409c69c7ccdf3338c16d8c5b90a21a1');
-      </script>
-      
-	   
-
-      <style type="text/css">
-         {% capture include_to_scssify %}
-         {% include main.scss %}
-         {% endcapture %}
-         {{ include_to_scssify | scssify }}
-      </style>
-      <!-- Facebook Pixel Code -->
-      <script>
-         !function(f,b,e,v,n,t,s)
-         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-         if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-         n.queue=[];t=b.createElement(e);t.async=!0;
-         t.src=v;s=b.getElementsByTagName(e)[0];
-         s.parentNode.insertBefore(t,s)}(window, document,'script',
-         'https://connect.facebook.net/en_US/fbevents.js');
-         fbq('init', '877131375794306');
-         fbq('track', 'PageView');
-      </script>
-      
-      <!-- End Facebook Pixel Code -->
-	   
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-<script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#000"
-    },
-    "button": {
-      "background": "#f1d600"
-    }
-  },
-  "theme": "classic",
-  "position": "bottom-left",
-  "type": "opt-out",
-  "content": {
-    "href": "/privacy"
-  }
-})});
-</script>
-	   
-   </head>
-	
+   
+	   {% include head.html %}
+ 	
 <body>
 	<!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMV9FM"
