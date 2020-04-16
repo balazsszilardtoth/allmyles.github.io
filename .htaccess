@@ -1,5 +1,6 @@
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteCond %{HTTP_HOST} ^allmyles.com/tos$
-  RewriteRule (.*)$ https://allmyles.com/privacy-and-terms/$1 [R=301,L]
+  Redirect 301 /tos/ /privacy-and-terms/
 </IfModule>
+
