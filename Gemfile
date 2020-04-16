@@ -29,4 +29,8 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
+# 301 redirection for old urls cached by google SERP
 gem 'jekyll-redirect-from'
+
+# Google Tag Manager Plugin for jekyll
+gem 'jekyll-google-tag-manager'
