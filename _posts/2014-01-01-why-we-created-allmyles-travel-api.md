@@ -4,6 +4,8 @@ title: Why
 subtitle: Why we belive that travel industry needs a revolution
 date: 2014-01-01 09:25:08 +0100
 categories: inspiration
+redirect_from:
+  - /why/
 img: tyler-franta-iusJ25iYu1c-unsplash.jpg
 ---
 
