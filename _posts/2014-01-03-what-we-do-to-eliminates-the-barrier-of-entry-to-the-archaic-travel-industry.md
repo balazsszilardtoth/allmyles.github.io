@@ -1,9 +1,11 @@
 ---
 layout: post
-title: How
-subtitle: How Allmyles Travel API serves its customers
+title: What
+subtitle: What we do to revolutionize Travel Industry
 date: 2014-01-02 09:25:08 +0100
 categories: inspiration
+redirect_from:
+  - /what/
 img: tyler-franta-iusJ25iYu1c-unsplash.jpg
 ---
 
