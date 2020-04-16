@@ -1,6 +1,0 @@
-
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  Redirect 301 /tos.html /terms.html
-</IfModule>
-
