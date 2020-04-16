@@ -1,0 +1,16 @@
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+
+ <title>icon / chevron-down</title>
+ <desc>Created with Sketch.</desc>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g transform="rotate(-90 12.000000000000002,12) " fill-rule="evenodd" fill="none" id="icon-/-chevron-down">
+   <path fill="#D8D8D8" id="Triangle-Copy" d="m8.98606,9l6.02795,0c0.54455,0 0.98599,0.42778 0.98599,0.95547c0,0.19915 -0.06421,0.39331 -0.18366,0.55536l-3.01397,4.08898c-0.31651,0.4294 -0.93231,0.52886 -1.37542,0.22214c-0.08854,-0.06128 -0.166,-0.13634 -0.22924,-0.22214l-3.01398,-4.08898c-0.31651,-0.4294 -0.21387,-1.02614 0.22924,-1.33286c0.16722,-0.11575 0.36759,-0.17797 0.57309,-0.17797z"/>
+  </g>
+ </g>
+</svg>

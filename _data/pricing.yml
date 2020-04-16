@@ -1,0 +1,145 @@
+plans:
+  - title: AWS hosted
+    essential: true
+    professional: true
+    unlimited: true
+
+  - title: Cloudflare CDN
+    essential: true
+    professional: true
+    unlimited: true
+
+  - title: Location search algorithm
+    essential: true
+    professional: true
+    unlimited: true
+
+  - title: Full user journey
+    essential: true
+    professional: true
+    unlimited: true
+
+  - title: Bookable content
+    essential: true
+    professional: true
+    unlimited: true
+
+  - title: Automated payment clutch
+    essential: true
+    professional: true
+    unlimited: true
+
+  - title: Restful API
+    essential: true
+    professional: true
+    unlimited: true
+
+  - title: Global content
+    essential: true
+    professional: true
+    unlimited: true
+
+  - title: Multisource
+    essential: true
+    professional: true
+    unlimited: true
+
+  - title: Dashboard and reporting
+    essential: true
+    professional: true
+    unlimited: true
+
+  - title: Flight, hotel, car rental
+    essential: true
+    professional: true
+    unlimited: true
+
+  - title: PSP independent
+    essential: true
+    professional: true
+    unlimited: true
+
+  - title: Self booking tool
+    essential: true
+    professional: true
+    unlimited: true
+
+  - title: Self post booking features
+    essential: true
+    professional: true
+    unlimited: true
+
+  - title: Hosted white label web application
+    essential: false
+    professional: true
+    unlimited: true
+
+  - title: Airline fare families
+    essential: false
+    professional: true
+    unlimited: true
+
+  - title: Airline direct content
+    essential: false
+    professional: true
+    unlimited: true
+
+  - title: Social media integration
+    essential: false
+    professional: true
+    unlimited: true
+
+  - title: Price alert function
+    essential: false
+    professional: true
+    unlimited: true
+
+  - title: Ancillary booking
+    essential: false
+    professional: true
+    unlimited: true
+
+  - title: One way combinable flights
+    essential: false
+    professional: true
+    unlimited: true
+
+  - title: Red eye flights
+    essential: false
+    professional: true
+    unlimited: true
+
+  - title: Calendar view
+    essential: false
+    professional: true
+    unlimited: true
+
+  - title: Radius search
+    essential: false
+    professional: true
+    unlimited: true
+
+  - title: Multiple city search
+    essential: false
+    professional: true
+    unlimited: true
+
+  - title: Hosted, customisable white label web application
+    essential: false
+    professional: false
+    unlimited: true
+
+  - title: Chat boosted post booking support
+    essential: false
+    professional: false
+    unlimited: true
+
+faq:
+  - question: What is the certification fee for?
+    answer: We need to pay licence fees to providers when a new client joins us. Such licence fees are covered from the certification fee.
+
+  - question: Why don’t you show every airlines?
+    answer: Staging system has certain limitations in terms of content and flexibility, but staging is not for comparison but for development purposes.
+
+  - question: How do you get all airline, hotel, and car rental prices?
+    answer: Allmyles API consolidates the content of different travel providers from GDSs, LowCostContent providers and other hotel and car rental consolidators.

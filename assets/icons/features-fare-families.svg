@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>icon / fare families</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Features" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Features-D" transform="translate(-944.000000, -1967.000000)">
+            <g id="the-easiest-integration" transform="translate(100.000000, 1807.000000)">
+                <g id="Group-4">
+                    <g id="fare" transform="translate(842.000000, 159.000000)">
+                        <g id="icon-/-features-/-3-fare-families">
+                            <g id="features-03">
+                                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                                <path d="M17.65,5 L14.65,5 C14.0205312,4.16851435 13.0378803,3.67994403 11.995,3.67994403 C10.9521197,3.67994403 9.96946879,4.16851435 9.34,5 L6.34,5 C7.19321045,2.61269652 9.45481046,1.01928205 11.99,1.01928205 C14.5251895,1.01928205 16.7867895,2.61269652 17.64,5 L17.65,5 Z" id="Path" fill="#F8CDB4" fill-rule="nonzero"></path>
+                                <path d="M22,9 L22,14 L2,14 L2,9 C2,7.8954305 2.8954305,7 4,7 L20,7 C21.1045695,7 22,7.8954305 22,9 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                <path d="M2,16 L22,16 L22,20 C22,21.1045695 21.1045695,22 20,22 L4,22 C2.8954305,22 2,21.1045695 2,20 L2,16 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="2" y="12" width="20" height="2"></rect>
+                                <rect id="Rectangle" fill="#DED9FF" fill-rule="nonzero" x="2" y="12" width="20" height="2"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

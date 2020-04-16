@@ -1,0 +1,114 @@
+.faq {
+  h2 {
+    margin: 40px 0 24px 0;
+  }
+
+  .card {
+    border: 0;
+    border-radius: 0;
+
+    &:last-child {
+      border-bottom: 1px solid $athens-gray;
+    }
+
+    .show {
+      border-bottom: 1px solid $royal-blue;
+    }
+  }
+
+  .card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+
+    button {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      padding: 24px 0;
+      width: 100%;
+      color: $royal-blue;
+      border: 0;
+      border-top: 1px solid $royal-blue;
+      border-radius: 0;
+      font-size: $font-size-large;
+      line-height: 24px;
+      text-align: left;
+
+      &.collapsed {
+        color: $violet;
+        border-top: 1px solid $athens-gray;
+
+        .button-accordion-icon {
+          background: url(./../../assets/icons/open.svg) no-repeat center;
+        }
+      }
+    }
+  }
+
+  .button-accordion {
+    position: relative;
+    margin-left: 16px;
+    width: 14px;
+    height: 14px;
+
+    &-icon {
+      display: block;
+      width: 14px;
+      height: 14px;
+      background: url(./../../assets/icons/close.svg) no-repeat center;
+    }
+  }
+
+  .card-body {
+    padding: 0;
+  }
+
+  p {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .faq {
+    margin: 72px 0 80px 0;
+
+    .container {
+      max-width: 820px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .faq {
+    margin: 90px 0 80px 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .faq {
+    h1 {
+      margin-bottom: 80px;
+    }
+  }
+}
+ 
+@media screen and (max-width: 767px) {
+  .faq {
+    margin: 40px 0 80px 0;
+
+    h1 {
+      margin-bottom: 56px;
+    }
+
+    h2 {
+      margin: 80px 0 30px 0;
+      font-size: $font-size-extreme-large;
+    }
+  }
+}

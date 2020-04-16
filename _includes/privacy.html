@@ -1,0 +1,24 @@
+<div class="privacy">
+  <div class="wrapper">
+    {% for privacy in site.data.privacy %}
+    <div>
+      <h3>{{ privacy.title }}</h3>
+      {% if privacy.short-summary %}
+      <div class="short-summary">
+        <h5>Short summary</h5>
+        {{ privacy.short-summary }}
+      </div>
+      {% endif %} {% for content in privacy.contents %} {% if content.text %}
+      <p>{{ content.text }}</p>
+      {% endif %} {% if content.list %}
+      <ul>
+        {% for item in content.list %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %} {% endfor %}
+    </div>
+    {% endfor %}
+    <h4>Allmyles Ltd.</h4>
+  </div>
+</div>

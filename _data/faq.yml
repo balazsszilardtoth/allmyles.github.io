@@ -1,0 +1,67 @@
+- title: Basic
+  slug: basic
+  questions:
+  - question: Do you offer one way, round trip, multi-city flight search?
+    answer: Yes, these are features that either offered by default or you can updgrade to the relevant package to have it. Please see our pricing comparison for details. 
+  - question: Can I book without redirecting?
+    answer: Certainly yes, you can! This the most important differentiator between Allmyles APIs and those MetaSearch engines, where you can only generate leads to other websites.
+  - question: How can I assure my client not to chose the wrong airport/city name?
+    answer: Allmyles has its proprietary and forever free location search api endpoint which can be used without API key authentication, so that you can test it easily.
+  - question: Are you cloud based?
+    answer: Yes, Allmyles is hosted in Amazon AWS and Google Cloud Platform to provide global reach and fast access.
+  - question: Can I let my clients add luggages while booking?
+    answer: Yes, we provide not only luggage booking at time of book request (basket), but you can implement airline fare families where certain upgrades already include luggage. Luggage booking is a part of ancillary services so your user can purchas much more than simple check baggage. There are on board services, meals, extra seat etc that we provide where the carrier makes it available.
+  - question: Can I use my own domain for the full user journey?
+    answer: Yes, definitely this is the core concept behind Allmyles API.
+  - question: Do you have tracking or reporting to know the searches/bookings made monthly?
+    answer: Yes, Allmyles provides access to each registered users to its proprietary dashboard where you can track searches and bookings, you can visualise search and booking trends, update corporate information and manage payment card used for monthly fees and deposit management.
+  - question: What is the main difference between Ticketing and Booking?
+    answer: To standardize Full Service Carriers with Low Cost carriers we need to follow a 5 step user journey such as Search request, Details Request, Book Request, Payment Request and finally Ticket Request. Normally FSCs provide booking on hold where the fare is reserved with a booking and you can pay later on within a stipulated timeframe. When you successfully paid we can issue the ticket from the booking previously created. Low Cost Carriers rarely offer such flexibility.
+  - question: Why do you require minimum daily search transactions?
+    answer: We belive in visitors. If your application is not hit by visitors you will end up no searches, no bookings thus no revenue or profit. We can see a certain tresholds of visitor per search and search per booking and we belive you can keep search per booking ratio at a profitable level provided that your marketing and your business model works properly.
+  - question: What does the whitelable web application mean?
+    answer: This is an up and running web application with the feature set that we can provide you with. You can chose not to start developing your own website but use our prepackaged solution. Certainly you can customise the look and feel of the whitelabel solution to match it with your corporate identity.
+  - question: Do you offer online marketing management servies?
+    answer: Basically we believe your business needs internal marketing management, but as a custom service we can build it for you. Yet, none of the pricing tiers include such a service.
+
+- title: Pricing
+  slug: pricing
+  questions:
+  - question: Can you help me better understand the pricing please?
+    answer: Registered users receive an API key to access the staging system for free for 30 days. When the 30 days passed you need to decide which pricing tier fits the best for you. We give you more time to develop for a fixed 20 EUR of support fee per month to let you put together your application. Normally 30 days are enough. When you decide to go live we do a certification against your application to check if certification requirements are met. Please see certification requirements in our documentation. After successful certification you need to chose a pricing tier and go live. If you have chosen Cub Tier you will pay no minimum but a higher per transaction fee. Geek and Growth Hacker Tiers are for more mature businesses where search fee is lower per transaction but we require minimum search volume. In return we give Geek and Growth Hacker Tiers extra features that are not available in Cub Tier.
+  - question: What is the certification fee for?
+    answer: We need to pay licence fees to providers when a new client joins us. Such licence fees are covered from the certification fee.
+  - question: How much I will pay monthly?
+    answer: We created a visualisation for you in our pricing page to let you assess how much you will save and how much you need to pay if you go for Allmyles Travel APIs. Please proceed to pricing page and get a ballpark figure on your costs and savings.
+  - question: This is defined as a per-search cost, so what is a search?
+    answer: One search is defined as a search request with fixed parameters sent to Allmyles Travel API. If you send two search requests with the same parameter the second one is considered as polling only that is not payable. If you change any parameter in a search request you will be charged. (Polling is a term for checking results repetitively until we respond a successful search result)
+  - question: Is there a minimum contract time? Based on your model I assume there's not, but just checking.
+    answer: No, there is no minimum contract time, we belive you will be satisfied with the solution and keep it using long term.
+  - question: In the event we want to upgrade from the Geek account to the Growth Hacker one, how would that work?
+    answer: Yes, upgrade is always possible, while downgrade is not.
+  - question: Do I need to contract with any licenced ticketing partner or your offering is a single contract one?
+    answer: No, you do not need to contract anone else, Allmyles is a single contract model.
+
+- title: Technical
+  slug: technical
+  questions:
+  - question: Do you have a price calendar component?
+    answer: Yes, calendar view is available, you can get 49 days in a 7x7 matrix. Warning! Calendar view is a cache only feature, wich means you need to rerun the search for the chosen day from the calendar to have bookable result list for the day.
+  - question: What GDS systems do you work with?
+    answer: We prefer not revieling the content providers because our potential clients do not need to use any GDS. All post booking operation is available on our dashboard as self service or we provide post booking support in certain pricing tiers.
+  - question: Do I need to employ pro backend developers?
+    answer: No, you only need to integrate your front end to our API. RESTful APIs are the easiest from an integration perspective. We belive even novice programmers can do the integration and we give brilliant technical support during the integration phase.
+  - question: Can I use PHP while integrating your API?
+    answer: Allmyles Travel APIs are language agnostic. You can use any programming language whil integrating with us.
+  - question: Booking happens before ticketing and payment, so at this stage, is the ticket "reserved"? If so, for how long?
+    answer: Generally we keep booked but not ticketed reservations for 12 hours, but only for Full Service Carriers. Low Cost Carriers deciede individually if they provide on hold bookngs or not.
+  - question: What does payment from "any PSP" mean? Since you specify Allmyles is a payment-agnostic solution, what ID should I pass to the payment API?
+    answer: Since your tickets are purchased from a rolling commercial deposit kept at Allmyles we provide you the flexibility to chose any Payment Service Providers. You can integrate any PSPs to accept payment cards from your clients and at time of payment request you may include the ID of your PSP to ease the reconciliation of payments in your books. It is not a regulation, you can simply generate any UUID internally if you prefer.
+  - question: Can we use Stripe to take payments?
+    answer: Yes, we belive Stripe is the best option for online payments, majority of our clients have been using Stripe for ages now.
+  - question: Does the traveller or allmyles pay for the travel services?
+    answer: Allmyles pay for the travel services on behalf of you from the rolling commercial deposit you keep at Allmyles.
+  - question: Do we collect payment from the traveler's CC?
+    answer: Yes, you need to collect payment from the end traveler.(except CarRental)
+  - question: What is the timeframe you reconcile our top ups?
+    answer: Reconciliation of top ups (deposit handling) is immediate. If you card pays you can be sure that the next transaction will go through without any delay.

@@ -1,0 +1,627 @@
+.pricing {
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-family: Aeonik Regular;
+    font-size: $font-size-extreme-large;
+    line-height: 40px;
+  }
+
+  h4 {
+    font-family: Aeonik Medium;
+    font-size: $font-size-large;
+    line-height: 24px;
+  }
+
+  .save-employee-fees-section,
+  .packages-section {
+    p {
+      font-size: $font-size-small;
+    }
+  }
+
+  .save-employee-fees-section {
+    .pricing-content {
+      margin: 58px 0 0 100px;
+      max-width: 502px;
+
+      p {
+        margin-bottom: 8px;
+      }
+    }
+
+    .pricing-calculator {
+      margin: 0 auto;
+    }
+
+    .pricing-text {
+      margin-bottom: 12px;
+      text-align: center;
+
+      p {
+        display: inline-block;
+        margin-bottom: 0;
+        font-size: $font-size-small;
+        line-height: 16px;
+      }
+    }
+
+    .pricing-monthly,
+    .pricing-total {
+      font-family: Aeonik Medium;
+      color: $violet;
+      line-height: 24px;
+    }
+
+    .pricing-monthly {
+      font-size: $font-size-small;
+    }
+
+    .pricing-total {
+      font-size: $font-size-large;
+    }
+  }
+
+  .packages-section {
+    p {
+      margin: 0;
+    }
+
+    .card {
+      padding: 30px 32px 32px 32px;
+      min-height: 100%;
+      border: 2px solid $white;
+      border-radius: 16px;
+      box-shadow: 0 20px 40px 0 rgba(10, 13, 53, .08);
+      text-align: center;
+
+      img {
+        margin: 15px auto 0 auto;
+        width: 81px;
+        height: 106px;
+      }
+    }
+
+    .best-fit {
+      border: 2px solid $royal-blue;
+
+      &-text {
+        position: absolute;
+        top: -12px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        padding: 2px 0;
+        width: 69px;
+        color: $white;
+        background-color: $royal-blue;
+        border-radius: 8px;
+        font-family: Aeonik Medium;
+        font-size: $font-size-small;
+        line-height: 20px;
+      }
+    }
+
+    h4 {
+      margin-bottom: 9px;
+      height: 24px;
+    }
+
+    h3 {
+      margin: 3px 0 5px 0;
+    }
+
+    a {
+      margin-top: 24px;
+    }
+  }
+
+  .plans-section {
+    table {
+      overflow: hidden;
+    }
+
+    thead {
+      background-color: $royal-blue;
+      opacity: .8;
+    }
+
+    th {
+      padding: 0 24px;
+      height: 56px;
+      color: $white;
+      border: none;
+      font-family: Aeonik Bold;
+      font-size: $font-size-large;
+      line-height: 24px;
+      vertical-align: middle;
+    }
+
+    tbody tr:nth-of-type(odd) {
+      background-color: $zircon;
+    }
+
+    td {
+      padding: 16px 24px;
+      color: $black;
+      border: none;
+      font-size: $font-size-large;
+      line-height: 24px;
+      vertical-align: middle;
+    }
+
+    th,
+    td {
+      &:not(:first-child) {
+        text-align: center;
+      }
+    }
+
+    .tick-purple {
+      display: inline-block;
+      width: 25px;
+      height: 24px;
+      background: url(./../../assets/icons/pricing-plans-tick-purple.svg) center/100% no-repeat;
+    }
+
+    .nav {
+      margin: 12px 0 12px 16px;
+
+      .nav-link {
+        margin-right: 8px;
+        padding: 4px 18px;
+        color: $violet;
+        background-color: $hawkes-blue;
+        border-radius: 24px;
+        font-family: Aeonik Medium;
+        font-size: $font-size-medium;
+        line-height: 24px;
+        text-align: center;
+
+        &.active {
+          color: $white;
+          background-color: $royal-blue;
+        }
+      }
+    }
+  }
+
+  .plans-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: $royal-blue !important;
+    border-radius: 16px;
+    font-family: Aeonik Medium;
+    font-size: $font-size-large;
+    line-height: 24px;
+
+    &:after {
+      margin: 4px 0 0 8px;
+      width: 10px;
+      height: 10px;
+    }
+
+    &[aria-expanded=false] {
+      background-color: $white;
+      box-shadow: 0 20px 40px 0 rgba(10, 13, 53, .08) !important;
+
+      &:before {
+        content: 'Compare Plans';
+      }
+
+      &:after {
+        content: '';
+        background: url(./../../assets/icons/pricing-plans-caret-down.svg) center/100% no-repeat;
+      }
+    }
+
+    &[aria-expanded=true] {
+      background-color: transparent;
+      box-shadow: none !important;
+
+      &:before {
+        content: 'Hide Plans';
+      }
+
+      &:after {
+        content: '';
+        background: url(./../../assets/icons/pricing-plans-caret-up.svg) center/100% no-repeat;
+      }
+    }
+  }
+
+  .faq-section {
+    align-items: center;
+    position: relative;
+
+    .faq {
+      margin: 0;
+    }
+
+    h2 {
+      line-height: 32px;
+    }
+
+    #accordion {
+      margin-bottom: 16px;
+    }
+
+    .card {
+      border: 0;
+      border-radius: 0;
+
+      &:last-child {
+        border-bottom: 1px solid $athens-gray;
+      }
+
+      .show {
+        border-bottom: 1px solid $royal-blue;
+      }
+    }
+
+    .card-header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0;
+      background-color: transparent;
+      border: 0;
+
+      button {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 24px 0;
+        width: 100%;
+        color: $royal-blue;
+        border: 0;
+        border-top: 1px solid $royal-blue;
+        border-radius: 0;
+        font-size: $font-size-large;
+        line-height: 24px;
+        text-align: left;
+
+        &.collapsed {
+          color: $violet;
+          border-top: 1px solid $athens-gray;
+
+          .button-accordion-icon {
+            background: url(./../../assets/icons/open.svg) no-repeat center;
+          }
+        }
+      }
+    }
+
+    .button-accordion {
+      position: relative;
+      margin-left: 16px;
+      width: 14px;
+      height: 14px;
+
+      &-icon {
+        display: block;
+        width: 14px;
+        height: 14px;
+        background: url(./../../assets/icons/close.svg) no-repeat center;
+      }
+    }
+
+    .card-body {
+      padding: 0;
+      color: $regent-gray;
+      font-size: $font-size-large;
+      line-height: 24px;
+    }
+
+    a {
+      color: $royal-blue;
+      font-family: Aeonik Medium;
+      font-size: $font-size-large;
+      line-height: 24px;
+    }
+
+    img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      transform: translate(0, 10%);
+    }
+
+    p {
+      margin-bottom: 24px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .pricing {
+    .packages-section .row {
+      padding: 12px 0 24px 0;
+    }
+
+    .faq-section .faq {
+      max-width: 713px;
+    }
+
+    .plans-section {
+
+      th,
+      td {
+        width: 25%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .pricing {
+    .packages-section {
+      .container {
+        max-width: 100%;
+      }
+
+      .row {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 12px 0 24px 16px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+
+      .col-3 {
+        flex: 0 0 auto;
+      }
+
+      .card {
+        padding: 32px 26px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .pricing {
+    .faq-section .faq {
+      max-width: 580px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .pricing {
+    margin-top: 78px;
+
+    .save-employee-fees-section {
+      .pricing-illustrations {
+        margin: 0 0 93px 73px;
+      }
+
+      .pricing-calculator {
+        max-width: 607px;
+      }
+    }
+
+    .packages-section {
+      .col-3 {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+    }
+
+    .plans-section {
+      table {
+        border-radius: 6px 6px 0 0;
+      }
+    }
+
+    .faq-section {
+      margin-bottom: 103px;
+
+      h2 {
+        margin: 0 0 48px 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .pricing {
+    .save-employee-fees-section {
+      .pricing-content {
+        margin: 0;
+      }
+    }
+
+    .packages-section {
+      .col-3 {
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+    }
+
+    .faq-section {
+      h2 {
+        margin: 0 0 32px 0;
+      }
+
+      .faq {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .pricing {
+    .packages-section {
+      .col-3 {
+        max-width: 291px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .pricing {
+    margin-top: 88px;
+
+    .save-employee-fees-section {
+      overflow: hidden;
+
+      .pricing-illustrations {
+        margin: 0 auto 25px -100px;
+      }
+    }
+
+    .plans-section {
+      .container {
+        max-width: 100%;
+      }
+
+      .plans-button {
+        margin: 0 24px;
+      }
+
+      table {
+        border-radius: 0;
+      }
+    }
+
+    .faq-section {
+      margin-bottom: 80px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pricing {
+    .save-employee-fees-section {
+      margin-bottom: 76px;
+
+      .pricing-illustrations {
+        width: 500px;
+        height: 317px;
+      }
+
+      .pricing-project-manager {
+        left: 144px;
+        right: 111px;
+        width: 245px;
+        height: 160px;
+      }
+
+      .pricing-travel-agent {
+        top: 74px;
+        bottom: 64px;
+        width: 244px;
+        height: 179px;
+      }
+
+      .pricing-backend {
+        width: 244px;
+        height: 167px;
+      }
+    }
+
+    .plans-section {
+      margin-bottom: 80px;
+
+      .col-12 {
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .pricing {
+    margin-top: 24px;
+
+    h1 {
+      margin-bottom: 16px;
+    }
+
+    .save-employee-fees-section {
+      margin-bottom: 34px;
+
+      h3 {
+        margin-bottom: 22px;
+      }
+
+      p {
+        margin-bottom: 8px;
+        line-height: 16px;
+      }
+
+      .pricing-illustrations {
+        margin: 0 auto 25px auto;
+        width: 300px;
+        height: 191px;
+      }
+
+      .pricing-project-manager {
+        left: 86px;
+        right: 67px;
+        width: 147px;
+        height: 96px;
+      }
+
+      .pricing-travel-agent {
+        top: 44px;
+        bottom: 39px;
+        width: 146px;
+        height: 107px;
+      }
+
+      .pricing-backend {
+        width: 146px;
+        height: 100px;
+      }
+    }
+
+    .packages-section {
+      .col-3 {
+        max-width: 256px;
+      }
+    }
+
+    .plans-section {
+      margin-bottom: 40px;
+
+      .col-12 {
+        padding: 0;
+      }
+
+      .plans-button {
+        margin: 0 16px;
+      }
+
+      td {
+        padding: 14px 16px;
+      }
+    }
+
+    .faq-section {
+      margin-bottom: 40px;
+
+      .col-12 {
+        padding: 0 16px;
+      }
+
+      h2 {
+        font-size: $font-size-extreme-large;
+      }
+    }
+  }
+}

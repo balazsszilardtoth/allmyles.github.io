@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>icon / free location search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.9502 0.9477 7.0027 0.9477 7.0027 7 0.9502 7"></polygon>
+    </defs>
+    <g id="Features" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="Features-D" transform="translate(-205.000000, -4005.000000)">
+            <g id="let-your-customers" transform="translate(100.000000, 3752.000000)">
+                <g id="Group-6" transform="translate(105.000000, 253.000000)">
+                    <g id="icon-/-features-/-free-location">
+                        <g id="Group-10" stroke-width="1" fill-rule="evenodd">
+                            <path d="M10,0 C4.48,0 0,4.48 0,10 C0,15.52 4.48,20 10,20 C12.04,20 13.94,19.39 15.52,18.34 C16.64,17.6 17.6,16.64 18.34,15.52 C19.39,13.94 20,12.04 20,10 C20,4.48 15.52,0 10,0 M10,2 C14.411,2 18,5.589 18,10 C18,11.582 17.542,13.108 16.671,14.417 C16.076,15.318 15.318,16.076 14.413,16.674 C13.108,17.542 11.582,18 10,18 C5.589,18 2,14.411 2,10 C2,5.589 5.589,2 10,2" id="Fill-1" fill="#DED9FF"></path>
+                            <g id="Group-5" transform="translate(16.000000, 16.002500)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-4"></g>
+                                <path d="M6.4102,6.4077 C5.6302,7.1977 4.3702,7.1977 3.5902,6.4077 L0.9502,3.7677 C2.0402,2.9977 3.0002,2.0377 3.7702,0.9477 L6.4102,3.5877 C7.2002,4.3677 7.2002,5.6277 6.4102,6.4077" id="Fill-3" fill="#DED9FF" mask="url(#mask-2)"></path>
+                            </g>
+                            <path d="M9.231,15.6821 L6.464,12.5781 C4.512,10.6251 4.512,7.4591 6.464,5.5061 C8.417,3.5541 11.583,3.5541 13.536,5.5061 C15.488,7.4591 15.488,10.6251 13.536,12.5781 L10.769,15.6821 C10.344,16.1071 9.656,16.1071 9.231,15.6821" id="Fill-6" fill="#F8CDB4"></path>
+                            <path d="M7.5,8.5 C7.5,7.119 8.619,6 10,6 C11.381,6 12.5,7.119 12.5,8.5 C12.5,9.881 11.381,11 10,11 C8.619,11 7.5,9.881 7.5,8.5" id="Fill-8" fill="#FFFFFF"></path>
+                        </g>
+                        <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

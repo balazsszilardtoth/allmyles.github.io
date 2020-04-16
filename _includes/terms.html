@@ -1,0 +1,13 @@
+<div class="terms">
+  {% for term in site.data.terms %}
+  <h3>{{ term.title }}</h3>
+  {% for content in term.contents %} {% if content.text %}
+  <p>{{ content.text }}</p>
+  {% endif %} {% if content.list %}
+  <ul>
+    {% for item in content.list %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %} {% endfor %} {% endfor %}
+</div>

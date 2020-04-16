@@ -1,0 +1,206 @@
+<div class="home">
+  <section class="landing-hero-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="landing-hero-text">
+            <h1>{{ page.title }}</h1>
+            <a
+              href="{{ '/pricing' | relative_url }}"
+              class="btn btn--color-romantic"
+            >
+              30 days free trial
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="{{ '/assets/images/landing-hero.svg' }}" alt="" />
+  </section>
+  <section class="features-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <img
+            src="{{ '/assets/icons/landing-features-1.svg' | relative_url }}"
+            alt=""
+          />
+          <h3>Bookable travel content</h3>
+          <p>Let your customers search, book and pay on your frontend.</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <img
+            src="{{ '/assets/icons/landing-features-2.svg' | relative_url }}"
+            alt=""
+          />
+          <h3>Integration made easy</h3>
+          <p>Content integration within 30 days without delays.</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <img
+            src="{{ '/assets/icons/landing-features-3.svg' | relative_url }}"
+            alt=""
+          />
+          <h3>Checkout is in your hands</h3>
+          <p>
+            Collect end user payment in your application to profit without any
+            delay.
+          </p>
+        </div>
+        <div class="col-12">
+          <a
+            href="{{ '/features' | relative_url }}"
+            class="btn btn--color-romantic"
+          >
+            Browse all features
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="map-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="map-text">
+            <p>Allmyles helps thousands of people buy</p>
+            <h2>Over 20 000 flight tickets each month.</h2>
+          </div>
+          <div class="map-pins">
+            <div class="pin-1"></div>
+            <div class="pin-2"></div>
+            <div class="pin-3"></div>
+            <div class="pin-4"></div>
+            <div class="pin-5"></div>
+            <div class="pin-6"></div>
+            <img
+              src="{{ '/assets/images/landing-map-default.svg' | relative_url }}"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pricing-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 order-lg-2">
+          <div class="pricing-content">
+            <h2>Total control of full-time employee cost</h2>
+            <a
+              href="{{ '/pricing' | relative_url }}"
+              class="btn btn--color-romantic d-none d-lg-block"
+            >
+              Check pricing
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 order-lg-1">
+          <div class="pricing-illustrations">
+            <div class="pricing-project-manager active">
+              <div class="pricing-project-manager-text">
+                <small>Project manager salary</small>
+                <p>€ 3000/month</p>
+              </div>
+            </div>
+            <div class="pricing-travel-agent active">
+              <div class="pricing-travel-agent-text">
+                <small>Travel Agent salary</small>
+                <p>€ 3000/month</p>
+              </div>
+            </div>
+            <div class="pricing-backend active">
+              <div class="pricing-backend-text">
+                <small>Back-End developer salary</small>
+                <p>€ 3000/month</p>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-calculator">
+            <div class="pricing-text">
+              <p>I have</p>
+              <span class="pricing-monthly">0</span>
+              <p>monthly searches on my site</p>
+            </div>
+            <input
+              type="range"
+              id="pricing-range"
+              min="0"
+              max="3000"
+              value="0"
+            />
+            <div class="pricing-text">
+              <p>Your monthly fee is</p>
+              <span class="pricing-total">€ 20</span>
+            </div>
+          </div>
+          <a
+            href="{{ '/pricing' | relative_url }}"
+            class="btn btn--color-romantic d-lg-none"
+          >
+            Check pricing
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="faq-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="faq">
+            <h2>Frequently asked questions</h2>
+            <div id="accordion">
+              {% for questions in site.data.home.faqs.questions %}
+              <div class="card">
+                <div class="card-header" id="heading-{{ forloop.index }}">
+                  <button
+                    class="btn collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapse-{{ forloop.index }}"
+                  >
+                    {{ questions.question }}
+                    <div class="button-accordion">
+                      <span class="button-accordion-icon"></span>
+                    </div>
+                  </button>
+                </div>
+                <div id="collapse-{{ forloop.index }}" class="collapse">
+                  <div class="card-body">
+                    <p>{{ questions.answer }}</p>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+            <a href="{{ '/help' | relative_url }}">Visit the Help Center</a>
+          </div>
+          <img
+            src="{{ '/assets/images/landing-faq.svg' | relative_url }}"
+            alt=""
+            class="d-none d-lg-block"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="plug-app-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <img src="{{ '/assets/images/about-plug-app.svg' }}" alt="" />
+        </div>
+        <div class="col-12 col-md-6">
+          <h2>Plug your app within 30 days</h2>
+          <a
+            href="{{ '/pricing' | relative_url }}"
+            class="btn btn--color-royal-blue"
+          >
+            Get Started for Free
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

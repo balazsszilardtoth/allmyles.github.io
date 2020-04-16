@@ -1,0 +1,32 @@
+<div class="news">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <div class="row blog">
+      {% for post in site.posts | sort: 'date' %}
+      <div class="col-12 col-md-4">
+        <div class="card">
+          <a href="{{ post.url | relative_url }}">
+            <img
+              src="/assets/images/blog{{ post.img | relative_url }}"
+              alt="{{ post.title }}"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <small class="card-category">{{ post.categories }}</small>
+              <h3 class="card-title">{{ post.title }}</h3>
+              <p class="card-subtitle">{{ post.subtitle }}</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+      <button
+        type="button"
+        id="load-more-button"
+        class="btn btn--color-romantic"
+      >
+        Load more
+      </button>
+    </div>
+  </div>
+</div>

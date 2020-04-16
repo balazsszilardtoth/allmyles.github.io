@@ -1,29 +1,72 @@
-title: Travel APIs | Allmyles 
-tagline: Travel APIs for startups
-description: Travel APIs for Flights, Hotels, Car rental by Allmyles. The only Global Travel booking API provides access to bookable travel content to build innovative web or native apps.
-url: "https://allmyles.com"
-author: allmylessconnect
-twitter: 
-  username: allmylesconnect
-  card: summary_large_image
-facebook:
-  type: website
-  app_id: 114993862613882
-  publisher: 1518850708364296
-  admins: balazs.toth@allmyles.com
-logo: /img/allmyles_logo.png
-webmaster_verifications:
-  google: tB_3wuPCitQ4x9xONjL160sH4Ub7rDV6yq3USlPKvZ4
-permalink: pretty
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
+title: Allmyles
+email: info@allmyles.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Travel APIs for Flights, Hotels, Car rental by Allmyles. The only Global Travel booking API provides access
+  to bookable travel content to build innovative web or native apps.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://websandbox.allmyles.com" # the base hostname & protocol for your site, e.g. http://example.com
+facebook_username: allmyles
+twitter_username: allmylesconnect
+linkedin_username: allmyles
 
-exclude:
-  - vendor
+emailjs:
+  emailjs_user_id: user_6FCkb3OgmY5lTB3UshvHj
+  emailjs_service_id: mandrill
+  emailjs_template_id: template_TVxpRhFT
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /blog/:categories/:year/:month/:day/:title:output_ext
+
 sass:
   sass_dir: _sass
   style: compressed
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-redirect-from
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - gulpfile.js
+  - package*.json
+  - assets/scss/
+  - assets/js/partials/
+  - README.md

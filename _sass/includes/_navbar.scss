@@ -1,0 +1,200 @@
+.navbar {
+  background-color: $white;
+
+  &.has-shadow {
+    box-shadow: 0 4px 24px 0 rgba(16, 17, 34, .08);
+  }
+
+  &-toggler {
+    padding: 0;
+    border: none;
+
+    &.collapsed .navbar-toggler-icon {
+      background-image: url(./../../assets/icons/menu.svg);
+    }
+  }
+
+  &-toggler-icon {
+    background-image: url(./../../assets/icons/menu-close.svg);
+    width: 24px;
+    height: 24px;
+  }
+
+  .nav-link {
+    margin: 0 12px !important;
+    color: $regent-gray !important;
+    font-size: $font-size-large;
+    line-height: 24px;
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: $black !important;
+    }
+  }
+
+  .dropdown {
+    &-menu {
+      margin-top: 0;
+      padding: 12px 0;
+      left: auto;
+      right: 0;
+      border: none;
+      border-radius: 6px;
+      box-shadow: 0 10px 40px 0 rgba(10, 13, 53, .08);
+    }
+
+    &-item {
+      color: $regent-gray;
+      font-size: $font-size-large;
+      line-height: 24px;
+
+      &:active,
+      &:focus,
+      &:hover {
+        color: $black;
+        background-color: transparent;
+      }
+    }
+  }
+
+  .login-button {
+    margin-left: 52px !important;
+  }
+
+  .sign-up-button {
+    margin: 0 0 0 20px !important;
+    height: 48px;
+    min-width: 160px;
+    color: $violet !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding: 16px 0;
+
+    .navbar-nav {
+      align-items: center;
+      margin-left: auto;
+    }
+
+    .dropdown {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      span {
+        position: absolute;
+        right: 5px;
+        width: 16px;
+        height: 16px;
+        background: url(./../../assets/icons/chevron-down.svg) no-repeat;
+      }
+
+      &:hover .dropdown-menu {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar {
+    &-collapse {
+      flex-direction: column;
+      align-items: stretch;
+      position: fixed;
+      top: 72px;
+      right: 0;
+      bottom: 0;
+      background-color: $white;
+      transition: none;
+
+      &.show {
+        display: flex;
+      }
+    }
+
+    &-nav {
+      flex: 1;
+      overflow: auto;
+    }
+
+    .nav-link {
+      display: inline-block;
+      margin: 0 !important;
+    }
+
+    .dropdown {
+      span {
+        padding: 8px 0;
+        width: 80%;
+        height: 40px;
+        background: url(./../../assets/icons/chevron-right.svg) no-repeat right;
+        float: right;
+      }
+
+      &.show span {
+        background: url(./../../assets/icons/chevron-left.svg) no-repeat right;
+      }
+
+      &-menu {
+        box-shadow: none;
+      }
+
+      &-item {
+        padding: 4px 16px;
+        font-size: $font-size-small;
+      }
+    }
+
+    .social-media {
+      margin-top: 40px;
+
+      img {
+        margin-right: 12px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    padding: 16px 24px;
+
+    &-collapse {
+      padding: 40px 24px;
+      width: 278px;
+    }
+
+    .btn {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    .logo {
+      height: 40px;
+      width: 210px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding: 20px 16px;
+
+    &-collapse {
+      padding: 40px;
+      left: 0;
+    }
+
+    .logo {
+      width: 168px;
+      height: 32px;
+    }
+  }
+}

@@ -1,61 +1,275 @@
-    <section id="pricing" class="page-section">
-      <header>
-        <h2>Find a plan that's right for you.</h2>
-          <h3>Staging API key is free for 30 days upon card registration</h3>
-          <p> - support fee equals &euro;20 &#47; month<sup>1</sup></p>
-      </header>
+<div class="pricing">
+  <section class="save-employee-fees-section">
+    <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <h3>cub</h3>
-          <figure>
-            <img src="img/frontpage/pricing/dev.png" alt="baby portrait">
-          </figure>
-          <ul>
-            <li>Pay as you go<br>in advance</li>
-            <li>&euro;3,000 <br>certification fee</li>
-            <li>&euro;1,000 used for first top-up</li>
-            <li>&euro;1,000 used for search fees</li>
-            <li class="cost">&euro;0.10 &#47; search</li>
-          </ul>
-          <a class="btn btn-pricing" href="https://dashboard.allmyles.com/signup">Sign up</a>
+        <div class="col-12 col-md-6 order-lg-2">
+          <div class="pricing-content">
+            <h1>Save full time employee with Allmyles</h1>
+            <p>Your approximate saving</p>
+            <h3>€ 0</h3>
+          </div>
         </div>
-        <div class="col-md-4">
-          <h3>geek</h3>
-          <figure>
-            <img src="img/frontpage/pricing/geek.png" alt="construction worker portrait">
-          </figure>
-          <ul>
-            <li>600 minimum daily search<br>end of month</li>
-            <li>&euro;5,000 <br> certification fee</li>
-            <li>&euro;1,000 used for first top-up</li>
-            <li> cool and the staff (scroll down for details)<sup>2</sup></li>
-            <li class="cost">&euro;0.09 &#47; search</li>
-          </ul>
-          <a class="btn btn-pricing" href="https://dashboard.allmyles.com/signup">Sign up</a>
+        <div class="col-12 col-md-6 order-lg-1">
+          <div class="pricing-illustrations">
+            <div class="pricing-project-manager active">
+              <div class="pricing-project-manager-text">
+                <small>Project manager</small>
+                <p>€ 3000/month</p>
+              </div>
+            </div>
+            <div class="pricing-travel-agent active">
+              <div class="pricing-travel-agent-text">
+                <small>Travel Agent</small>
+                <p>€ 3000/month</p>
+              </div>
+            </div>
+            <div class="pricing-backend active">
+              <div class="pricing-backend-text">
+                <small>Back-End developer</small>
+                <p>€ 3000/month</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <h3>growth hacker</h3>
-          <figure>
-            <img src="img/frontpage/pricing/hacker.png" alt="woman portrait">
-          </figure>
-          <ul>
-            <li>1500 minimum daily search<br>end of month</li>
-            <li>&euro;10,000 <br> certification fee</li>
-            <li>&euro;2,000 used for first top-up</li>
-            <li> cool and the staff (scroll down for details)<sup>2</sup></li>
-            <li class="cost">&euro;0.06 &#47; search</li>
-          </ul>
-          <a class="btn btn-pricing" href="https://dashboard.allmyles.com/signup">Sign up</a>
+        <div class="col-12 pricing-calculator order-lg-3">
+          <div class="pricing-text">
+            <p>I have</p>
+            <span class="pricing-monthly">0</span>
+            <p>daily visitors</p>
+          </div>
+          <input type="range" id="pricing-range" min="0" max="3000" value="0" />
+          <div class="pricing-text">
+            <p>Your monthly fee is</p>
+            <span class="pricing-total">€ 20</span>
+          </div>
         </div>
       </div>
-      <div class="custom-package">
-        <span><sup>1</sup> Free for the first 30 days, can be extended to 90 days if certification fee is paid in full.<a href="/contact"> Contact Us for more!</a></span>
+    </div>
+  </section>
+  <section class="packages-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <div class="card best-fit">
+            <small class="best-fit-text">Best fit</small>
+            <h4></h4>
+            <img
+              src="{{ '/assets/icons/pricing-free.svg' | relative_url }}"
+              alt=""
+            />
+            <p>Try Allmyles for 30 days</p>
+            <h3>Free trial</h3>
+            <p>
+              In the free staging phase, you are able to get a peek on every
+              feature, however you're unable to use them in their full
+              potential.
+            </p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <h4>Cub</h4>
+            <img
+              src="{{ '/assets/icons/pricing-essential.svg' | relative_url }}"
+              alt=""
+            />
+            <p>One time certification fee</p>
+            <h3>€ 3000</h3>
+            <p>€ 1 000 used for first top ups</p>
+            <p>€ 0. 10 / search</p>
+            <a
+              href="https://dashboard.allmyles.com/signup"
+              target="_blank"
+              class="btn btn--color-romantic"
+            >
+              Try for Free
+            </a>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <h4>Geek</h4>
+            <img
+              src="{{ '/assets/icons/pricing-professional.svg' | relative_url }}"
+              alt=""
+            />
+            <p>One time certification fee</p>
+            <h3>€ 5000</h3>
+            <p>€ 1 000 used for first top ups</p>
+            <p>€ 0. 09 / search</p>
+            <a
+              href="https://dashboard.allmyles.com/signup"
+              target="_blank"
+              class="btn btn--color-romantic"
+            >
+              Try for Free
+            </a>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <h4>Growth hacker</h4>
+            <img
+              src="{{ '/assets/icons/pricing-unlimited.svg' | relative_url }}"
+              alt=""
+            />
+            <p>One time certification fee</p>
+            <h3>€ 10 000</h3>
+            <p>€ 2 000 used for first top ups</p>
+            <p>€ 0. 06 / search</p>
+            <a
+              href="https://dashboard.allmyles.com/signup"
+              target="_blank"
+              class="btn btn--color-romantic"
+            >
+              Try for Free
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="custom-package">
-        <span><sup>2</sup> Calendar search is cool, One Way Combinable is even cooler, Radius Search is the coolest, read more in the <a href="/news" >news section </a>. Staff is a 24/7 post booking support for you or your travellers that is compulsory for nonIATA partners. Chose two of cool features for no additional cost. <a href="/contact"> Contact Us for more!</a></span>
+    </div>
+  </section>
+  <section class="plans-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <a
+            type="button"
+            class="plans-button"
+            data-toggle="collapse"
+            data-target="#collapsePlans"
+            aria-expanded="false"
+          >
+          </a>
+          <div class="collapse plans-collapse" id="collapsePlans">
+            <div class="d-none d-md-block">
+              <table class="table">
+                <thead>
+                  <th>Compare plans</th>
+                  <th>Cub</th>
+                  <th>Geek</th>
+                  <th>Growth hacker</th>
+                </thead>
+                <tbody>
+                  {% for plan in site.data.pricing.plans %}
+                  <tr>
+                    <td>{{ plan.title }}</td>
+                    <td>
+                      {% if plan.essential %}
+                      <span class="tick-purple"></span>
+                      {% endif %}
+                    </td>
+                    <td>
+                      {% if plan.professional %}
+                      <span class="tick-purple"></span>
+                      {% endif %}
+                    </td>
+                    <td>
+                      {% if plan.unlimited %}
+                      <span class="tick-purple"></span>
+                      {% endif %}
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+            <div class="d-md-none">
+              {% assign assignPlans = "essential|pro|unlimited" | split: "|" %}
+              <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                {% for value in assignPlans %}
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="pills-{{ value }}-tab"
+                    data-toggle="pill"
+                    href="#pills-{{ value }}"
+                    role="tab"
+                    aria-controls="pills-{{ value }}"
+                    aria-selected="false"
+                  >
+                    {{ value | capitalize }}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                {% for value in assignPlans %}
+                <div
+                  class="tab-pane fade"
+                  id="pills-{{ value }}"
+                  role="tabpanel"
+                  aria-labelledby="pills-{{ value }}-tab"
+                >
+                  {% if site.data.pricing.plans %}
+                  <table class="table">
+                    <tbody>
+                      {% for plan in site.data.pricing.plans %}
+                      <tr>
+                        <td>{{ plan.title }}</td>
+                        <td>
+                          {% if value == "essential" and plan.essential %}
+                          <span class="tick-purple"></span>
+                          {% endif %} {% if value == "pro" and plan.professional
+                          %}
+                          <span class="tick-purple"></span>
+                          {% endif %} {% if value == "unlimited" and
+                          plan.unlimited %}
+                          <span class="tick-purple"></span>
+                          {% endif %}
+                        </td>
+                      </tr>
+                      {% endfor %}
+                    </tbody>
+                  </table>
+                  {% endif %}
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="custom-package">
-        <span>Expecting 2000+ transactions per day? <a href="/contact"> Contact Us for more!</a></span>
+    </div>
+  </section>
+  <section class="faq-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="faq">
+            <h2>Frequently asked questions</h2>
+            <div id="accordion">
+              {% for faq in site.data.pricing.faq %}
+              <div class="card">
+                <div class="card-header" id="heading-{{ forloop.index }}">
+                  <button
+                    class="btn collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapse-{{ forloop.index }}"
+                  >
+                    {{ faq.question }}
+                    <div class="button-accordion">
+                      <span class="button-accordion-icon"></span>
+                    </div>
+                  </button>
+                </div>
+                <div id="collapse-{{ forloop.index }}" class="collapse">
+                  <div class="card-body">
+                    <p>{{ faq.answer }}</p>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+            <a href="{{ '/help' | relative_url }}">Visit the Help Center</a>
+          </div>
+          <img
+            src="{{ '/assets/images/landing-faq.svg' | relative_url }}"
+            alt=""
+            class="d-none d-lg-block"
+          />
+        </div>
       </div>
-
-    </section>
+    </div>
+  </section>
+</div>

@@ -1,78 +1,20 @@
----
-# layout: compress
----
-<!doctype html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
-   
-	   {% include head.html %}
- 	
-<body>
-	<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMV9FM"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<noscript><img height="1" width="1" style="display:none" alt="Pixel"
-         src="https://www.facebook.com/tr?id=877131375794306&ev=PageView&noscript=1"
-         /></noscript>	
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '114993862613882',
-      cookie     : true,
-      xfbml      : true,
-      version    : 'v3.2'
-    });
-      
-    FB.AppEvents.logPageView();   
-      
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-	{% include nav.html %}
-
-  
-
-  {{ content }}
-	
-{% include social-links.html %}
- 
-<!-- footer Starts -->
-  <footer class="site-footer">
-	{% include footer-menu.html %}
-    	<p>Allmyles, Károly krt 5. 1075 Budapest, Hungary <span>+36&nbsp;30&nbsp;748&nbsp;0436</span> <a href="mailto:info@allmyles.com">info@allmyles.com</a></p>
-    	<p class="copyright">Images from <a href="https://images.superfamous.com/">Superfamous</a></p>
-  </footer>
-<!-- footer Ends -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/59d349974854b82732ff33e4/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-<script type="text/javascript" 
-	  src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" 
-	  data-dojo-config="usePlainJson: true, isDebug: false">
-</script>
-<script type="text/javascript">
-	require(["mojo/signup-forms/Loader"], 
-		function(L) { L.start({"baseUrl":"mc.us8.list-manage.com","uuid":"34427879ce889cb69ae1b9e75","lid":"7e58348ec9"}) })
-	</script>
-	
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body
+    class="{% if page.layout == 'post' %}post{% else %}page page-{{ page.slug }}{% endif %}"
+  >
+    <header>
+      {% include navbar.html %}
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    {% include footer.html %}
+    <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/popper.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  </body>
 </html>

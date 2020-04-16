@@ -1,0 +1,32 @@
+.entry {
+  background: linear-gradient(11.75deg, $portage 0%, $melrose 100%);
+
+  header {
+    height: auto;
+  }
+
+  .navbar {
+    padding: 24px 0;
+    background-color: transparent;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0 116px 0;
+    color: $white;
+  }
+
+  .copyright a {
+    color: $white;
+    font-family: Aeonik Medium;
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: $black;
+    }
+  }
+}

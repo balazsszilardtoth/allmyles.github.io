@@ -1,0 +1,288 @@
+<div class="sign-up">
+  <h1 class="page-title-hidden">{{ page.title }}</h1>
+  <div class="sign-up-box">
+    <form class="sign-up-form">
+      <ul id="progress">
+        <li id="progess-account" class="active is-current">Account</li>
+        <li id="progress-password">Password</li>
+        <li id="progress-company">Company</li>
+        <li id="progress-credit-card">Credit Card</li>
+      </ul>
+      <fieldset id="first">
+        <h2>Create an account</h2>
+        <p>Already have an account?</p>
+        <a href="{{ '/sign-in' | relative_url }}">Sign in</a>
+        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              id="pills-business-tab"
+              data-toggle="pill"
+              href="#pills-business"
+              role="tab"
+              aria-controls="pills-business"
+              aria-selected="true"
+            >
+              Business
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="pills-personal-tab"
+              data-toggle="pill"
+              href="#pills-personal"
+              role="tab"
+              aria-controls="pills-personal"
+              aria-selected="false"
+            >
+              Personal
+            </a>
+          </li>
+        </ul>
+        <div class="row">
+          <div class="col-12">
+            <label for="email">Email</label>
+            <input type="text" id="email" class="form-control" />
+            <span class="alert alert-danger"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <label for="first-name">First name</label>
+            <input type="text" id="first-name" class="form-control" />
+            <span class="alert alert-danger"></span>
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name" class="form-control" />
+            <span class="alert alert-danger"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <label for="message">Username</label>
+            <input type="text" id="message" class="form-control" />
+            <span class="alert alert-danger"></span>
+          </div>
+        </div>
+        <button type="button" class="btn btn btn--color-romantic w-100 next">
+          Next
+        </button>
+      </fieldset>
+      <fieldset id="second">
+        <h2>Set your password</h2>
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group">
+              <label for="password">
+                Set password (use at least 8 characters)
+              </label>
+              <input type="password" id="password" class="form-control" />
+              <a href="javascript:" class="eye"></a>
+            </div>
+            <div class="strength-indicator">
+              <span class="alert"></span>
+              <div class="strength-lines">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn btn--color-romantic w-100 next">
+          Set password
+        </button>
+      </fieldset>
+      <fieldset id="third">
+        <h2>Enter company info</h2>
+        <h4>Company info</h4>
+        <div class="row">
+          <div class="col-12">
+            <label for="industry">Industry</label>
+            <input type="text" id="industry" class="form-control" />
+            <span class="alert alert-danger"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <label for="company-name">Company name</label>
+            <input type="text" id="company-name" class="form-control" />
+            <span class="alert alert-danger"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <label for="tax-id">Tax ID</label>
+            <input type="text" id="tax-id" class="form-control" />
+            <span class="alert alert-danger"></span>
+          </div>
+        </div>
+        <h4 class="mt-2">Address</h4>
+        <div class="row">
+          <div class="col-12">
+            <label for="country">Country</label>
+            <select id="country" class="form-control">
+              <option value=""></option>
+              {% if site.data.country %} {% for country in
+              site.data.country.countries %}
+              <option value="{{ country }}">{{ country }}</option>
+              {% endfor %} {% endif %}
+            </select>
+            <span class="alert alert-danger"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <label for="postal-code">Postal code</label>
+            <input type="text" id="postal-code" class="form-control" />
+            <span class="alert alert-danger"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <label for="state">State (optional)</label>
+            <input type="text" id="state" class="form-control" />
+            <span class="alert alert-danger"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <label for="address">Address</label>
+            <input type="text" id="address" class="form-control" />
+            <span class="alert alert-danger"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 terms">
+            <div class="terms-confirmation">
+              <input type="checkbox" id="terms-confirmation-checkbox-1" />
+              <label for="terms-confirmation-checkbox-1"></label>
+              I agree to
+              <a
+                href="{{ '/privacy-and-terms' | relative_url }}"
+                target="_blank"
+              >
+                Terms of services
+              </a>
+            </div>
+            <small>
+              Start your 30 day Allmyles Staging Trial by signing up below.
+              After the registration you will be directed to our payment partner
+              where you will have to register your credit card. You may cancel
+              your subscription and avoid any further charges to your account by
+              cancelling during the trial period.
+            </small>
+          </div>
+        </div>
+        <button
+          type="button"
+          class="btn btn--color-romantic w-100 disabled next"
+          disabled
+        >
+          Next
+        </button>
+      </fieldset>
+      <fieldset id="fourth">
+        <h2>Enter credit card info</h2>
+        <div class="row">
+          <div class="col-12">
+            <label for="card-number">Card number</label>
+            <input
+              type="text"
+              id="card-number"
+              class="form-control"
+              maxlength="19"
+            />
+            <span class="alert alert-danger"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <label for="expiration-date">Expiration date</label>
+            <input
+              type="text"
+              id="expiration-date"
+              class="form-control"
+              maxlength="7"
+            />
+            <span class="alert alert-danger"></span>
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="cvc">CVC</label>
+            <input
+              type="password"
+              id="cvc"
+              class="form-control"
+              maxlength="3"
+            />
+            <span class="alert alert-danger"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <label for="confirm-email">Email address</label>
+            <input type="text" id="confirm-email" class="form-control" />
+            <span class="alert alert-danger"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 card-protection">
+            <div class="card-protection-confirmation">
+              <input
+                type="checkbox"
+                id="card-protection-confirmation-checkbox"
+              />
+              <label for="card-protection-confirmation-checkbox"></label>
+              Save and protect your card
+            </div>
+            <small>
+              Pay with your email address in thousands of Barion shops and
+              receive notification if someone else uses your card.
+            </small>
+            <div class="form-group">
+              <label for="confirm-password">Set password</label>
+              <input
+                type="password"
+                id="confirm-password"
+                class="form-control"
+              />
+              <a href="javascript:" class="eye"></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 terms">
+            <div class="terms-confirmation">
+              <input type="checkbox" id="terms-confirmation-checkbox-2" />
+              <label for="terms-confirmation-checkbox-2"></label>
+              I agree to
+              <a
+                href="{{ '/privacy-and-terms' | relative_url }}"
+                target="_blank"
+              >
+                Terms of services
+              </a>
+            </div>
+            <small>
+              Start your 30 day Allmyles Staging Trial by signing up below.
+              After the registration you will be directed to our payment partner
+              where you will have to register your credit card. You may cancel
+              your subscription and avoid any further charges to your account by
+              cancelling during the trial period.
+            </small>
+          </div>
+        </div>
+        <button
+          type="button"
+          id="submit"
+          class="btn btn--color-romantic w-100 disabled"
+          disabled
+        >
+          Sign up
+        </button>
+      </fieldset>
+    </form>
+  </div>
+</div>

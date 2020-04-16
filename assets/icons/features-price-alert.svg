@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>icon / price-alert</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Features" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Features-D" transform="translate(-206.000000, -2030.000000)">
+            <g id="the-easiest-integration" transform="translate(100.000000, 1807.000000)">
+                <g id="Group-4">
+                    <g id="price" transform="translate(105.000000, 223.000000)">
+                        <g id="icon-/-features-/-price-alert">
+                            <g id="features-04">
+                                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                                <path d="M21,9 L21,20 C21,21.1045695 20.1045695,22 19,22 L3,22 C1.8954305,22 1,21.1045695 1,20 L1,7 L19,7 C20.1045695,7 21,7.8954305 21,9 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                <rect id="Rectangle" fill="#F8CDB4" fill-rule="nonzero" x="15.5" y="12" width="7.5" height="5" rx="2.5"></rect>
+                                <path d="M1,5 L11.28,1.05 C11.8941383,0.813018063 12.585564,0.89341486 13.1289413,1.26498903 C13.6723186,1.6365632 13.9980577,2.25172767 14,2.91 L14,5 L1,5 Z" id="Path" fill="#DED9FF" fill-rule="nonzero"></path>
+                                <circle id="Oval" fill="#DED9FF" fill-rule="nonzero" cx="18.5" cy="14.5" r="1.5"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

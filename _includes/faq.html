@@ -1,0 +1,31 @@
+<div class="faq">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    {% for faqs in site.data.faq %}
+    <div id="accordion">
+      <h2>{{ faqs.title }}</h2>
+      {% for faq in faqs.questions %}
+      <div class="card">
+        <div class="card-header" id="heading-{{ faqs.slug }}-{{ forloop.index }}">
+          <button
+            class="btn collapsed"
+            data-toggle="collapse"
+            data-target="#collapse-{{ faqs.slug }}-{{ forloop.index }}"
+          >
+            {{ faq.question }}
+            <div class="button-accordion">
+              <span class="button-accordion-icon"></span>
+            </div>
+          </button>
+        </div>
+        <div id="collapse-{{ faqs.slug }}-{{ forloop.index }}" class="collapse">
+          <div class="card-body">
+            <p>{{ faq.answer }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,363 @@
+body {
+  font-family: Aeonik Regular;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  border: none;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: $violet;
+  letter-spacing: normal;
+}
+
+h1 {
+  font-family: Aeonik Bold;
+  font-size: $font-size-mega-large;
+  line-height: 56px;
+}
+
+h2 {
+  font-family: Aeonik Bold;
+  font-size: $font-size-extreme-large;
+  line-height: 40px;
+}
+
+h3 {
+  font-family: Aeonik Bold;
+  font-size: $font-size-extra-large;
+  line-height: 32px;
+}
+
+h4 {
+  font-family: Aeonik Regular;
+  font-size: $font-size-large;
+  line-height: 24px;
+}
+
+p {
+  color: $regent-gray;
+  font-size: $font-size-large;
+  line-height: 24px;
+}
+
+input[type=checkbox] {
+  display: none;
+
+  +label {
+    margin-right: 16px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid $royal-blue;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  &:checked+label {
+    background: url(./../../assets/icons/checkbox-checked.svg) no-repeat;
+    border: 0;
+  }
+}
+
+input[type=range] {
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border-radius: 0;
+  outline: none;
+  cursor: pointer;
+
+  &,
+  &::-webkit-slider-runnable-track,
+  &::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+  }
+
+  &,
+  &::-moz-range-track,
+  &::-moz-range-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+  }
+
+  &,
+  &::-ms-track,
+  &::-ms-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+  }
+
+  &::-webkit-slider-runnable-track {
+    height: 2px;
+    background: linear-gradient(to right, $royal-blue, $royal-blue), $spindle;
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+  }
+
+  &::-moz-range-track {
+    height: 2px;
+    background: linear-gradient(to right, $royal-blue, $royal-blue), $spindle;
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+  }
+
+  &::-ms-track {
+    height: 2px;
+    color: transparent;
+    background: linear-gradient(to right, $royal-blue, $royal-blue), $spindle;
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 6px;
+  }
+
+  &::-webkit-slider-thumb {
+    height: 24px;
+    width: 24px;
+    margin-top: -12px;
+    background: $royal-blue;
+    border: 0;
+    border-width: 0;
+    border-radius: 50%;
+  }
+
+  &::-moz-range-thumb {
+    height: 24px;
+    width: 24px;
+    margin-top: -12px;
+    background: $royal-blue;
+    border: 0;
+    border-width: 0;
+    border-radius: 50%;
+  }
+
+  &::-ms-fill-lower {
+    background: $royal-blue;
+  }
+
+  &::-ms-thumb {
+    height: 24px;
+    width: 24px;
+    margin-top: 0;
+    background: $royal-blue;
+    border: 0;
+    border-width: 0;
+    border-radius: 50%;
+  }
+
+  &::-ms-ticks-after,
+  &::-ms-ticks-before,
+  &::-ms-tooltip {
+    display: none;
+  }
+}
+
+.btn {
+  padding: 12px 24px;
+  min-width: 186px;
+  border: none;
+  border-radius: 6px;
+  font-family: Aeonik Medium;
+  font-size: $font-size-medium;
+  line-height: 24px;
+
+  &--color-romantic {
+    color: $violet !important;
+    background-color: $romantic;
+
+    &:hover {
+      background-color: $light-apricot;
+    }
+
+    &:active,
+    &:focus {
+      background-color: $peach-orange;
+    }
+  }
+
+  &--color-royal-blue {
+    color: $white !important;
+    background-color: $royal-blue;
+
+    &:hover {
+      background-color: $cornflower-blue;
+    }
+
+    &:active,
+    &:focus {
+      background-color: $persian-blue;
+    }
+  }
+}
+
+.page {
+
+  &-contact,
+  &-faq,
+  &-features,
+  &-help,
+  &-media-kit,
+  &-news,
+  &-pricing,
+  &-privacy-and-terms {
+    .footer {
+      background-color: $zircon;
+    }
+  }
+}
+
+.page-title-hidden {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+}
+
+.post .footer {
+  background-color: $zircon;
+}
+
+.pricing-illustrations {
+  position: relative;
+
+  .pricing-project-manager {
+    position: absolute;
+
+    &.active {
+      background: url(./../../assets/images/project-manager-active.svg) center/cover no-repeat;
+    }
+
+    &.inactive {
+      background: url(./../../assets/images/project-manager-inactive.svg) center/cover no-repeat;
+    }
+
+    &-text {
+      right: 5px;
+    }
+  }
+
+  .pricing-travel-agent {
+    position: absolute;
+
+    &.active {
+      background: url(./../../assets/images/travel-agent-active.svg) center/cover no-repeat;
+    }
+
+    &.inactive {
+      background: url(./../../assets/images/travel-agent-inactive.svg) center/cover no-repeat;
+    }
+
+    &-text {
+      right: 15px;
+    }
+  }
+
+  .pricing-backend {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    &.active {
+      background: url(./../../assets/images/backend-active.svg) center/cover no-repeat;
+    }
+
+    &.inactive {
+      background: url(./../../assets/images/backend-inactive.svg) center/cover no-repeat;
+    }
+  }
+
+  .pricing-project-manager,
+  .pricing-travel-agent,
+  .pricing-backend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-text {
+      position: relative;
+      text-align: center;
+    }
+
+    &.active {
+
+      .pricing-project-manager,
+      .pricing-travel-agent,
+      .pricing-backend {
+        &-text {
+          display: none;
+        }
+      }
+    }
+
+    small {
+      margin-bottom: 4px;
+      color: $regent-gray;
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    p {
+      font-family: Aeonik Medium;
+      font-size: $font-size-small;
+      line-height: 18px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1240px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  h3 {
+    font-size: $font-size-large;
+    line-height: 24px;
+  }
+
+  input[type=range] {
+    display: block;
+    max-width: 472px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: $font-size-extreme-large;
+    line-height: 40px;
+  }
+
+  h2 {
+    font-size: $font-size-extra-large;
+  }
+
+  .btn {
+    width: 100%;
+    min-width: auto;
+  }
+}
