@@ -41,6 +41,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
 
+google:
+tag_manager:
+  container_id: GTM-WMV9FM
+
 permalink: /blog/:categories/:year/:month/:day/:title:output_ext
 
 sass:
