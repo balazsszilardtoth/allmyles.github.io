@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Travel APIs for Flights, Hotels, Car rental by Allmyles. The only Global Travel booking API provides access
   to bookable travel content to build innovative web or native apps.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://websandbox.allmyles.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://allmyles.com" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: allmyles
 twitter_username: allmylesconnect
 linkedin_username: allmyles
