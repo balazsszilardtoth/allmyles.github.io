@@ -1,7 +1,16 @@
 <body
   class="{% if page.layout == 'post' %}post{% else %}page page-{{ page.slug }}{% endif %}"
 >
-  {% gtm body %}
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-WMV9FM"
+      height="0"
+      width="0"
+      style="display: none; visibility: hidden;"
+    ></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header>
     {% include navbar.html %}
   </header>
