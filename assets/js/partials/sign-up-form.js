@@ -94,13 +94,17 @@ $(document).ready(function() {
   $('#expiration-date').keyup(function() {
     let expirationDate = $(this)
       .val()
-      .replace(/^([1-9]\/|[2-9])$/g, '0$1 / ')
-      .replace(/^(0[1-9]|1[0-2])$/g, '$1 / ')
-      .replace(/^([0-1])([3-9])$/g, '0$1 / $2')
-      .replace(/^(0?[1-9]|1[0-2])([0-9]{2})$/g, '$1 / $2')
-      .replace(/^([0]+)\/|[0]+$/g, '0')
-      .replace(/[^\d\/]|^[\/]*$/g, ' ')
-      .replace(/\/\//g, ' / ');
+      .replace(/[^0-9]/g, '')
+      .split(' ')
+      .join('');
+
+    if (expirationDate.length > 0) {
+      expirationDate = expirationDate
+        .replace(/^([1-9]\/|[2-9])$/g, '0$1')
+        .replace(/^(0[1-9]|1[0-2])$/g, '$1')
+        .match(new RegExp('.{1,2}', 'g'))
+        .join(' / ');
+    }
 
     $(this).val(expirationDate);
   });
@@ -128,20 +132,12 @@ $(document).ready(function() {
   $('.sign-up .sign-up-form fieldset:visible .next').click(function() {
     const progressDots = $('.sign-up .sign-up-form #progress li');
     const current_fs = $(this).parent();
-    const next_fs = $(this)
-      .parent()
-      .next();
+    const next_fs = $(this).parent().next();
     const visible_fs = $('.sign-up .sign-up-form fieldset:visible');
 
     progressDots.eq($('fieldset').index(current_fs)).removeClass('is-current');
     progressDots
-      .eq(
-        $('fieldset').index(
-          $(this)
-            .parent()
-            .next('fieldset:visible'),
-        ),
-      )
+      .eq($('fieldset').index($(this).parent().next('fieldset:visible')))
       .addClass('active is-current');
 
     visible_fs
@@ -191,21 +187,12 @@ function styleStrengthLine(color, value) {
 
   if (value && color === 'red-first') {
     line.eq(0).addClass('color-red');
-    alert
-      .css('display', 'block')
-      .addClass('alert-danger')
-      .text('Weak');
+    alert.css('display', 'block').addClass('alert-danger').text('Weak');
   } else if (value && color === 'red-second') {
     line.not(':eq(2)').addClass('color-red');
-    alert
-      .css('display', 'block')
-      .addClass('alert-danger')
-      .text('Medium');
+    alert.css('display', 'block').addClass('alert-danger').text('Medium');
   } else if (value && color === 'blue') {
     line.addClass('color-royal-blue');
-    alert
-      .css('display', 'block')
-      .addClass('alert-success')
-      .text('Strong');
+    alert.css('display', 'block').addClass('alert-success').text('Strong');
   }
 }
