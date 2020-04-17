@@ -18,7 +18,6 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag" # SEO
   gem "jekyll-redirect-from" # 301 redirection for old urls cached by google SERP
-  gem "jekyll-google-tag-manager" # Google Tag Manager Plugin for jekyll
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
