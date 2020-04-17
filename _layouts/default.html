@@ -4,6 +4,7 @@
   <body
     class="{% if page.layout == 'post' %}post{% else %}page page-{{ page.slug }}{% endif %}"
   >
+    {% gtm body %}
     <header>
       {% include navbar.html %}
     </header>

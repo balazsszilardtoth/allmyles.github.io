@@ -41,15 +41,15 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
 
-google:
-tag_manager:
-  container_id: GTM-WMV9FM
-
 permalink: /blog/:categories/:year/:month/:day/:title:output_ext
 
 sass:
   sass_dir: _sass
   style: compressed
+
+google:
+  tag_manager:
+    container_id: GTM-WMV9FM
 
 # Exclude from processing.
 # The following items will not be processed, by default.
