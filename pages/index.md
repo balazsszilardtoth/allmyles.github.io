@@ -4,11 +4,11 @@ title: Travel APIs for booking Flights, Hotels, Cars
 permalink: /
 slug: home
 description: Allmyles is the home of Revolutionary travel APIs for booking flight, hotel, car rental for startups, rebels and outsiders with relevant growhacking experinence
-image: /images/landing-hero.svg
+image: /assets/images/landing-hero.svg
 #author: allmylesconnect
 seo: 
   name: Allmyles Travel API Integration
-  type: ProfessionalService
+  type: Website
   links: 
     https://github.com/allmyles
     https://docs.allmyles.com
