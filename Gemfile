@@ -16,7 +16,9 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-seo-tag", "~> 2.6", ">= 2.6.1"
+  gem "jekyll-seo-tag" # SEO
+  gem "jekyll-redirect-from" # 301 redirection for old urls cached by google SERP
+  gem "jekyll-google-tag-manager" # Google Tag Manager Plugin for jekyll
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -28,9 +30,3 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
-
-# 301 redirection for old urls cached by google SERP
-gem 'jekyll-redirect-from'
-
-# Google Tag Manager Plugin for jekyll
-gem 'jekyll-google-tag-manager'
