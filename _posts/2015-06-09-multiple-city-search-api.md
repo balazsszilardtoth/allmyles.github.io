@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Multiple City Search API
+description: Bookable flight results for multiple cities in one shot with Allmyles Flights APIs
 subtitle: Flight API for those who think real
 date: 2015-06-09 09:30:00 +0100
 categories: updates
