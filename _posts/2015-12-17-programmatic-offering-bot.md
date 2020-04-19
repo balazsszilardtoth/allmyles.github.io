@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Programmatic Offering Bot
+description: Flight and Hotel API results automatically posted to your social media
 subtitle: For your automated social media campaigns
 date: 2015-12-17 09:13:00 +0100
 categories: updates
