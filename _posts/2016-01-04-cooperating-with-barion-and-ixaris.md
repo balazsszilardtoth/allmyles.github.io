@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cooperating with Barion & Ixaris
+description: Allmyles cooperation with Barion and Ixaris will ease Travel API registrants when top-up their deposits.
 subtitle: Merchant payment mechanisms
 date: 2016-01-04 18:45:00 +0100
 categories: news
