@@ -1,7 +1,8 @@
 ---
 layout: post
-title: New and improved features
-subtitle: Allmyles revolutionized the feature palette
+title: Very first Client is live
+description: Go live with the first tenant of Allmyles Travel APIs
+subtitle: Allmyles welcomes its first client in production
 date: 2014-06-14 10:05:00 +0100
 categories: updates
 img: safar-safarov-MSN8TFhJ0is-unsplash.png
