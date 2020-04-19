@@ -1,7 +1,8 @@
 ---
 layout: post
-title: What
-subtitle: What we do to revolutionize Travel Industry
+title: What we do
+description: Travel APIs - The plug is ready for you, just get started!
+subtitle: to revolutionize Travel Industry
 date: 2014-01-02 09:25:08 +0100
 categories: inspiration
 redirect_from:
