@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Allmyles moves into its first office
-subtitle: Still in the city centre of Budapest
+description: Baby steps for Allmyles to move into the first office
+subtitle: In the city centre of Budapest
 date: 2014-05-01 09:25:08 +0100
 categories: news
 img: tyler-franta-iusJ25iYu1c-unsplash.jpg
