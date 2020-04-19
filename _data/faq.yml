@@ -5,7 +5,7 @@
     answer: Yes, these are features that either offered by default or you can updgrade to the relevant package to have it. Please see our pricing comparison for details. 
   - question: Can I book without redirecting?
     answer: Certainly yes, you can! This the most important differentiator between Allmyles APIs and those MetaSearch engines, where you can only generate leads to other websites.
-  - question: How can I assure my client not to chose the wrong airport/city name?
+  - question: How can I assure my client not to choose the wrong airport/city name?
     answer: Allmyles has its proprietary and forever free location search api endpoint which can be used without API key authentication, so that you can test it easily.
   - question: Are you cloud based?
     answer: Yes, Allmyles is hosted in Amazon AWS and Google Cloud Platform to provide global reach and fast access.
@@ -20,7 +20,7 @@
   - question: Why do you require minimum daily search transactions?
     answer: We believe in visitors. If your application is not hit by visitors you will end up no searches, no bookings thus no revenue or profit. We can see a certain tresholds of visitor per search and search per booking and we believe you can keep search per booking ratio at a profitable level provided that your marketing and your business model works properly.
   - question: What does the whitelable web application mean?
-    answer: This is an up and running web application with the feature set that we can provide you with. You can chose not to start developing your own website but use our prepackaged solution. Certainly you can customise the look and feel of the whitelabel solution to match it with your corporate identity.
+    answer: This is an up and running web application with the feature set that we can provide you with. You can choose not to start developing your own website but use our prepackaged solution. Certainly you can customise the look and feel of the whitelabel solution to match it with your corporate identity.
   - question: Do you offer online marketing management servies?
     answer: Basically we believe your business needs internal marketing management, but as a custom service we can build it for you. Yet, none of the pricing tiers include such a service.
 
@@ -48,7 +48,7 @@
   - question: Do you have a price calendar component?
     answer: Yes, calendar view is available, you can get 49 days in a 7x7 matrix. Warning! Calendar view is a cache only feature, wich means you need to rerun the search for the chosen day from the calendar to have bookable result list for the day.
   - question: What GDS systems do you work with?
-    answer: We prefer not revieling the content providers because our potential clients do not need to use any GDS. All post booking operation is available on our dashboard as self service or we provide post booking support in certain pricing tiers.
+    answer: We prefer not revealing the content providers because our potential clients do not need to use any GDS. All post booking operation is available on our dashboard as self service or we provide post booking support in certain pricing tiers.
   - question: Do I need to employ pro backend developers?
     answer: No, you only need to integrate your front end to our API. RESTful APIs are the easiest from an integration perspective. We belive even novice programmers can do the integration and we give brilliant technical support during the integration phase.
   - question: Can I use PHP while integrating your API?
