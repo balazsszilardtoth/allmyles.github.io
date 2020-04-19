@@ -5,7 +5,6 @@ permalink: /
 slug: home
 description: Allmyles is the home of Revolutionary travel APIs for booking flight, hotel, car rental for startups, rebels and outsiders with relevant growhacking experinence
 image: /assets/images/landing-hero.png
-#author: allmylesconnect
 seo: 
   name: Allmyles Travel API Integration
   type: Website
