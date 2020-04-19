@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Network improvements by replacing GoDaddy with Cloudflare
+description: Migration to Cloudflare improves reliablity and speed of flights and hotel apis.
 subtitle: No more barriers or slowdowns
 date: 2015-02-28 13:15:00 +0100
 categories: updates
