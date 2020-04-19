@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Allmyles moves into a new office
+despcription: Growing team Allmyes needed to move forward and find a better place
 subtitle: Still in the city centre of Budapest
 date: 2015-05-29 09:25:08 +0100
 categories: news
