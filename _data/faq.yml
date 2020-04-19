@@ -59,7 +59,7 @@
     answer: Since your tickets are purchased from a rolling commercial deposit kept at Allmyles we provide you the flexibility to chose any Payment Service Providers. You can integrate any PSPs to accept payment cards from your clients and at time of payment request you may include the ID of your PSP to ease the reconciliation of payments in your books. It is not a regulation, you can simply generate any UUID internally if you prefer.
   - question: Can we use Stripe to take payments?
     answer: Yes, we belive Stripe is the best option for online payments, majority of our clients have been using Stripe for ages now.
-  - question: Does the traveller or allmyles pay for the travel services?
+  - question: Does the traveller or Allmyles pay for the travel services?
     answer: Allmyles pay for the travel services on behalf of you from the rolling commercial deposit you keep at Allmyles.
   - question: Do we collect payment from the traveler's CC?
     answer: Yes, you need to collect payment from the end traveler.(except CarRental)
