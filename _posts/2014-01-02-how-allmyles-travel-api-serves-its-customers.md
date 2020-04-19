@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How
+description: Allmyles is the technical enabler of long-tail travel merchandizing
 subtitle: How Allmyles Travel API serves its customers
 date: 2014-01-02 09:25:08 +0100
 categories: inspiration
