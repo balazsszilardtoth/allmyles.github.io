@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Why
-subtitle: Why we belive that travel industry needs a revolution
+title: Why we belive
+description: A full-featured API stack to seamlessly integrate global content and business logic to their existing application
+subtitle: that travel industry needs a revolution
 date: 2014-01-01 09:25:08 +0100
 categories: inspiration
 redirect_from:
