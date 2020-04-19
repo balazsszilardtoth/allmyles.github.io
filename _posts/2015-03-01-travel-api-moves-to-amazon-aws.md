@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Say goodbye to HPCloud
+description: Allmyles Travel API moves from HPCloud to Amazon AWS for better reach of its global customers
 subtitle: and say hello to Amazon AWS
 date: 2015-03-01 20:00:00 +0100
 categories: updates
