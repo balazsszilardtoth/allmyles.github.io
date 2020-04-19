@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Office details
+title: Allmyles office location
+description: reach us in the city heart of Budapest
 subtitle: Still in the city centre of Budapest
 date: 2015-02-28 10:27:00 +0100
 categories: news
