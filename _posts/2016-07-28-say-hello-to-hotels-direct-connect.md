@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Say hello to Hotels Direct Connect
+description: Allmyles Hotel API expanded with more than a million individual hotels gloablly
 subtitle: A new integration to major hotel consolidators
 date: 2016-07-28 09:20:00 +0100
 categories: updates
