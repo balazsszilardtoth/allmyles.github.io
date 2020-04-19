@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New and improved features
+description: Allmyles expanded the Travel API feature palette a few new and interesting ones.
 subtitle: Allmyles revolutionized the feature palette
 date: 2020-03-02 10:00:00 +0100
 categories: updates
