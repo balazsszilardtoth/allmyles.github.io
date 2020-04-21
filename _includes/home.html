@@ -9,13 +9,16 @@
               href="{{ '/pricing' | relative_url }}"
               class="btn btn--color-romantic"
             >
-              30-day-free trial
+              30 days free trial
             </a>
           </div>
         </div>
       </div>
     </div>
-    <img src="{{ '/assets/images/landing-hero.svg' }}" alt="Travel APIs for booking Flights, Hotels, Cars" />
+    <img
+      src="{{ '/assets/images/landing-hero.svg' }}"
+      alt="Travel APIs for booking Flights, Hotels, Cars"
+    />
   </section>
   <section class="features-section">
     <div class="container">
@@ -85,9 +88,11 @@
   <section class="pricing-section">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-6 order-lg-2">
+        <div class="col-12 col-md-6 order-lg-2">
           <div class="pricing-content">
-            <h2>Save on fixed cost with Allmyles Travel API</h2>
+            <h2>Total control of full-time employee cost</h2>
+            <p>Your approximate saving</p>
+            <h3 id="pricing-cost-saving">€ 0</h3>
             <a
               href="{{ '/pricing' | relative_url }}"
               class="btn btn--color-romantic d-none d-lg-block"
@@ -96,7 +101,7 @@
             </a>
           </div>
         </div>
-        <div class="col-12 col-lg-6 order-lg-1">
+        <div class="col-12 col-md-6 order-lg-1">
           <div class="pricing-illustrations">
             <div class="pricing-project-manager active">
               <div class="pricing-project-manager-text">
@@ -117,23 +122,17 @@
               </div>
             </div>
           </div>
-          <div class="pricing-calculator">
-            <div class="pricing-text">
-              <p>I have</p>
-              <span class="pricing-monthly">0</span>
-              <p>daily visitors on my site</p>
-            </div>
-            <input
-              type="range"
-              id="pricing-range"
-              min="0"
-              max="3000"
-              value="0"
-            />
-            <div class="pricing-text">
-              <p>Your monthly fee is</p>
-              <span class="pricing-total">€ 20</span>
-            </div>
+        </div>
+        <div class="col-12 pricing-calculator order-lg-3">
+          <div class="pricing-text">
+            <p>I have</p>
+            <span class="pricing-monthly">0</span>
+            <p>daily visitors on my site</p>
+          </div>
+          <input type="range" id="pricing-range" min="0" max="3000" value="0" />
+          <div class="pricing-text">
+            <p>Your monthly fee is</p>
+            <span class="pricing-total">€ 20</span>
           </div>
           <a
             href="{{ '/pricing' | relative_url }}"
@@ -189,7 +188,10 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6">
-          <img src="{{ '/assets/images/about-plug-app.svg' }}" alt="Plug your app within 30 days" />
+          <img
+            src="{{ '/assets/images/about-plug-app.svg' }}"
+            alt="Plug your app within 30 days"
+          />
         </div>
         <div class="col-12 col-md-6">
           <h2>Plug your app within 30 days</h2>

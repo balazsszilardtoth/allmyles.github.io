@@ -53,6 +53,24 @@
   .pricing-section {
     background: linear-gradient(180deg, $white 0%, $zircon 100%);
 
+    .pricing-content {
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        margin-bottom: 40px;
+        font-family: Aeonik Regular;
+        font-size: $font-size-extreme-large;
+        line-height: 40px;
+      }
+
+      p {
+        margin-bottom: 8px;
+        font-size: $font-size-small;
+      }
+    }
+
     .pricing-illustrations {
       margin: 0 auto 40px auto;
     }
@@ -74,6 +92,10 @@
     .pricing-backend {
       width: 244px;
       height: 167px;
+    }
+
+    .pricing-calculator {
+      margin: 0 auto;
     }
 
     .pricing-text {
@@ -366,9 +388,16 @@
     }
 
     .pricing-section {
+      padding-bottom: 80px;
+
       .pricing-content {
-        margin: 85px 0 0 101px;
+        margin: 40px 0 0 101px;
         width: 340px;
+      }
+
+      .pricing-calculator {
+        margin-top: 80px;
+        max-width: 607px;
       }
     }
 
@@ -396,7 +425,15 @@
     }
 
     .pricing-section {
-      text-align: center;
+      padding-bottom: 40px;
+
+      .pricing-calculator {
+        text-align: center;
+      }
+
+      .btn {
+        margin-top: 28px;
+      }
     }
   }
 }
@@ -451,6 +488,10 @@
       }
     }
 
+    .pricing-section .pricing-illustrations {
+      margin: 0 auto 25px -100px;
+    }
+
     .faq-section {
       margin: 43px 0 67px 0;
     }
@@ -488,13 +529,9 @@
       text-align: center;
     }
 
-    .pricing-section {
-      padding-bottom: 80px;
-
-      .pricing-illustrations {
-        width: 500px;
-        height: 317px;
-      }
+    .pricing-section .pricing-illustrations {
+      width: 500px;
+      height: 317px;
     }
 
     .map-section {
@@ -628,8 +665,6 @@
     }
 
     .pricing-section {
-      padding-bottom: 40px;
-
       .pricing-illustrations {
         margin-bottom: 24px;
         width: 300px;
