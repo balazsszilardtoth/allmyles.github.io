@@ -92,6 +92,6 @@ function hideDesk(min, element) {
 function setCostSaving(min, max, price) {
   const value = $('#pricing-range').val();
   if (min <= value && value <= max) {
-    $('.pricing .pricing-content h3').text('€ ' + price);
+    $('#pricing-cost-saving').text('€ ' + price);
   }
 }
