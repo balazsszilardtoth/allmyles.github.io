@@ -9,11 +9,13 @@
 // Includes
 @import 'includes/404';
 @import 'includes/about';
+@import 'includes/body';
 @import 'includes/contact';
 @import 'includes/email-signature';
 @import 'includes/faq';
 @import 'includes/features';
 @import 'includes/footer';
+@import 'includes/header';
 @import 'includes/help';
 @import 'includes/home';
 @import 'includes/main';
@@ -27,6 +29,5 @@
 @import 'includes/terms';
 
 // Layouts
-@import 'layouts/default';
 @import 'layouts/entry';
 @import 'layouts/post';
