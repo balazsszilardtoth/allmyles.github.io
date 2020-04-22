@@ -6,11 +6,8 @@
       <div class="col-12 col-md-4">
         <div class="card">
           <a href="{{ post.url | relative_url }}">
-            <img
-              src="/assets/images/blog{{ post.img | relative_url }}"
-              alt="{{ post.title }}"
-              class="card-img-top"
-            />
+            <img src="/assets/images/blog{{ post.img | relative_url }}"
+              alt="{{ post.title }}" class="card-img-top" />
             <div class="card-body">
               <small class="card-category">{{ post.categories }}</small>
               <h3 class="card-title">{{ post.title }}</h3>
@@ -20,11 +17,8 @@
         </div>
       </div>
       {% endfor %}
-      <button
-        type="button"
-        id="load-more-button"
-        class="btn btn--color-romantic"
-      >
+      <button type="button" id="load-more-button"
+        class="btn btn--color-romantic">
         Load more
       </button>
     </div>

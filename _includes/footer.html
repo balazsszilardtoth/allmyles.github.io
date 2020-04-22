@@ -3,43 +3,30 @@
     <div class="row">
       <div class="col-12 col-md-6">
         <a href="{{ '/' | relative_url }}">
-          <img
-            src="{{ '/assets/images/logo.svg' | relative_url }}"
-            alt="Logo"
-            class="logo"
-          />
+          <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Logo"
+            class="logo" />
         </a>
         <div class="d-none d-md-block">
           <div class="social-media">
             {% if site.facebook_username %}
-            <a
-              href="https://www.facebook.com/{{ site.facebook_username }}"
-              target="_blank"
-            >
-              <img
-                src="{{ '/assets/icons/facebook.svg' | relative_url }}"
-                alt="Facebook"
-              />
+            <a href="https://www.facebook.com/{{ site.facebook_username }}"
+              target="_blank">
+              <img src="{{ '/assets/icons/facebook.svg' | relative_url }}"
+                alt="Facebook" />
             </a>
-            {% endif %} {% if site.twitter_username %}
-            <a
-              href="https://www.twitter.com/{{ site.twitter_username }}"
-              target="_blank"
-            >
-              <img
-                src="{{ '/assets/icons/twitter.svg' | relative_url }}"
-                alt="Twitter"
-              />
+            {% endif %}
+            {% if site.twitter_username %}
+            <a href="https://www.twitter.com/{{ site.twitter_username }}"
+              target="_blank">
+              <img src="{{ '/assets/icons/twitter.svg' | relative_url }}"
+                alt="Twitter" />
             </a>
-            {% endif %} {% if site.linkedin_username %}
-            <a
-              href="https://www.linkedin.com/{{ site.linkedin_username }}"
-              target="_blank"
-            >
-              <img
-                src="{{ '/assets/icons/linkedin.svg' | relative_url }}"
-                alt="LinkedIn"
-              />
+            {% endif %}
+            {% if site.linkedin_username %}
+            <a href="https://www.linkedin.com/{{ site.linkedin_username }}"
+              target="_blank">
+              <img src="{{ '/assets/icons/linkedin.svg' | relative_url }}"
+                alt="LinkedIn" />
             </a>
             {% endif %}
           </div>
@@ -117,34 +104,24 @@
       <div class="col-12 d-md-none">
         <div class="social-media">
           {% if site.facebook_username %}
-          <a
-            href="https://www.facebook.com/{{ site.facebook_username }}"
-            target="_blank"
-          >
-            <img
-              src="{{ '/assets/icons/facebook.svg' | relative_url }}"
-              alt="Facebook"
-            />
+          <a href="https://www.facebook.com/{{ site.facebook_username }}"
+            target="_blank">
+            <img src="{{ '/assets/icons/facebook.svg' | relative_url }}"
+              alt="Facebook" />
           </a>
-          {% endif %} {% if site.twitter_username %}
-          <a
-            href="https://www.twitter.com/{{ site.twitter_username }}"
-            target="_blank"
-          >
-            <img
-              src="{{ '/assets/icons/twitter.svg' | relative_url }}"
-              alt="Twitter"
-            />
+          {% endif %}
+          {% if site.twitter_username %}
+          <a href="https://www.twitter.com/{{ site.twitter_username }}"
+            target="_blank">
+            <img src="{{ '/assets/icons/twitter.svg' | relative_url }}"
+              alt="Twitter" />
           </a>
-          {% endif %} {% if site.linkedin_username %}
-          <a
-            href="https://www.linkedin.com/{{ site.linkedin_username }}"
-            target="_blank"
-          >
-            <img
-              src="{{ '/assets/icons/linkedin.svg' | relative_url }}"
-              alt="LinkedIn"
-            />
+          {% endif %}
+          {% if site.linkedin_username %}
+          <a href="https://www.linkedin.com/{{ site.linkedin_username }}"
+            target="_blank">
+            <img src="{{ '/assets/icons/linkedin.svg' | relative_url }}"
+              alt="LinkedIn" />
           </a>
           {% endif %}
         </div>

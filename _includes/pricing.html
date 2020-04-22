@@ -53,10 +53,8 @@
           <div class="card best-fit">
             <small class="best-fit-text">Best fit</small>
             <h4></h4>
-            <img
-              src="{{ '/assets/icons/pricing-free.svg' | relative_url }}"
-              alt="Bestf it for you"
-            />
+            <img src="{{ '/assets/icons/pricing-free.svg' | relative_url }}"
+              alt="Bestf it for you" />
             <p>Try Allmyles for 30 days</p>
             <h3>Free trial</h3>
             <p>
@@ -71,17 +69,13 @@
             <h4>Cub</h4>
             <img
               src="{{ '/assets/icons/pricing-essential.svg' | relative_url }}"
-              alt="Cub Pricing Tier"
-            />
+              alt="Cub Pricing Tier" />
             <p>One time certification fee</p>
             <h3>€ 3000</h3>
             <p>€ 1 000 used for first top ups</p>
             <p>€ 0. 10 / search</p>
-            <a
-              href="https://dashboard.allmyles.com/signup"
-              target="_blank"
-              class="btn btn--color-romantic"
-            >
+            <a href="https://dashboard.allmyles.com/signup" target="_blank"
+              class="btn btn--color-romantic">
               Try for Free
             </a>
           </div>
@@ -91,17 +85,13 @@
             <h4>Geek</h4>
             <img
               src="{{ '/assets/icons/pricing-professional.svg' | relative_url }}"
-              alt="Geek Pricing Tier"
-            />
+              alt="Geek Pricing Tier" />
             <p>One time certification fee</p>
             <h3>€ 5000</h3>
             <p>€ 1 000 used for first top ups</p>
             <p>€ 0. 09 / search</p>
-            <a
-              href="https://dashboard.allmyles.com/signup"
-              target="_blank"
-              class="btn btn--color-romantic"
-            >
+            <a href="https://dashboard.allmyles.com/signup" target="_blank"
+              class="btn btn--color-romantic">
               Try for Free
             </a>
           </div>
@@ -111,17 +101,13 @@
             <h4>Growth hacker</h4>
             <img
               src="{{ '/assets/icons/pricing-unlimited.svg' | relative_url }}"
-              alt="Growth Hacker Pricing Tier"
-            />
+              alt="Growth Hacker Pricing Tier" />
             <p>One time certification fee</p>
             <h3>€ 10 000</h3>
             <p>€ 2 000 used for first top ups</p>
             <p>€ 0. 06 / search</p>
-            <a
-              href="https://dashboard.allmyles.com/signup"
-              target="_blank"
-              class="btn btn--color-romantic"
-            >
+            <a href="https://dashboard.allmyles.com/signup" target="_blank"
+              class="btn btn--color-romantic">
               Try for Free
             </a>
           </div>
@@ -133,13 +119,8 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <a
-            type="button"
-            class="plans-button"
-            data-toggle="collapse"
-            data-target="#collapsePlans"
-            aria-expanded="false"
-          >
+          <a type="button" class="plans-button" data-toggle="collapse"
+            data-target="#collapsePlans" aria-expanded="false">
           </a>
           <div class="collapse plans-collapse" id="collapsePlans">
             <div class="d-none d-md-block">
@@ -179,15 +160,9 @@
               <ul class="nav nav-pills" id="pills-tab" role="tablist">
                 {% for value in assignPlans %}
                 <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    id="pills-{{ value }}-tab"
-                    data-toggle="pill"
-                    href="#pills-{{ value }}"
-                    role="tab"
-                    aria-controls="pills-{{ value }}"
-                    aria-selected="false"
-                  >
+                  <a class="nav-link" id="pills-{{ value }}-tab"
+                    data-toggle="pill" href="#pills-{{ value }}" role="tab"
+                    aria-controls="pills-{{ value }}" aria-selected="false">
                     {{ value | capitalize }}
                   </a>
                 </li>
@@ -195,12 +170,8 @@
               </ul>
               <div class="tab-content" id="pills-tabContent">
                 {% for value in assignPlans %}
-                <div
-                  class="tab-pane fade"
-                  id="pills-{{ value }}"
-                  role="tabpanel"
-                  aria-labelledby="pills-{{ value }}-tab"
-                >
+                <div class="tab-pane fade" id="pills-{{ value }}"
+                  role="tabpanel" aria-labelledby="pills-{{ value }}-tab">
                   {% if site.data.pricing.plans %}
                   <table class="table">
                     <tbody>
@@ -210,11 +181,12 @@
                         <td>
                           {% if value == "essential" and plan.essential %}
                           <span class="tick-purple"></span>
-                          {% endif %} {% if value == "pro" and plan.professional
+                          {% endif %}
+                          {% if value == "pro" and plan.professional
                           %}
                           <span class="tick-purple"></span>
-                          {% endif %} {% if value == "unlimited" and
-                          plan.unlimited %}
+                          {% endif %}
+                          {% if value == "unlimited" and plan.unlimited %}
                           <span class="tick-purple"></span>
                           {% endif %}
                         </td>
@@ -242,11 +214,8 @@
               {% for faq in site.data.pricing.faq %}
               <div class="card">
                 <div class="card-header" id="heading-{{ forloop.index }}">
-                  <button
-                    class="btn collapsed"
-                    data-toggle="collapse"
-                    data-target="#collapse-{{ forloop.index }}"
-                  >
+                  <button class="btn collapsed" data-toggle="collapse"
+                    data-target="#collapse-{{ forloop.index }}">
                     {{ faq.question }}
                     <div class="button-accordion">
                       <span class="button-accordion-icon"></span>
@@ -263,11 +232,8 @@
             </div>
             <a href="{{ '/help' | relative_url }}">Visit the Help Center</a>
           </div>
-          <img
-            src="{{ '/assets/images/landing-faq.svg' | relative_url }}"
-            alt="Frequently Asked Questions"
-            class="d-none d-lg-block"
-          />
+          <img src="{{ '/assets/images/landing-faq.svg' | relative_url }}"
+            alt="Frequently Asked Questions" class="d-none d-lg-block" />
         </div>
       </div>
     </div>

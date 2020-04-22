@@ -8,15 +8,19 @@
         <h5>Short summary</h5>
         {{ privacy.short-summary }}
       </div>
-      {% endif %} {% for content in privacy.contents %} {% if content.text %}
+      {% endif %}
+      {% for content in privacy.contents %}
+      {% if content.text %}
       <p>{{ content.text }}</p>
-      {% endif %} {% if content.list %}
+      {% endif %}
+      {% if content.list %}
       <ul>
         {% for item in content.list %}
         <li>{{ item }}</li>
         {% endfor %}
       </ul>
-      {% endif %} {% endfor %}
+      {% endif %}
+      {% endfor %}
     </div>
     {% endfor %}
     <h4>Allmyles Ltd.</h4>

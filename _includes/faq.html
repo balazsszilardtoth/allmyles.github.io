@@ -6,12 +6,10 @@
       <h2>{{ faqs.title }}</h2>
       {% for faq in faqs.questions %}
       <div class="card">
-        <div class="card-header" id="heading-{{ faqs.slug }}-{{ forloop.index }}">
-          <button
-            class="btn collapsed"
-            data-toggle="collapse"
-            data-target="#collapse-{{ faqs.slug }}-{{ forloop.index }}"
-          >
+        <div class="card-header"
+          id="heading-{{ faqs.slug }}-{{ forloop.index }}">
+          <button class="btn collapsed" data-toggle="collapse"
+            data-target="#collapse-{{ faqs.slug }}-{{ forloop.index }}">
             {{ faq.question }}
             <div class="button-accordion">
               <span class="button-accordion-icon"></span>

@@ -4,10 +4,8 @@
       <h1 class="page-title-hidden">{{ page.title }}</h1>
       <div class="row">
         <div class="contact-box">
-          <form
-            class="contact-form"
-            data-emailjs-config='{{ site.emailjs | jsonify }}'
-          >
+          <form class="contact-form"
+            data-emailjs-config='{{ site.emailjs | jsonify }}'>
             <h2>Contact us</h2>
             <p>We would gladly hear about your feedback</p>
             <div class="row">
@@ -36,11 +34,8 @@
                 <span class="alert alert-danger"></span>
               </div>
             </div>
-            <button
-              type="button"
-              id="contact-send-button"
-              class="btn btn--color-romantic w-100"
-            >
+            <button type="button" id="contact-send-button"
+              class="btn btn--color-romantic w-100">
               <div class="spinner-border spinner-border-sm">
                 <span class="sr-only">Loading...</span>
               </div>
@@ -48,36 +43,25 @@
             </button>
           </form>
           <div class="contact-success-box">
-            <img
-              src="{{ '/assets/icons/contact-success.svg' | relative_url }}"
-              alt="contact form sent successfully to Allmyles"
-            />
+            <img src="{{ '/assets/icons/contact-success.svg' | relative_url }}"
+              alt="contact form sent successfully to Allmyles" />
             <h2>Thank you!</h2>
             <h3>We're going to reply soon.</h3>
-            <button
-              type="button"
-              id="contact-success-button"
-              class="btn btn--color-romantic w-100"
-            >
+            <button type="button" id="contact-success-button"
+              class="btn btn--color-romantic w-100">
               Sounds good
             </button>
           </div>
           <div class="contact-error-box">
             <h3>Sorry, a server error occurred. Please try again later.</h3>
-            <button
-              type="button"
-              id="contact-error-button"
-              class="btn btn--color-romantic w-100"
-            >
+            <button type="button" id="contact-error-button"
+              class="btn btn--color-romantic w-100">
               Go back
             </button>
           </div>
         </div>
-        <img
-          src="{{ 'assets/images/contact-map.svg' | relative_url }}"
-          alt="Allmyles global presence map"
-          class="map-bg"
-        />
+        <img src="{{ 'assets/images/contact-map.svg' | relative_url }}"
+          alt="Allmyles global presence map" class="map-bg" />
       </div>
     </div>
   </section>
@@ -92,16 +76,12 @@
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4">
-          <img
-            src="{{ '/assets/icons/contact-address.svg' | relative_url }}"
-            alt="Address"
-          />
+          <img src="{{ '/assets/icons/contact-address.svg' | relative_url }}"
+            alt="Address" />
           <div class="contact-address">
             <h5>Address</h5>
-            <a
-              href="https://www.google.com/maps/place/Budapest,+K%C3%A1roly+krt.+5,+1075/@47.4963328,19.0564572,17z/data=!3m1!4b1!4m5!3m4!1s0x4741dc42478b0b45:0xa7c38bc757aa894b!8m2!3d47.4963292!4d19.0586459"
-              target="_blank"
-            >
+            <a href="https://www.google.com/maps/place/Budapest,+K%C3%A1roly+krt.+5,+1075/@47.4963328,19.0564572,17z/data=!3m1!4b1!4m5!3m4!1s0x4741dc42478b0b45:0xa7c38bc757aa894b!8m2!3d47.4963292!4d19.0586459"
+              target="_blank">
               Karoly krt. 5. 1075<br />
               Budapest, Hungary
             </a>
@@ -113,7 +93,8 @@
             <h5>General inquiries</h5>
             <a href="javascript:" data-email="info[at]allmyles[dot]com"></a>
             <h5>Partnerships</h5>
-            <a href="javascript:" data-email="partnership[at]allmyles[dot]com"></a>
+            <a href="javascript:"
+              data-email="partnership[at]allmyles[dot]com"></a>
           </div>
         </div>
       </div>
