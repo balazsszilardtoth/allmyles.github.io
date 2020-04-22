@@ -26,16 +26,18 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://allmyles.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-linkedin_username: allmyles
-author: allmylessconnect
-twitter: 
-  username: allmylesconnect
-  card: summary_large_image
 facebook:
+  username: allmyles
   type: website
   app_id: 114993862613882
   publisher: 1518850708364296
   admins: balazs.toth@allmyles.com
+twitter: 
+  username: allmylesconnect
+  card: summary_large_image
+linkedin:
+  username: company/allmyles
+
 logo: /assets/images/logo.svg
 webmaster_verifications:
   google: tB_3wuPCitQ4x9xONjL160sH4Ub7rDV6yq3USlPKvZ4
