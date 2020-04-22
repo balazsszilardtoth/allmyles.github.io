@@ -1,4 +1,5 @@
 article {
+
   .post-header,
   .post-content {
     margin: 0 auto 40px auto;
@@ -57,21 +58,15 @@ article {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   article {
-    margin: 112px 0 80px 0;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  article {
-    margin: 80px 0;
+    margin-bottom: 80px;
   }
 }
 
 @media screen and (max-width: 767px) {
   article {
-    margin: 40px 0;
+    margin-bottom: 40px;
 
     img {
       height: 163px;

@@ -122,7 +122,7 @@
 @media screen and (min-width: 992px) {
   .features {
     .bookable-section {
-      margin: 144px 0 82px 0;
+      margin-bottom: 82px;
 
       .col-12:last-child {
         padding-left: 110px;
@@ -230,7 +230,7 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .features {
     .bookable-section {
-      margin: 64px 0 95px 0;
+      margin-bottom: 95px;
     }
 
     .payment-clutch-section {
@@ -294,8 +294,6 @@
 
 @media screen and (max-width: 767px) {
   .features {
-    margin-top: 44px;
-
     h2 {
       font-size: $font-size-extreme-large;
     }

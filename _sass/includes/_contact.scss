@@ -144,8 +144,6 @@
 
 @media screen and (min-width: 992px) {
   .contact {
-    margin: 104px 0 56px 0;
-
     &-form-section {
       margin-bottom: 103px;
     }
@@ -162,8 +160,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .contact {
-    margin: 85px 0 56px 0;
-
     &-form-section {
       margin-bottom: 82px;
     }
@@ -176,6 +172,8 @@
 
 @media screen and (min-width: 768px) {
   .contact {
+    margin-bottom: 56px;
+
     .row .map-bg {
       position: absolute;
       right: 0;
@@ -190,7 +188,7 @@
 
 @media screen and (max-width: 767px) {
   .contact {
-    margin: 40px 0 16px 0;
+    margin-bottom: 16px;
 
     &-form-section {
       margin-bottom: 36px;

@@ -1,0 +1,17 @@
+@media screen and (min-width: 992px) {
+  main {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  main {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  main {
+    padding-top: 20px;
+  }
+}

@@ -1,4 +1,6 @@
 .faq {
+  margin-bottom: 80px;
+
   h2 {
     margin: 40px 0 24px 0;
   }
@@ -76,17 +78,9 @@
 
 @media screen and (min-width: 992px) {
   .faq {
-    margin: 72px 0 80px 0;
-
     .container {
       max-width: 820px;
     }
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .faq {
-    margin: 90px 0 80px 0;
   }
 }
 
@@ -97,11 +91,9 @@
     }
   }
 }
- 
+
 @media screen and (max-width: 767px) {
   .faq {
-    margin: 40px 0 80px 0;
-
     h1 {
       margin-bottom: 56px;
     }
