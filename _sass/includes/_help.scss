@@ -44,6 +44,7 @@
 
     .card-img-top {
       border-radius: 6px;
+      object-fit: cover;
     }
 
     .card-body {
@@ -63,11 +64,29 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .help {
+    .blog-section {
+      .card-img-top {
+        height: 225px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .help {
+    .blog-section {
+      .card-img-top {
+        height: 172px;
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 992px) {
   .help {
     &-center-section {
-      margin-top: 120px;
-
       a:hover {
         border-radius: 24px;
         box-shadow: 0 20px 40px 0 rgba(10, 13, 53, .08) !important;
@@ -105,8 +124,6 @@
     }
 
     &-center-section {
-      margin-top: 88px;
-
       .col-12 {
         margin: 0 8px;
         padding: 0;
@@ -127,6 +144,10 @@
 
       .col-12 {
         padding: 0 8px;
+      }
+
+      .card-img-top {
+        height: 127px;
       }
 
       .card-title {
@@ -162,8 +183,6 @@
     }
 
     &-center-section {
-      margin-top: 40px;
-
       .col-12 {
         margin-bottom: 16px;
       }
@@ -191,6 +210,10 @@
 
       .col-12 {
         margin-bottom: 12px;
+      }
+
+      .card-img-top {
+        height: 163px;
       }
 
       .btn {

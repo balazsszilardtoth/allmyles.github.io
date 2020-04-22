@@ -14,28 +14,16 @@
         <a href="{{ '/sign-in' | relative_url }}">Sign in</a>
         <ul class="nav nav-pills" id="pills-tab" role="tablist">
           <li class="nav-item">
-            <a
-              class="nav-link active"
-              id="pills-business-tab"
-              data-toggle="pill"
-              href="#pills-business"
-              role="tab"
-              aria-controls="pills-business"
-              aria-selected="true"
-            >
+            <a class="nav-link active" id="pills-business-tab"
+              data-toggle="pill" href="#pills-business" role="tab"
+              aria-controls="pills-business" aria-selected="true">
               Business
             </a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link"
-              id="pills-personal-tab"
-              data-toggle="pill"
-              href="#pills-personal"
-              role="tab"
-              aria-controls="pills-personal"
-              aria-selected="false"
-            >
+            <a class="nav-link" id="pills-personal-tab" data-toggle="pill"
+              href="#pills-personal" role="tab" aria-controls="pills-personal"
+              aria-selected="false">
               Personal
             </a>
           </li>
@@ -125,10 +113,11 @@
             <label for="country">Country</label>
             <select id="country" class="form-control">
               <option value=""></option>
-              {% if site.data.country %} {% for country in
-              site.data.country.countries %}
+              {% if site.data.country %}
+              {% for country in site.data.country.countries %}
               <option value="{{ country }}">{{ country }}</option>
-              {% endfor %} {% endif %}
+              {% endfor %}
+              {% endif %}
             </select>
             <span class="alert alert-danger"></span>
           </div>
@@ -160,10 +149,8 @@
               <input type="checkbox" id="terms-confirmation-checkbox-1" />
               <label for="terms-confirmation-checkbox-1"></label>
               I agree to
-              <a
-                href="{{ '/privacy-and-terms' | relative_url }}"
-                target="_blank"
-              >
+              <a href="{{ '/privacy-and-terms' | relative_url }}"
+                target="_blank">
                 Terms of services
               </a>
             </div>
@@ -176,11 +163,8 @@
             </small>
           </div>
         </div>
-        <button
-          type="button"
-          class="btn btn--color-romantic w-100 disabled next"
-          disabled
-        >
+        <button type="button"
+          class="btn btn--color-romantic w-100 disabled next" disabled>
           Next
         </button>
       </fieldset>
@@ -189,34 +173,22 @@
         <div class="row">
           <div class="col-12">
             <label for="card-number">Card number</label>
-            <input
-              type="text"
-              id="card-number"
-              class="form-control"
-              maxlength="19"
-            />
+            <input type="text" id="card-number" class="form-control"
+              maxlength="19" />
             <span class="alert alert-danger"></span>
           </div>
         </div>
         <div class="row">
           <div class="col-12 col-md-6">
             <label for="expiration-date">Expiration date</label>
-            <input
-              type="text"
-              id="expiration-date"
-              class="form-control"
-              maxlength="7"
-            />
+            <input type="text" id="expiration-date" class="form-control"
+              maxlength="7" />
             <span class="alert alert-danger"></span>
           </div>
           <div class="col-12 col-md-6">
             <label for="cvc">CVC</label>
-            <input
-              type="password"
-              id="cvc"
-              class="form-control"
-              maxlength="3"
-            />
+            <input type="password" id="cvc" class="form-control"
+              maxlength="3" />
             <span class="alert alert-danger"></span>
           </div>
         </div>
@@ -230,10 +202,8 @@
         <div class="row">
           <div class="col-12 card-protection">
             <div class="card-protection-confirmation">
-              <input
-                type="checkbox"
-                id="card-protection-confirmation-checkbox"
-              />
+              <input type="checkbox"
+                id="card-protection-confirmation-checkbox" />
               <label for="card-protection-confirmation-checkbox"></label>
               Save and protect your card
             </div>
@@ -243,11 +213,8 @@
             </small>
             <div class="form-group">
               <label for="confirm-password">Set password</label>
-              <input
-                type="password"
-                id="confirm-password"
-                class="form-control"
-              />
+              <input type="password" id="confirm-password"
+                class="form-control" />
               <a href="javascript:" class="eye"></a>
             </div>
           </div>
@@ -258,10 +225,8 @@
               <input type="checkbox" id="terms-confirmation-checkbox-2" />
               <label for="terms-confirmation-checkbox-2"></label>
               I agree to
-              <a
-                href="{{ '/privacy-and-terms' | relative_url }}"
-                target="_blank"
-              >
+              <a href="{{ '/privacy-and-terms' | relative_url }}"
+                target="_blank">
                 Terms of services
               </a>
             </div>
@@ -274,12 +239,8 @@
             </small>
           </div>
         </div>
-        <button
-          type="button"
-          id="submit"
-          class="btn btn--color-romantic w-100 disabled"
-          disabled
-        >
+        <button type="button" id="submit"
+          class="btn btn--color-romantic w-100 disabled" disabled>
           Sign up
         </button>
       </fieldset>

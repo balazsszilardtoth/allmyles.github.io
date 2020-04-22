@@ -20,14 +20,16 @@ layout: default
     </div>
     <img src="/assets/images/blog{{ page.img | relative_url }}" alt="" />
     <div class="post-content">
-      {{ content }} {% if page.newfeatures %}
+      {{ content }}
+      {% if page.newfeatures %}
       <span>New features</span>
       <ul>
         {% for item in page.newfeatures %}
         <li>{{ item }}</li>
         {% endfor %}
       </ul>
-      {% endif %} {% if page.improvements %}
+      {% endif %}
+      {% if page.improvements %}
       <span>Improvements</span>
       <ul>
         {% for item in page.improvements %}
@@ -37,11 +39,8 @@ layout: default
       {% endif %}
     </div>
     <div class="post-footer">
-      <a
-        href="https://docs.allmyles.com"
-        target="_blank"
-        class="btn btn--color-romantic"
-      >
+      <a href="https://docs.allmyles.com" target="_blank"
+        class="btn btn--color-romantic">
         Read more in documentation
       </a>
     </div>

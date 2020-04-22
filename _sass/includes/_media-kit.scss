@@ -175,12 +175,6 @@
   }
 }
 
-@media screen and (min-width: 992px) {
-  .media-kit {
-    margin-top: 120px;
-  }
-}
-
 @media screen and (max-width: 991px) {
   .media-kit {
     h3 {
@@ -202,8 +196,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .media-kit {
-    margin-top: 88px;
-
     .favourite-allmyles-stories-section {
       margin-bottom: 12px;
 
@@ -236,8 +228,6 @@
 
 @media screen and (max-width: 767px) {
   .media-kit {
-    margin-top: 48px;
-
     h1 {
       font-size: $font-size-extreme-large;
       line-height: 32px;

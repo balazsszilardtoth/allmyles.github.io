@@ -400,8 +400,6 @@
 
 @media screen and (min-width: 992px) {
   .pricing {
-    margin-top: 78px;
-
     .save-employee-fees-section {
       .pricing-illustrations {
         margin: 0 0 93px 73px;
@@ -474,13 +472,11 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .pricing {
-    margin-top: 88px;
-
     .save-employee-fees-section {
       overflow: hidden;
 
       .pricing-illustrations {
-        margin: 0 auto 25px -100px;
+        margin: 25px auto 25px -100px;
       }
     }
 
@@ -546,8 +542,6 @@
 
 @media screen and (max-width: 767px) {
   .pricing {
-    margin-top: 24px;
-
     h1 {
       margin-bottom: 16px;
     }
