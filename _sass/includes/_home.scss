@@ -369,7 +369,7 @@
     }
 
     .landing-hero-section {
-      padding: 218px 0 238px 0;
+      padding: 55px 0 238px 0;
     }
 
     .map-section {
@@ -440,8 +440,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .home {
-    padding-top: 106px;
-
     .landing-hero-section {
       padding-bottom: 360px;
     }
@@ -488,8 +486,12 @@
       }
     }
 
-    .pricing-section .pricing-illustrations {
-      margin: 0 auto 25px -100px;
+    .pricing-section {
+      overflow: hidden;
+
+      .pricing-illustrations {
+        margin: 25px auto 25px -100px;
+      }
     }
 
     .faq-section {
@@ -565,8 +567,6 @@
 
 @media screen and (max-width: 767px) {
   .home {
-    padding-top: 40px;
-
     h1 {
       margin-bottom: 22px;
     }

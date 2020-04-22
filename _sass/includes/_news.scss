@@ -1,6 +1,4 @@
 .news {
-  margin: 98px auto 80px auto;
-
   h1 {
     text-align: center;
   }
@@ -80,6 +78,8 @@
 
 @media screen and (min-width: 768px) {
   .news {
+    margin-bottom: 80px;
+
     h1 {
       margin-bottom: 80px;
       font-size: 60px;
@@ -100,7 +100,7 @@
 
 @media screen and (max-width: 767px) {
   .news {
-    margin: 40px auto;
+    margin-bottom: 40px;
 
     h1 {
       margin-bottom: 40px;
