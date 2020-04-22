@@ -1,13 +1,22 @@
 <body
   class="{% if page.layout == 'post' %}post{% else %}page page-{{ page.slug }}{% endif %}"
 >
-  {% include gtm-noscript.html %}
-  {% include header.html %}
-  {% include content.html %}
-  {% include footer.html %}
+  {% include gtm-noscript.html %} {% include facebook-pixel-script-noscript.html
+  %} {% include header.html %} {% include content.html %} {% include footer.html
+  %}
   <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/popper.min.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+  <script
+    src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js"
+    data-dojo-config="usePlainJson: true, isDebug: false"
+  ></script>
   <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/facebook-pixel-code.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/facebook-pixel-script.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/tawk-io.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/cookie-consent.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/mailchimp.js' | relative_url }}"></script>
 </body>
