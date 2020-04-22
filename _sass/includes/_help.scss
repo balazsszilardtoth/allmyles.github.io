@@ -44,6 +44,7 @@
 
     .card-img-top {
       border-radius: 6px;
+      object-fit: cover;
     }
 
     .card-body {
@@ -59,6 +60,26 @@
 
     .btn {
       margin-top: 24px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .help {
+    .blog-section {
+      .card-img-top {
+        height: 225px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .help {
+    .blog-section {
+      .card-img-top {
+        height: 172px;
+      }
     }
   }
 }
@@ -129,6 +150,10 @@
         padding: 0 8px;
       }
 
+      .card-img-top {
+        height: 127px;
+      }
+
       .card-title {
         font-size: $font-size-extra-large;
         line-height: 32px;
@@ -191,6 +216,10 @@
 
       .col-12 {
         margin-bottom: 12px;
+      }
+
+      .card-img-top {
+        height: 163px;
       }
 
       .btn {
