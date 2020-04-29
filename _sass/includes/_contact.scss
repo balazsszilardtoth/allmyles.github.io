@@ -69,6 +69,12 @@
       font-size: $font-size-extra-large;
       text-align: center;
     }
+
+    h4 {
+      display: none;
+      margin-bottom: 72px;
+      text-align: center;
+    }
   }
 
   &-error-box {
@@ -78,6 +84,15 @@
       margin: 50px auto 72px auto;
       color: $crimson;
       text-align: center;
+    }
+  }
+
+  .newsletter {
+    display: flex;
+    flex-direction: row;
+
+    p {
+      font-size: $font-size-small;
     }
   }
 
