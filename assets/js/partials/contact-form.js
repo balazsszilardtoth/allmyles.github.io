@@ -8,6 +8,7 @@ $(document).ready(function () {
     const email = $('#email');
     const firstName = $('#firstName');
     const lastName = $('#lastName');
+    const company = $('#company');
     const message = $('#message');
     const isNewsletter = $('#newsletter').prop('checked');
 
@@ -25,15 +26,19 @@ $(document).ready(function () {
       if (isNewsletter) {
         $('#contact-form').ajaxChimp({
           url: mailchimpNewsletterFormActionUrl,
-          callback: isFailedNewsletterSubscription,
+          callback: isSubscribeNewsletter,
         });
-        $(this).submit();
+        $('#contact-send-button').trigger('submit');
+      } else {
+        $('.contact-success-box h3').css('margin-bottom', '72px');
+        $('.contact-success-box h4').css('display', 'none');
       }
 
       const templateParams = {
         email: email.val(),
         firstname: firstName.val(),
         lastname: lastName.val(),
+        company: company.val(),
         message: message.val(),
         newsletter: isNewsletter ? 'Yes' : 'No',
       };
@@ -81,15 +86,15 @@ function validate(fieldName, element) {
   }
 }
 
-function isFailedNewsletterSubscription(res) {
+function isSubscribeNewsletter(res) {
+  $('.contact-form').trigger('reset');
   if (res.result === 'success') {
     $('.contact-success-box h3').css('margin-bottom', '16px');
     $('.contact-success-box h4').css('display', 'block');
-    return true;
   } else {
     console.error('FAILURE: ', res.msg);
-    return false;
   }
+  return false;
 }
 
 function isSendEmail(status) {
@@ -98,6 +103,7 @@ function isSendEmail(status) {
   $('#contact-send-button').removeAttr('style disabled');
   $('.contact-' + status + '-box').css('display', 'block');
   $('#contact-' + status + '-button').on('click', function () {
+    $('.contact-form').trigger('reset');
     $('.contact-' + status + '-box').css('display', 'none');
     $('.contact-form').css('display', 'block');
   });
