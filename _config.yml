@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -32,7 +32,7 @@ facebook:
   app_id: 114993862613882
   publisher: 1518850708364296
   admins: balazs.toth@allmyles.com
-twitter: 
+twitter:
   username: allmylesconnect
   card: summary_large_image
 linkedin:
@@ -46,6 +46,8 @@ emailjs:
   emailjs_user_id: user_6FCkb3OgmY5lTB3UshvHj
   emailjs_service_id: mandrill
   emailjs_template_id: template_TVxpRhFT
+
+mailchimp_newsletter_form_action_url: https://allmyles.us8.list-manage.com/subscribe/post?u=34427879ce889cb69ae1b9e75&id=7e58348ec9
 
 # Build settings
 theme: minima
