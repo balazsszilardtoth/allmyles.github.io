@@ -98,6 +98,7 @@ gulp.task('serve', function(done) {
 gulp.task('watch', function(done) {
   gulp.watch(['_includes/*.html', '_layouts/*.html', '_posts/*.md', 'pages/*.md'], gulp.series('jekyll-build'));
   gulp.watch(['./**/*.scss'], gulp.series('jekyll-build'));
+  gulp.watch(['assets/js/partials/*.js'], gulp.series('js', 'jekyll-build'));
   done();
 });
 
