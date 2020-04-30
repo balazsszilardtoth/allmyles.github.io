@@ -1,138 +1,138 @@
 plans:
   - title: AWS hosted
-    essential: true
-    professional: true
-    unlimited: true
+    cub: true
+    geek: true
+    growthHacker: true
 
   - title: Cloudflare CDN
-    essential: true
-    professional: true
-    unlimited: true
+    cub: true
+    geek: true
+    growthHacker: true
 
   - title: Location search algorithm
-    essential: true
-    professional: true
-    unlimited: true
+    cub: true
+    geek: true
+    growthHacker: true
 
   - title: Full user journey
-    essential: true
-    professional: true
-    unlimited: true
+    cub: true
+    geek: true
+    growthHacker: true
 
   - title: Bookable content
-    essential: true
-    professional: true
-    unlimited: true
+    cub: true
+    geek: true
+    growthHacker: true
 
   - title: Automated payment clutch
-    essential: true
-    professional: true
-    unlimited: true
+    cub: true
+    geek: true
+    growthHacker: true
 
   - title: Restful API
-    essential: true
-    professional: true
-    unlimited: true
+    cub: true
+    geek: true
+    growthHacker: true
 
   - title: Global content
-    essential: true
-    professional: true
-    unlimited: true
+    cub: true
+    geek: true
+    growthHacker: true
 
   - title: Multisource
-    essential: true
-    professional: true
-    unlimited: true
+    cub: true
+    geek: true
+    growthHacker: true
 
   - title: Dashboard and reporting
-    essential: true
-    professional: true
-    unlimited: true
+    cub: true
+    geek: true
+    growthHacker: true
 
   - title: Flight, hotel, car rental
-    essential: true
-    professional: true
-    unlimited: true
+    cub: true
+    geek: true
+    growthHacker: true
 
   - title: PSP independent
-    essential: true
-    professional: true
-    unlimited: true
+    cub: true
+    geek: true
+    growthHacker: true
 
   - title: Self booking tool
-    essential: true
-    professional: true
-    unlimited: true
+    cub: true
+    geek: true
+    growthHacker: true
 
   - title: Self post booking features
-    essential: true
-    professional: true
-    unlimited: true
+    cub: true
+    geek: true
+    growthHacker: true
 
   - title: Hosted white label web application
-    essential: false
-    professional: true
-    unlimited: true
+    cub: false
+    geek: true
+    growthHacker: true
 
   - title: Airline fare families
-    essential: false
-    professional: true
-    unlimited: true
+    cub: false
+    geek: true
+    growthHacker: true
 
   - title: Airline direct content
-    essential: false
-    professional: true
-    unlimited: true
+    cub: false
+    geek: true
+    growthHacker: true
 
   - title: Social media integration
-    essential: false
-    professional: true
-    unlimited: true
+    cub: false
+    geek: true
+    growthHacker: true
 
   - title: Price alert function
-    essential: false
-    professional: true
-    unlimited: true
+    cub: false
+    geek: true
+    growthHacker: true
 
   - title: Ancillary booking
-    essential: false
-    professional: true
-    unlimited: true
+    cub: false
+    geek: true
+    growthHacker: true
 
   - title: One way combinable flights
-    essential: false
-    professional: true
-    unlimited: true
+    cub: false
+    geek: true
+    growthHacker: true
 
   - title: Red eye flights
-    essential: false
-    professional: true
-    unlimited: true
+    cub: false
+    geek: true
+    growthHacker: true
 
   - title: Calendar view
-    essential: false
-    professional: true
-    unlimited: true
+    cub: false
+    geek: true
+    growthHacker: true
 
   - title: Radius search
-    essential: false
-    professional: true
-    unlimited: true
+    cub: false
+    geek: true
+    growthHacker: true
 
   - title: Multiple city search
-    essential: false
-    professional: true
-    unlimited: true
+    cub: false
+    geek: true
+    growthHacker: true
 
   - title: Hosted, customisable white label web application
-    essential: false
-    professional: false
-    unlimited: true
+    cub: false
+    geek: false
+    growthHacker: true
 
   - title: Chat boosted post booking support
-    essential: false
-    professional: false
-    unlimited: true
+    cub: false
+    geek: false
+    growthHacker: true
 
 faq:
   - question: What is the certification fee for?
