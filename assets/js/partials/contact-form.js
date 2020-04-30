@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $('#contact-send-button').on('click', function () {
-    const emailjsConfig = $('#contact-form').data('emailjs-config');
+    const emailjsConfig = $('#emailjs-config').data('emailjs-config');
     const mailchimpNewsletterFormActionUrl = $(
       '#mc-newsletter-form-action-url',
     ).data('mc-newsletter-form-action-url');
@@ -24,11 +24,34 @@ $(document).ready(function () {
         .attr('disabled', 'disabled');
 
       if (isNewsletter) {
-        $('#contact-form').ajaxChimp({
-          url: mailchimpNewsletterFormActionUrl,
-          callback: isSubscribeNewsletter,
+        const mcUrl = mailchimpNewsletterFormActionUrl
+          .replace('/post?', '/post-json?')
+          .concat('&c=?');
+        const mcData = {
+          EMAIL: email.val(),
+          FNAME: firstName.val(),
+          LNAME: lastName.val(),
+          COMPANY: company.val(),
+        };
+
+        $.ajax({
+          url: mcUrl,
+          data: mcData,
+          dataType: 'jsonp',
+          success: function (res) {
+            if (res.result === 'success') {
+              $('.contact-success-box h3').css('margin-bottom', '16px');
+              $('.contact-success-box h4').css('display', 'block');
+            }
+          },
+          error: function (res) {
+            if (res.result === 'error') {
+              console.error('FAILURE: ', res.msg);
+              $('.contact-success-box h3').css('margin-bottom', '72px');
+              $('.contact-success-box h4').css('display', 'none');
+            }
+          },
         });
-        $('#contact-send-button').trigger('submit');
       } else {
         $('.contact-success-box h3').css('margin-bottom', '72px');
         $('.contact-success-box h4').css('display', 'none');
@@ -60,6 +83,14 @@ $(document).ready(function () {
         );
     }
   });
+
+  $('#contact-success-button').on('click', function () {
+    resetForm('success');
+  });
+
+  $('#contact-error-button').on('click', function () {
+    resetForm('error');
+  });
 });
 
 function validate(fieldName, element) {
@@ -86,25 +117,14 @@ function validate(fieldName, element) {
   }
 }
 
-function isSubscribeNewsletter(res) {
-  $('.contact-form').trigger('reset');
-  if (res.result === 'success') {
-    $('.contact-success-box h3').css('margin-bottom', '16px');
-    $('.contact-success-box h4').css('display', 'block');
-  } else {
-    console.error('FAILURE: ', res.msg);
-  }
-  return false;
-}
-
 function isSendEmail(status) {
   $('.contact-form').trigger('reset').css('display', 'none');
   $('.spinner-border').removeAttr('style');
   $('#contact-send-button').removeAttr('style disabled');
   $('.contact-' + status + '-box').css('display', 'block');
-  $('#contact-' + status + '-button').on('click', function () {
-    $('.contact-form').trigger('reset');
-    $('.contact-' + status + '-box').css('display', 'none');
-    $('.contact-form').css('display', 'block');
-  });
+}
+
+function resetForm(status) {
+  $('#contact-form').trigger('reset').css('display', 'block');
+  $('.contact-' + status + '-box').css('display', 'none');
 }
