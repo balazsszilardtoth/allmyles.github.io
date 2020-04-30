@@ -31,15 +31,15 @@ function setPackage() {
 
   // Set total value
   setTotalValue(0, 0, 20); // Free trial, 20 EUR per month
-  setTotalValue(1, 599, input.val() * 0.1); // Essential, number of searches * cost per search
-  setTotalValue(600, 1499, input.val() * 0.09 * 30); // Professional, number of searches * cost per search * 30 days
-  setTotalValue(1500, 3000, input.val() * 0.06 * 30); // Unlimited, number of searches * cost per search * 30 days
+  setTotalValue(1, 599, input.val() * 0.1); // Cub, number of searches * cost per search
+  setTotalValue(600, 1499, input.val() * 0.09 * 30); // Geek, number of searches * cost per search * 30 days
+  setTotalValue(1500, 3000, input.val() * 0.06 * 30); // Growth hacker, number of searches * cost per search * 30 days
 
   // Set 'Best fit' frame
   setBestFit(0, 0, packages[0]); // Free trial
-  setBestFit(1, 599, packages[1]); // Essential
-  setBestFit(600, 1499, packages[2]); // Professional
-  setBestFit(1500, 3000, packages[3]); // Unlimited
+  setBestFit(1, 599, packages[1]); // Cub
+  setBestFit(600, 1499, packages[2]); // Geek
+  setBestFit(1500, 3000, packages[3]); // Growth hacker
 
   // Disappears some illustrations
   hideDesk(1, desks[2]); // Backend

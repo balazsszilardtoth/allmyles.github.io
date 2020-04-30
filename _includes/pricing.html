@@ -37,7 +37,8 @@
             <span class="pricing-monthly">1500</span>
             <p>daily visitors</p>
           </div>
-          <input type="range" id="pricing-range" min="0" max="3000" value="1500" />
+          <input type="range" id="pricing-range" min="0" max="3000"
+            value="1500" />
           <div class="pricing-text">
             <p>Your monthly fee is</p>
             <span class="pricing-total">€ 2700</span>
@@ -67,8 +68,7 @@
         <div class="col-3">
           <div class="card">
             <h4>Cub</h4>
-            <img
-              src="{{ '/assets/icons/pricing-essential.svg' | relative_url }}"
+            <img src="{{ '/assets/icons/pricing-cub.svg' | relative_url }}"
               alt="Cub Pricing Tier" />
             <p>One time certification fee</p>
             <h3>€ 3000</h3>
@@ -83,8 +83,7 @@
         <div class="col-3">
           <div class="card">
             <h4>Geek</h4>
-            <img
-              src="{{ '/assets/icons/pricing-professional.svg' | relative_url }}"
+            <img src="{{ '/assets/icons/pricing-geek.svg' | relative_url }}"
               alt="Geek Pricing Tier" />
             <p>One time certification fee</p>
             <h3>€ 5000</h3>
@@ -100,7 +99,7 @@
           <div class="card">
             <h4>Growth hacker</h4>
             <img
-              src="{{ '/assets/icons/pricing-unlimited.svg' | relative_url }}"
+              src="{{ '/assets/icons/pricing-growthHacker.svg' | relative_url }}"
               alt="Growth Hacker Pricing Tier" />
             <p>One time certification fee</p>
             <h3>€ 10 000</h3>
@@ -120,9 +119,9 @@
       <div class="row">
         <div class="col-12">
           <a type="button" class="plans-button" data-toggle="collapse"
-            data-target="#collapsePlans" aria-expanded="false">
+            data-target="#collapsePlans" aria-expanded="true">
           </a>
-          <div class="collapse plans-collapse" id="collapsePlans">
+          <div class="collapse show plans-collapse" id="collapsePlans">
             <div class="d-none d-md-block">
               <table class="table">
                 <thead>
@@ -136,17 +135,17 @@
                   <tr>
                     <td>{{ plan.title }}</td>
                     <td>
-                      {% if plan.essential %}
+                      {% if plan.cub %}
                       <span class="tick-purple"></span>
                       {% endif %}
                     </td>
                     <td>
-                      {% if plan.professional %}
+                      {% if plan.geek %}
                       <span class="tick-purple"></span>
                       {% endif %}
                     </td>
                     <td>
-                      {% if plan.unlimited %}
+                      {% if plan.growthHacker %}
                       <span class="tick-purple"></span>
                       {% endif %}
                     </td>
@@ -156,14 +155,22 @@
               </table>
             </div>
             <div class="d-md-none">
-              {% assign assignPlans = "essential|pro|unlimited" | split: "|" %}
+              {% assign assignPlans = "cub|geek|growthHacker" | split: "|" %}
               <ul class="nav nav-pills" id="pills-tab" role="tablist">
                 {% for value in assignPlans %}
                 <li class="nav-item">
                   <a class="nav-link" id="pills-{{ value }}-tab"
                     data-toggle="pill" href="#pills-{{ value }}" role="tab"
                     aria-controls="pills-{{ value }}" aria-selected="false">
-                    {{ value | capitalize }}
+                    {% if value == "cub" %}
+                    Cub
+                    {% endif %}
+                    {% if value == "geek" %}
+                    Geek
+                    {% endif %}
+                    {% if value == "growthHacker" %}
+                    Growth hacker
+                    {% endif %}
                   </a>
                 </li>
                 {% endfor %}
@@ -179,14 +186,13 @@
                       <tr>
                         <td>{{ plan.title }}</td>
                         <td>
-                          {% if value == "essential" and plan.essential %}
+                          {% if value == "cub" and plan.cub %}
                           <span class="tick-purple"></span>
                           {% endif %}
-                          {% if value == "pro" and plan.professional
-                          %}
+                          {% if value == "geek" and plan.geek %}
                           <span class="tick-purple"></span>
                           {% endif %}
-                          {% if value == "unlimited" and plan.unlimited %}
+                          {% if value == "growthHacker" and plan.growthHacker %}
                           <span class="tick-purple"></span>
                           {% endif %}
                         </td>
