@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Travel booking APIs — Flight API, Hotel API, Car Rental API
+title: Flight APIs Hotel APIs CarRental APIs
 description: Allmyles is the home of Revolutionary travel APIs for booking flight, hotel, car rental for startups, rebels and outsiders with relevant growhacking experinence
 permalink: /
 slug: home
