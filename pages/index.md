@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FlightAPIs HotelAPIs CarRentalAPIs
+title: Flight APIs Hotel APIs CarRental APIs
 description: Travel APIs by Allmyles | Global Flight, Hotel and Car Rental booking APIs providing access to bookable travel content to let you build innovative applications.
 permalink: /
 slug: home
