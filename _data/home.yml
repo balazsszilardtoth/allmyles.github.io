@@ -1,6 +1,6 @@
 faqs:
   questions:
-    - question: How are people using the allmyles API?
-      answer: Allmyles API is a RESTful thus completely platform independent stack of travel APIs including Flights API, Hotels API and CarRental API. Our clients find us with a new business model that is unique in the travel industry but may already become a success on other areas. There are travel clubs using our Travel API, but it is used for corporate travel websites and it can even be integrated into native applications like one of our biggest customers did it.
+    - question: How are people using the Allmyles Travel APIs?
+      answer: Allmyles Travel APIs are RESTful web services thus completely platform independent stack of travel APIs including Flights APIs, Hotels APIs and CarRental APIs. Our clients find us with a new business model that is unique in the travel industry but may already become a success on other areas. There are travel clubs using our Travel APIs, but it is used for corporate travel websites and it can even be integrated into native applications like one of our biggest customers did it.
     - question: How do you get all airline, hotel, and car rental prices?
-      answer: Behind Allmyles Travel API we gather travel content from different sources, but most importantly we consolidate content providers to let our customers keep their travellers on their own website or native application during the full user journey without any redirection to third party websites.
+      answer: Behind Allmyles Travel APIs we gather travel content from different sources, but most importantly we consolidate content providers to let our customers keep their travellers on their own website or native application during the full user journey without any redirection to third party websites.
