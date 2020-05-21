@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Revolutionary Travel APIs
+title: Allmyles Travel APIs
 email: info@allmyles.com
 description: >- # this means to ignore newlines until "baseurl:"
   Travel APIs for Flights, Hotels, Car rental by Allmyles. The only Global Travel booking API provides access
