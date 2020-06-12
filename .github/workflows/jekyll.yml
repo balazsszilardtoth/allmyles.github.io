@@ -2,9 +2,9 @@ name: Jekyll CI
 
 on:
   push:
-    branches: [master]
+    branches: [release]
   pull_request:
-    branches: [master]
+    branches: [release]
 
 jobs:
   build_and_deploy:
@@ -44,5 +44,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
+          BRANCH: master
           FOLDER: _site
