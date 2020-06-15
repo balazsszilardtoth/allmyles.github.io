@@ -12,12 +12,9 @@
 <script src="{{ '/assets/js/cookie-consent.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/tawk-io.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/mailchimp.js' | relative_url }}"></script>
-
-{% if jekyll.environment == 'production' %}
 <script src="{{ '/assets/js/google-tag-manager.js' | relative_url }}"></script>
 {% include gtm-noscript.html %}
 <script src="{{ '/assets/js/facebook-pixel-code.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/facebook-pixel-script.js' | relative_url }}">
 </script>
 {% include facebook-pixel-script-noscript.html %}
-{% endif %}
