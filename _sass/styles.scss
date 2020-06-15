@@ -1,10 +1,14 @@
+// External
+@import 'external/aeonik';
+
 // Base
 @import 'base/colors';
 @import 'base/fonts';
 @import 'base/global';
 
-// External
-@import 'external/aeonik';
+// Layouts
+@import 'layouts/entry';
+@import 'layouts/post';
 
 // Includes
 @import 'includes/404';
@@ -27,7 +31,3 @@
 @import 'includes/privacy';
 @import 'includes/sign-up';
 @import 'includes/terms';
-
-// Layouts
-@import 'layouts/entry';
-@import 'layouts/post';
