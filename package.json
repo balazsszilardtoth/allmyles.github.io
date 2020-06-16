@@ -1,5 +1,5 @@
 {
-  "name": "allmylesweb-sandbox",
+  "name": "allmyles.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -11,17 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/allmyles/allmylesweb-sandbox.git"
+    "url": "git+https://github.com/allmyles/allmyles.github.io.git"
   },
   "keywords": [
-    "jekyll"
+    "jekyll",
+    "gulp"
   ],
   "author": "Erik Herczeg",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/allmyles/allmylesweb-sandbox/issues"
+    "url": "https://github.com/allmyles/allmyles.github.io/issues"
   },
-  "homepage": "https://github.com/allmyles/allmylesweb-sandbox#readme",
+  "homepage": "https://github.com/allmyles/allmyles.github.io#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
