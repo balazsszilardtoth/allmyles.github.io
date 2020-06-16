@@ -1,5 +1,5 @@
 {
-  "name": "allmylesweb-sandbox",
+  "name": "allmyles.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -11,30 +11,31 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/allmyles/allmylesweb-sandbox.git"
+    "url": "git+https://github.com/allmyles/allmyles.github.io.git"
   },
   "keywords": [
-    "jekyll"
+    "jekyll",
+    "gulp"
   ],
   "author": "Erik Herczeg",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/allmyles/allmylesweb-sandbox/issues"
+    "url": "https://github.com/allmyles/allmyles.github.io/issues"
   },
-  "homepage": "https://github.com/allmyles/allmylesweb-sandbox#readme",
+  "homepage": "https://github.com/allmyles/allmyles.github.io#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-terser": "^1.2.0"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.16.0"
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
