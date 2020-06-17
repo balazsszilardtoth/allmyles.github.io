@@ -36,9 +36,26 @@ jobs:
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
 
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: Cache npm dependencies
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install NPM
+        run: |
+          npm ci
+
       - name: Build Jekyll site
         run: |
-          bundle exec jekyll build
+          npm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
