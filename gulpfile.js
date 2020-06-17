@@ -116,6 +116,7 @@ gulp.task('serve', function (done) {
 gulp.task('watch', function (done) {
   gulp.watch(
     [
+      '_data/**/*.yml',
       '_includes/**/*.html',
       '_layouts/**/*.html',
       '_posts/**/*.md',
