@@ -22,8 +22,8 @@ These are the other commands in `gulpfile.js`:
 * `gulp` - Run development server in watch mode as `npm run start`.
 * `gulp build` - Build production files as `npm run build`.
 * `gulp watch` - Run in tests in watch mode as `npm run watch`.
-* `gulp bootstrap-scss` - Compile Bootstrap SCSS to CSS.
-* `gulp bootstrap-js` - Compile Bootstrap JS.
+* `gulp bootstrap-css` - Compile Bootstrap SCSS to CSS.
+* `gulp bootstrap-js` - Compile JQuery, Popper.js and Bootstrap JS.
 * `gulp bootstrap-clean` - Delete compiled Bootstrap CSS and JS.
 * `gulp js` - Compile partials to `main.js` file.
 * `gulp js-clean` - Delete compiled `main.js` file.

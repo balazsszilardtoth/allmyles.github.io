@@ -18,8 +18,9 @@
     href="{{ '/assets/fonts/Aeonik/Aeonik-Medium.otf' | relative_url }}"
     as="font" type="font/otf" crossorigin />
   <link rel="stylesheet"
-    href="{{ '/assets/css/bootstrap.css' | relative_url }}" />
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+    href="{{ '/assets/css/bootstrap.min.css' | relative_url }}?{{ site.time | date: '%s%N' }}" />
+  <link rel="stylesheet"
+    href="{{ '/assets/css/main.css' | relative_url }}?{{ site.time | date: '%s%N' }}" />
   <link rel="prefetch"
     href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
     as="style" onload="this.onload=null;this.rel='stylesheet'" />

@@ -31,9 +31,9 @@ function setPackage() {
 
   // Set total value
   setTotalValue(0, 0, 20); // Free trial, 20 EUR per month
-  setTotalValue(1, 599, input.val() * 0.9); // Cub, number of searches * cost per search
-  setTotalValue(600, 1499, input.val() * 0.09); // Geek, number of searches * cost per search
-  setTotalValue(1500, 3000, input.val() * 0.06); // Growth hacker, number of searches * cost per search
+  setTotalValue(1, 599, input.val() * 0.6 * 30); // Cub, number of searches * cost per search * 30 days
+  setTotalValue(600, 1499, input.val() * 0.09 * 30); // Geek, number of searches * cost per search * 30 days
+  setTotalValue(1500, 3000, input.val() * 0.06 * 30); // Growth hacker, number of searches * cost per search * 30 days
 
   // Set 'Best fit' frame
   setBestFit(0, 0, packages[0]); // Free trial

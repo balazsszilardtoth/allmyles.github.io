@@ -26,13 +26,14 @@ function doSpawn(argument, cb) {
   child.on('close', browserSync.reload).on('exit', cb);
 }
 
-gulp.task('bootstrap-scss', function () {
+gulp.task('bootstrap-css', function () {
   const processors = [autoprefixer, cssnano];
   return gulp
     .src('node_modules/bootstrap/scss/bootstrap.scss')
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss(processors))
+    .pipe(concat('bootstrap.min.css'))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('assets/css'));
 });
@@ -45,17 +46,13 @@ gulp.task('bootstrap-js', function () {
       'node_modules/bootstrap/dist/js/bootstrap.min.js',
     ])
     .pipe(sourcemaps.init())
+    .pipe(concat('bootstrap.bundle.min.js'))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('assets/js'));
 });
 
 gulp.task('bootstrap-clean', function (done) {
-  del([
-    'assets/css/bootstrap*',
-    'assets/js/jquery*',
-    'assets/js/popper*',
-    'assets/js/bootstrap*',
-  ]);
+  del(['assets/css/bootstrap*', 'assets/js/bootstrap*']);
   done();
 });
 
@@ -131,6 +128,6 @@ gulp.task('watch', function (done) {
   done();
 });
 
-gulp.task('build', gulp.series('clean', 'jekyll-build'));
+gulp.task('build', gulp.series('clean', 'css', 'js', 'jekyll-build'));
 
 gulp.task('default', gulp.series('serve', 'watch'));
