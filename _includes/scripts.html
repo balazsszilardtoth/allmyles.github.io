@@ -2,19 +2,12 @@
   <div class="no-js">Please enable JavaScript to use this page!</div>
 </noscript>
 <script defer
-  src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}?{{ site.time | date: '%s%N' }}">
-</script>
-<script
-  src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
-  data-cfasync="false">
-</script>
-<script defer
-  src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
+  src="{{ '/assets/js/vendor.bundle.min.js' | relative_url }}?{{ site.time | date: '%s%N' }}">
 </script>
 <script defer src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js"
   data-dojo-config="usePlainJson: true, isDebug: false"></script>
 <script defer
-  src="{{ '/assets/js/main.js' | relative_url }}?{{ site.time | date: '%s%N' }}">
+  src="{{ '/assets/js/main.min.js' | relative_url }}?{{ site.time | date: '%s%N' }}">
 </script>
 {% include gtm-noscript.html %}
 {% include facebook-pixel-script-noscript.html %}
