@@ -3,8 +3,7 @@
   contents:
     - text:
         "In order to use our services, you have to sign up on the
-        <a href=\"https://allmyles.com\" target=\"_blank\">https://allmyles.com</a> website (\"Website\").\n
-        For registration, you have to give the following information:"
+        <a href=\"https://allmyles.com\" target=\"_blank\">https://allmyles.com</a> website (\"Website\").<br>For registration, you have to give the following information:"
     - list:
         - full name;
         - e-mail address;
@@ -60,7 +59,7 @@
 - title: For what purposes is the personal data processed?
   short-summary:
   contents:
-    - text: "Allmyles Ltd. uses your personal data solely for the following purposes:\n
+    - text: "Allmyles Ltd. uses your personal data solely for the following purposes:<br>
       providing our services to you in connection with the Allmyles API,
       including but not limited to providing you with any necessary information
       related to the services, fixing any technical problems and sending system
@@ -114,8 +113,8 @@
         protection of your personal data against unauthorized access, damages or
         losses, and we train our employees to comply with all applicable legal
         provisions regarding the processing of your personal data.
-    - text: "Supervisory authority:\n
+    - text: "Supervisory authority:<br>
         Hungarian National Authority for Data Protection and Freedom of
         Information"
-    - text: "Data processing registration number:\n
+    - text: "Data processing registration number:<br>
         [NAIH-74206/2014.] [Budapest], [7th December 2013]"
