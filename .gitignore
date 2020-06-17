@@ -6,3 +6,5 @@ vendor
 node_modules
 Gemfile.lock
 .DS_Store
+assets/css/main*
+assets/js/main*
