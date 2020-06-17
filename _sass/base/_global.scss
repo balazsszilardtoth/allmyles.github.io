@@ -193,6 +193,16 @@ noscript {
   }
 }
 
+.lazyload,
+.lazyloading {
+  opacity: 0;
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 100ms;
+}
+
 .btn {
   padding: 12px 24px;
   min-width: 186px;
