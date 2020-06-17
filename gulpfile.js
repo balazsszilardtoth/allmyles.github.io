@@ -26,33 +26,40 @@ function doSpawn(argument, cb) {
   child.on('close', browserSync.reload).on('exit', cb);
 }
 
-gulp.task('bootstrap-css', function () {
+gulp.task('vendor-css', function () {
   const processors = [autoprefixer, cssnano];
   return gulp
-    .src('node_modules/bootstrap/scss/bootstrap.scss')
+    .src([
+      'node_modules/bootstrap/scss/bootstrap.scss',
+      'node_modules/cookieconsent/build/cookieconsent.min.css',
+    ])
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss(processors))
-    .pipe(concat('bootstrap.min.css'))
+    .pipe(concat('vendor.min.css'))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('assets/css'));
 });
 
-gulp.task('bootstrap-js', function () {
+gulp.task('vendor-js', function () {
   return gulp
     .src([
       'node_modules/jquery/dist/jquery.min.js',
       'node_modules/popper.js/dist/umd/popper.min.js',
       'node_modules/bootstrap/dist/js/bootstrap.min.js',
+      'node_modules/lazysizes/lazysizes.min.js',
+      'node_modules/cookieconsent/build/cookieconsent.min.js',
+      'node_modules/emailjs-com/dist/email.min.js',
     ])
     .pipe(sourcemaps.init())
-    .pipe(concat('bootstrap.bundle.min.js'))
+    .pipe(concat('vendor.bundle.min.js'))
+    .pipe(terser())
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('assets/js'));
 });
 
-gulp.task('bootstrap-clean', function (done) {
-  del(['assets/css/bootstrap*', 'assets/js/bootstrap*']);
+gulp.task('vendor-clean', function (done) {
+  del(['assets/css/vendor*', 'assets/js/vendor*']);
   done();
 });
 
@@ -63,7 +70,7 @@ gulp.task('css', function () {
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss(processors))
-    .pipe(concat('main.css'))
+    .pipe(concat('main.min.css'))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('assets/css'));
 });
@@ -77,7 +84,7 @@ gulp.task('js', function () {
   return gulp
     .src('assets/js/partials/**.js')
     .pipe(sourcemaps.init())
-    .pipe(concat('main.js'))
+    .pipe(concat('main.min.js'))
     .pipe(terser())
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('assets/js'));
