@@ -25,7 +25,9 @@ These are the other commands in `gulpfile.js`:
 - `gulp vendor-css` - Compile vendor CSS.
 - `gulp vendor-js` - Compile vendor JS.
 - `gulp vendor-clean` - Delete compiled vendor CSS and JS.
-- `gulp js` - Compile partials to `main.min.js` file.
+- `gulp css` - Compile CSS/SCSS partials to `main.min.css` file.
+- `gulp css-clean` - Delete compiled `main.min.css` file.
+- `gulp js` - Compile JS partials to `main.min.js` file.
 - `gulp js-clean` - Delete compiled `main.min.js` file.
 
 ### EmailJS configuration
