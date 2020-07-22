@@ -1,9 +1,35 @@
-<script defer src="{{ '/assets/js/vendor.bundle.min.js' | relative_url }}">
-</script>
-<script defer
-  src="{{ '/assets/js/mailchimp-signup-forms.popup.embed.js' | relative_url }}"
-  data-dojo-config="usePlainJson: true, isDebug: false"></script>
-<script defer src="{{ '/assets/js/main.min.js' | relative_url }}">
+<script defer>
+  document.addEventListener('DOMContentLoaded', function () {
+    ! function (s, e, a) {
+      function r() {
+        for (; o[0] && 'loaded' == o[0][c];) i = o.shift(), i[u] = !l
+          .parentNode
+          .insertBefore(i, l)
+      }
+      for (let t, n, i, o = [], l = s.scripts[0], u = 'onreadystatechange',
+          c =
+          'readyState'; t = a.shift();) n = s.createElement(e), 'async' in
+        l ?
+        (n
+          .async = !1, s.body.appendChild(n)) : l[c] ? (o.push(n), n[u] =
+          r) :
+        s
+        .write("<" + e + ' src="' + t.src + '" ' + t.s ? t.s + '="' + t.t :
+          "" +
+          '" defer></' + e + ">"), n.src = t.src, t.s ? n.setAttribute(t.s,
+          t
+          .t) :
+        false
+    }(document, "script", [{
+      src: "{{ '/assets/js/vendor.bundle.min.js' | relative_url }}"
+    }, {
+      src: "{{ '/assets/js/mailchimp-signup-forms.popup.embed.js' | relative_url }}",
+      s: "data-dojo-config",
+      t: "usePlainJson: true, isDebug: false"
+    }, {
+      src: "{{ '/assets/js/main.min.js' | relative_url }}"
+    }]);
+  });
 </script>
 {% include enabling-js-noscript.html %}
 {% include gtm-noscript.html %}
