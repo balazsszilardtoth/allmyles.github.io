@@ -1,4 +1,4 @@
-window.addEventListener('load', function () {
+$(document).ready(function () {
   window.cookieconsent.initialise({
     palette: {
       popup: { background: '#000' },
@@ -7,6 +7,6 @@ window.addEventListener('load', function () {
     theme: 'classic',
     position: 'bottom-left',
     type: 'opt-out',
-    content: { href: '/privacy' },
+    content: { href: '/privacy-and-terms/' },
   });
 });
