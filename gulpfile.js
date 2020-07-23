@@ -5,6 +5,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
+const purgecss = require('@fullhuman/postcss-purgecss');
 const concat = require('gulp-concat');
 const terser = require('gulp-terser');
 const del = require('del');
@@ -27,12 +28,15 @@ function doSpawn(argument, cb) {
 }
 
 gulp.task('vendor-css', function () {
-  const processors = [autoprefixer, cssnano];
+  const processors = [
+    purgecss({
+      content: ['./_includes/**/*.html', './_layouts/**/*.html'],
+    }),
+    autoprefixer,
+    cssnano,
+  ];
   return gulp
-    .src([
-      'node_modules/bootstrap/scss/bootstrap.scss',
-      'node_modules/cookieconsent/build/cookieconsent.min.css',
-    ])
+    .src(['node_modules/bootstrap/scss/bootstrap.scss'])
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss(processors))
@@ -45,8 +49,7 @@ gulp.task('vendor-js', function () {
   return gulp
     .src([
       'node_modules/jquery/dist/jquery.min.js',
-      'node_modules/popper.js/dist/umd/popper.min.js',
-      'node_modules/bootstrap/dist/js/bootstrap.min.js',
+      'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
       'node_modules/lazysizes/lazysizes.min.js',
       'node_modules/cookieconsent/build/cookieconsent.min.js',
       'node_modules/emailjs-com/dist/email.min.js',
@@ -60,6 +63,23 @@ gulp.task('vendor-js', function () {
 
 gulp.task('vendor-clean', function (done) {
   del(['assets/css/vendor*', 'assets/js/vendor*']);
+  done();
+});
+
+gulp.task('cookieconsent-css', function () {
+  const processors = [autoprefixer, cssnano];
+  return gulp
+    .src('node_modules/cookieconsent/build/cookieconsent.min.css')
+    .pipe(sourcemaps.init())
+    .pipe(sass().on('error', sass.logError))
+    .pipe(postcss(processors))
+    .pipe(concat('cookieconsent.min.css'))
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest('assets/css'));
+});
+
+gulp.task('cookieconsent-clean', function (done) {
+  del(['assets/css/cookieconsent*']);
   done();
 });
 

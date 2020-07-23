@@ -241,6 +241,14 @@ noscript {
   }
 }
 
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height .35s ease;
+  transition: height .35s ease;
+}
+
 .page {
 
   &-contact,
