@@ -1,5 +1,5 @@
 <script defer>
-  document.addEventListener('DOMContentLoaded', function () {
+  window.onload = function () {
     ! function (s, e, a) {
       function r() {
         for (; o[0] && 'loaded' == o[0][c];) i = o.shift(), i[u] = !l
@@ -29,7 +29,7 @@
     }, {
       src: "{{ '/assets/js/main.min.js' | relative_url }}"
     }]);
-  });
+  };
 </script>
 {% include enabling-js-noscript.html %}
 {% include gtm-noscript.html %}
