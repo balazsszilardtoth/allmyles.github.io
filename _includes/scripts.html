@@ -2,9 +2,8 @@
   window.onload = function () {
     ! function (s, e, a) {
       function r() {
-        for (; o[0] && 'loaded' == o[0][c];) i = o.shift(), i[u] = !l
-          .parentNode
-          .insertBefore(i, l)
+        for (; o[0] && 'loaded' == o[0][c];) i = o.shift(), i[u] = !s.body
+          .appendChild(i)
       }
       for (let t, n, i, o = [], l = s.scripts[0], u = 'onreadystatechange',
           c =
@@ -14,20 +13,27 @@
           .async = !1, s.body.appendChild(n)) : l[c] ? (o.push(n), n[u] =
           r) :
         s
-        .write("<" + e + ' src="' + t.src + '" ' + t.s ? t.s + '="' + t.t :
+        .write("<" + e + ' src="' + t
+          .v + '" ' + t.w ?
+          t.w + '="' + t.x :
           "" +
-          '" defer></' + e + ">"), n.src = t.src, t.s ? n.setAttribute(t.s,
+          '" defer></' + e + ">"), n.defer = !0, n.src = t.v, t
+        .w ? n.setAttribute(t.w,
           t
-          .t) :
+          .x) :
         false
     }(document, "script", [{
-      src: "{{ '/assets/js/vendor.bundle.min.js' | relative_url }}"
+      v: "{{ '/assets/js/vendor.bundle.min.js' | relative_url }}"
     }, {
-      src: "{{ '/assets/js/mailchimp-signup-forms.popup.embed.js' | relative_url }}",
-      s: "data-dojo-config",
-      t: "usePlainJson: true, isDebug: false"
+      v: "{{ '/assets/js/mailchimp-signup-forms.popup.embed.js' | relative_url }}",
+      w: "data-dojo-config",
+      x: "usePlainJson: true, isDebug: false"
     }, {
-      src: "{{ '/assets/js/main.min.js' | relative_url }}"
+      v: "{{ '/assets/js/facebook-sdk.min.js' | relative_url }}",
+      w: "id",
+      x: "facebook-jssdk"
+    }, {
+      v: "{{ '/assets/js/main.min.js' | relative_url }}"
     }]);
   };
 </script>
