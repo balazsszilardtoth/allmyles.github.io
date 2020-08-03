@@ -49,7 +49,10 @@ gulp.task('vendor-js', function () {
   return gulp
     .src([
       'node_modules/jquery/dist/jquery.min.js',
-      'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
+      'node_modules/bootstrap/js/dist/util.js',
+      'node_modules/bootstrap/js/dist/collapse.js',
+      'node_modules/bootstrap/js/dist/dropdown.js',
+      'node_modules/bootstrap/js/dist/tab.js',
       'node_modules/cookieconsent/build/cookieconsent.min.js',
       'node_modules/emailjs-com/dist/email.min.js',
     ])
