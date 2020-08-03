@@ -16,7 +16,6 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-google-tag-manager" # Google Tag Manager
   gem "jekyll-seo-tag" # SEO
   gem "jekyll-redirect-from" # 301 redirection for old urls cached by google SERP
   gem 'jekyll-sitemap' # autogenerates sitemap instead of storing sitemap.xml in root directory

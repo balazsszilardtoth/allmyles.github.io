@@ -42,10 +42,6 @@ logo: /assets/images/logo.svg
 webmaster_verifications:
   google: tB_3wuPCitQ4x9xONjL160sH4Ub7rDV6yq3USlPKvZ4
 
-google:
-  tag_manager:
-    container_id: GTM-WMV9FM
-
 emailjs:
   emailjs_user_id: user_6FCkb3OgmY5lTB3UshvHj
   emailjs_service_id: mandrill
@@ -57,7 +53,6 @@ mailchimp_newsletter_form_action_url: https://allmyles.us8.list-manage.com/subsc
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-google-tag-manager
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-sitemap
