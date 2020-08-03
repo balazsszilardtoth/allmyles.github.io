@@ -48,7 +48,7 @@ gulp.task('vendor-css', function () {
 gulp.task('vendor-js', function () {
   return gulp
     .src([
-      'node_modules/jquery/dist/jquery.min.js',
+      'node_modules/jquery/dist/jquery.slim.min.js',
       'node_modules/bootstrap/js/dist/util.js',
       'node_modules/bootstrap/js/dist/collapse.js',
       'node_modules/bootstrap/js/dist/dropdown.js',
