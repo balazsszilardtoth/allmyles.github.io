@@ -50,7 +50,6 @@ gulp.task('vendor-js', function () {
     .src([
       'node_modules/jquery/dist/jquery.min.js',
       'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
-      'node_modules/lazysizes/lazysizes.min.js',
       'node_modules/cookieconsent/build/cookieconsent.min.js',
       'node_modules/emailjs-com/dist/email.min.js',
     ])
