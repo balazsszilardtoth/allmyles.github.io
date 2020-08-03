@@ -1,5 +1,6 @@
 <body
   class="{% if page.layout == 'post' %}post{% else %}page page-{{ page.slug }}{% endif %}">
+  {% gtm body %}
   {% include header.html %}
   {% include main.html %}
   {% include footer.html %}
