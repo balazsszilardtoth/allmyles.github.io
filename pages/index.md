@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Flight APIs Hotel APIs CarRental APIs
-description: Flight APIs, Hotel APIs and CarRental APIs providing access to bookable travel content to let you build innovative applications | Allmyles Travel APIs 
+title: Flight API Hotel API CarRental API
+description: Flight API, Hotel API and CarRental API providing access to bookable travel content to let you build innovative applications | Allmyles Flight, Hotel, CarRenal API 
 permalink: /
 slug: home
 image: /assets/images/landing-hero.png
