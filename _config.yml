@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Travel APIs for the Rebels
+title: Travel API for the Rebels
 email: info@allmyles.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Travel APIs for Flights, Hotels, Car rental by Allmyles. The only Global Travel booking API provides access
+  Travel API for Flights, Hotels, Car rental by Allmyles. The only Global Travel booking API provides access
   to bookable travel content to build innovative web or native apps.
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://allmyles.com' # the base hostname & protocol for your site, e.g. http://example.com
