@@ -1,0 +1,8 @@
+{
+  "name": "Allmyles API",
+  "theme_color": "#ffffff",
+  "background_color": "#fff",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/"
+}
