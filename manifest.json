@@ -3,7 +3,7 @@
   "description": "Flight API, Hotel API and CarRental API providing access to bookable travel content to let you build innovative applications Allmyles Flight, Hotel, CarRenal API.",
   "theme_color": "#ffffff",
   "background_color": "#fff",
-  "display": "browser",
+  "display": "standalone",
   "scope": "/",
   "start_url": "/",
   "icons": [
