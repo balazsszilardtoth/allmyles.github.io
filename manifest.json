@@ -12,8 +12,21 @@
          "type": "image/png"
       },
       {
-         "src": "/assets/images/allmyles_logo_512s.png,
+         "src": "/assets/images/allmyles_logo_512s.png",
          "sizes": "512x512",
          "type": "image/png"
       },
+{
+         "purpose": "maskable",
+         "src": "/assets/images/allmyles_logo_192s.png",
+         "sizes": "192x192",
+         "type": "image/png"
+      },
+      {
+         "purpose": "maskable",
+         "src": "/assets/images/allmyles_logo_512s.png",
+         "sizes": "512x512",
+         "type": "image/png"
+      }
+   ]
 }
