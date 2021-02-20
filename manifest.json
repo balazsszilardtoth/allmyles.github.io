@@ -4,7 +4,7 @@
   "background_color": "#fff",
   "display": "browser",
   "scope": "/",
-  "start_url": "/"
+  "start_url": "/",
   "icons": [
       {
          "src": "/assets/images/allmyles_logo_192s.png",
