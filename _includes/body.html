@@ -5,7 +5,8 @@
   {% include main.html %}
   {% include footer.html %}
   {% include scripts.html %}
-if ('serviceWorker' in navigator) {
+<script>
+  if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw-test/sw.js', {scope: './sw-test/'})
   .then((reg) => {
     // registration worked
@@ -15,5 +16,5 @@ if ('serviceWorker' in navigator) {
     console.log('Registration failed with ' + error);
   });
 }
-
+  </script>
 </body>
