@@ -5,6 +5,10 @@ const offlineFallbackPage = "index.html";
 // Install stage sets up the index page (home page) in the cache and opens a new cache
 self.addEventListener("install", function (event) {
   console.log("Install Event processing");
+  
+// Call Avtiate Event
+self.addEventListener("activate", function (event) {
+  console.log("Activate Event processing");
 
   event.waitUntil(
     caches.open(CACHE).then(function (cache) {
