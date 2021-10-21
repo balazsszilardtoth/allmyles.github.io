@@ -5,8 +5,8 @@ a {
 a,
 button,
 input,
-textarea,
-select {
+select,
+textarea {
   border: none;
   box-shadow: none !important;
   outline: none !important;
@@ -22,25 +22,29 @@ h5 {
 }
 
 h1 {
-  font-family: Aeonik Bold;
+  font-family: Rubik;
+  font-weight: 700;
   font-size: $font-size-mega-large;
   line-height: 56px;
 }
 
 h2 {
-  font-family: Aeonik Bold;
+  font-family: Rubik;
+  font-weight: 700;
   font-size: $font-size-extreme-large;
   line-height: 40px;
 }
 
 h3 {
-  font-family: Aeonik Bold;
+  font-family: Rubik;
+  font-weight: 700;
   font-size: $font-size-extra-large;
   line-height: 32px;
 }
 
 h4 {
-  font-family: Aeonik Regular;
+  font-family: Rubik;
+  font-weight: 400;
   font-size: $font-size-large;
   line-height: 24px;
 }
@@ -64,7 +68,7 @@ input[type=checkbox] {
   }
 
   &:checked+label {
-    background: url(./../../assets/icons/checkbox-checked.svg) no-repeat;
+    background: url("./../../assets/icons/checkbox-checked.svg") no-repeat;
     border: 0;
   }
 }
@@ -87,15 +91,15 @@ input[type=range] {
   }
 
   &,
-  &::-moz-range-track,
-  &::-moz-range-thumb {
+  &::-moz-range-thumb,
+  &::-moz-range-track {
     appearance: none;
     -webkit-appearance: none;
   }
 
   &,
-  &::-ms-track,
-  &::-ms-thumb {
+  &::-ms-thumb,
+  &::-ms-track {
     appearance: none;
     -webkit-appearance: none;
   }
@@ -103,7 +107,7 @@ input[type=range] {
   &::-webkit-slider-runnable-track {
     height: 2px;
     background: linear-gradient(to right, $royal-blue, $royal-blue), $spindle;
-    background-size: 0% 100%;
+    background-size: 0 100%;
     background-repeat: no-repeat;
     border-radius: 6px;
   }
@@ -111,7 +115,7 @@ input[type=range] {
   &::-moz-range-track {
     height: 2px;
     background: linear-gradient(to right, $royal-blue, $royal-blue), $spindle;
-    background-size: 0% 100%;
+    background-size: 0 100%;
     background-repeat: no-repeat;
     border-radius: 6px;
   }
@@ -120,7 +124,7 @@ input[type=range] {
     height: 2px;
     color: transparent;
     background: linear-gradient(to right, $royal-blue, $royal-blue), $spindle;
-    background-size: 0% 100%;
+    background-size: 0 100%;
     background-repeat: no-repeat;
     border: none;
     border-radius: 6px;
@@ -179,13 +183,13 @@ noscript {
     text-align: center;
   }
 
-  >img {
+  > img {
     display: none;
     width: 1px;
     height: 1px;
   }
 
-  >iframe {
+  > iframe {
     display: none;
     width: 0;
     height: 0;
@@ -198,7 +202,8 @@ noscript {
   min-width: 186px;
   border: none;
   border-radius: 6px;
-  font-family: Aeonik Medium;
+  font-family: Rubik;
+  font-weight: 500;
   font-size: $font-size-medium;
   line-height: 24px;
 
@@ -235,12 +240,11 @@ noscript {
   position: relative;
   height: 0;
   overflow: hidden;
-  -webkit-transition: height .35s ease;
-  transition: height .35s ease;
+  -webkit-transition: height 0.35s ease;
+  transition: height 0.35s ease;
 }
 
 .page {
-
   &-contact,
   &-faq,
   &-features,
@@ -277,11 +281,11 @@ noscript {
     position: absolute;
 
     &.active {
-      background: url(./../../assets/images/project-manager-active.svg) center/cover no-repeat;
+      background: url("./../../assets/images/project-manager-active.svg") center/cover no-repeat;
     }
 
     &.inactive {
-      background: url(./../../assets/images/project-manager-inactive.svg) center/cover no-repeat;
+      background: url("./../../assets/images/project-manager-inactive.svg") center/cover no-repeat;
     }
 
     &-text {
@@ -293,11 +297,11 @@ noscript {
     position: absolute;
 
     &.active {
-      background: url(./../../assets/images/travel-agent-active.svg) center/cover no-repeat;
+      background: url("./../../assets/images/travel-agent-active.svg") center/cover no-repeat;
     }
 
     &.inactive {
-      background: url(./../../assets/images/travel-agent-inactive.svg) center/cover no-repeat;
+      background: url("./../../assets/images/travel-agent-inactive.svg") center/cover no-repeat;
     }
 
     &-text {
@@ -311,17 +315,17 @@ noscript {
     bottom: 0;
 
     &.active {
-      background: url(./../../assets/images/backend-active.svg) center/cover no-repeat;
+      background: url("./../../assets/images/backend-active.svg") center/cover no-repeat;
     }
 
     &.inactive {
-      background: url(./../../assets/images/backend-inactive.svg) center/cover no-repeat;
+      background: url("./../../assets/images/backend-inactive.svg") center/cover no-repeat;
     }
   }
 
+  .pricing-backend,
   .pricing-project-manager,
-  .pricing-travel-agent,
-  .pricing-backend {
+  .pricing-travel-agent {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -333,10 +337,9 @@ noscript {
     }
 
     &.active {
-
+      .pricing-backend,
       .pricing-project-manager,
-      .pricing-travel-agent,
-      .pricing-backend {
+      .pricing-travel-agent {
         &-text {
           display: none;
         }
@@ -351,19 +354,18 @@ noscript {
     }
 
     p {
-      font-family: Aeonik Medium;
+      font-family: Rubik;
+      font-weight: 500;
       font-size: $font-size-small;
       line-height: 18px;
     }
   }
 }
-
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1240px;
   }
 }
-
 @media screen and (max-width: 991px) {
   h3 {
     font-size: $font-size-large;
@@ -375,7 +377,6 @@ noscript {
     max-width: 472px;
   }
 }
-
 @media screen and (max-width: 767px) {
   h1 {
     font-size: $font-size-extreme-large;

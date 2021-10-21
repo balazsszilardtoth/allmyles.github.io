@@ -1,7 +1,7 @@
 .sign-up {
   &-box {
     margin: 0 auto;
-    padding: 32px 32px 40px 32px;
+    padding: 32px 32px 40px;
     width: 100%;
     max-width: 397px;
     background-color: $white;
@@ -18,7 +18,8 @@
 
     a {
       color: $royal-blue;
-      font-family: Aeonik Medium;
+      font-family: Rubik;
+      font-weight: 500;
       font-size: $font-size-large;
       line-height: 24px;
 
@@ -59,7 +60,7 @@
       right: 0;
       width: 24px;
       height: 24px;
-      background-image: url(./../../assets/icons/eye-default.svg);
+      background-image: url("./../../assets/icons/eye-default.svg");
     }
   }
 
@@ -68,7 +69,7 @@
     flex-direction: row;
     justify-content: center;
     margin-bottom: 24px;
-    padding: 6px 0 0 0;
+    padding: 6px 0 0;
     height: 48px;
     overflow: hidden;
 
@@ -85,7 +86,7 @@
         content: '';
         position: relative;
         display: block;
-        margin: 3px auto 13px auto;
+        margin: 3px auto 13px;
         width: 8px;
         height: 8px;
         background-color: $spindle;
@@ -109,9 +110,8 @@
       }
 
       &.active {
-
-        &::before,
-        &::after {
+        &::after,
+        &::before {
           background-color: $royal-blue;
         }
 
@@ -120,8 +120,7 @@
           margin-bottom: 8px;
           width: 16px;
           height: 16px;
-          box-shadow: 0 0 1px 4px rgba($melrose, .24),
-            0 0 1px 8px rgba($melrose, .24);
+          box-shadow: 0 0 1px 4px rgba($melrose, .24), 0 0 1px 8px rgba($melrose, .24);
         }
       }
     }
@@ -146,7 +145,8 @@
   #third {
     h4 {
       margin-bottom: 12px;
-      font-family: Aeonik Medium;
+      font-family: Rubik;
+      font-weight: 500;
 
       &:last-child {
         margin-top: 10px;
@@ -169,20 +169,20 @@
   }
 
   #first,
-  #third,
-  #fourth {
+  #fourth,
+  #third {
     input {
       margin-bottom: 16px;
     }
   }
 
+  #fourth,
   #second,
-  #third,
-  #fourth {
+  #third {
     height: 0;
     visibility: hidden;
     opacity: 0;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     transform: translateX(300px);
 
     h2 {
@@ -194,33 +194,32 @@
     }
   }
 
-  #third,
-  #fourth {
-
-    .terms,
-    .card-protection {
+  #fourth,
+  #third {
+    .card-protection,
+    .terms {
       color: $regent-gray;
       font-size: $font-size-small;
     }
 
-    .terms-confirmation,
-    .card-protection-confirmation {
+    .card-protection-confirmation,
+    .terms-confirmation {
       display: flex;
       flex-direction: row;
       align-items: center;
       margin-bottom: 16px;
     }
 
-    .terms,
-    .card-protection {
+    .card-protection,
+    .terms {
       a {
         font-size: $font-size-small;
         margin-left: 4px;
       }
     }
 
-    .terms,
-    .card-protection {
+    .card-protection,
+    .terms {
       small {
         display: block;
         font-size: 12px;
@@ -241,7 +240,8 @@
       color: $violet;
       background-color: $hawkes-blue;
       border-radius: 24px;
-      font-family: Aeonik Medium;
+      font-family: Rubik;
+      font-weight: 500;
       font-size: $font-size-medium;
       line-height: 24px;
       text-align: center;
@@ -282,7 +282,7 @@
       height: 4px;
       background-color: $alto;
       border-radius: 2px;
-      transition: background-color .3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
 
       &.color {
         &-royal-blue {

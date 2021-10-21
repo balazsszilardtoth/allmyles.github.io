@@ -16,17 +16,18 @@
 
   a {
     color: $royal-blue;
-    font-family: Aeonik Medium;
+    font-family: Rubik;
+    font-weight: 500;
     font-size: 18px;
     line-height: 24px;
   }
 
+  .book,
   .bookable,
-  .payment-clutch,
   .boosted,
   .dashboard,
-  .travel,
-  .book {
+  .payment-clutch,
+  .travel {
     &-section {
       .row {
         align-items: center;
@@ -51,7 +52,7 @@
   }
 
   .online-travel-merchant-section p {
-    margin: 0 auto 27px auto;
+    margin: 0 auto 27px;
   }
 
   .travel-content-integration-section {
@@ -100,7 +101,7 @@
     background: $royal-blue;
     color: $white;
     border-radius: 12px;
-    opacity: .8;
+    opacity: 0.8;
 
     h2 {
       color: $white;
@@ -118,7 +119,6 @@
     }
   }
 }
-
 @media screen and (min-width: 992px) {
   .features {
     .bookable-section {
@@ -130,7 +130,7 @@
     }
 
     .payment-clutch-section {
-      margin: 0 0 126px 0;
+      margin: 0 0 126px;
 
       .col-12:first-child {
         padding-right: 130px;
@@ -138,7 +138,7 @@
     }
 
     .boosted-section {
-      margin: 0 0 120px 0;
+      margin: 0 0 120px;
 
       .col-12:last-child {
         padding-left: 105px;
@@ -146,7 +146,7 @@
     }
 
     .dashboard-section {
-      margin: 144px 0 148px 0;
+      margin: 144px 0 148px;
 
       .col-12:last-child {
         padding-left: 130px;
@@ -154,7 +154,7 @@
     }
 
     .travel-section {
-      margin: 0 0 113px 0;
+      margin: 0 0 113px;
 
       .col-12:first-child {
         padding-right: 120px;
@@ -162,7 +162,7 @@
     }
 
     .book-section {
-      margin: 0 0 116px 0;
+      margin: 0 0 116px;
 
       .col-12:last-child {
         padding-left: 100px;
@@ -170,7 +170,7 @@
     }
 
     .online-travel-merchant-section {
-      margin: 167px 0 184px 0;
+      margin: 167px 0 184px;
 
       p {
         max-width: 608px;
@@ -178,12 +178,12 @@
     }
 
     .travel-content-integration-section .container {
-      padding: 84px 105px 65px 105px;
+      padding: 84px 105px 65px;
     }
 
     .customers-service-shine {
       &-section .container {
-        padding: 76px 105px 44px 105px;
+        padding: 76px 105px 44px;
       }
 
       &-image img {
@@ -193,7 +193,6 @@
     }
   }
 }
-
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .features {
     .bookable-section img {
@@ -226,7 +225,6 @@
     }
   }
 }
-
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .features {
     .bookable-section {
@@ -234,27 +232,27 @@
     }
 
     .payment-clutch-section {
-      margin: 0 0 101px 0;
+      margin: 0 0 101px;
     }
 
     .boosted-section {
-      margin: 0 0 90px 0;
+      margin: 0 0 90px;
     }
 
     .dashboard-section {
-      margin: 120px 0 148px 0;
+      margin: 120px 0 148px;
     }
 
     .travel-section {
-      margin: 0 0 100px 0;
+      margin: 0 0 100px;
     }
 
     .book-section {
-      margin: 0 0 90px 0;
+      margin: 0 0 90px;
     }
 
     .online-travel-merchant-section {
-      margin: 110px 0 126px 0;
+      margin: 110px 0 126px;
 
       p {
         max-width: 475px;
@@ -262,28 +260,27 @@
     }
 
     .travel-content-integration-section .container {
-      padding: 72px 24px 50px 24px;
+      padding: 72px 24px 50px;
       max-width: 100%;
       border-radius: 0;
     }
 
     .customers-service-shine {
       &-section .container {
-        padding: 75px 24px 44px 24px;
+        padding: 75px 24px 44px;
         max-width: 100%;
         border-radius: 0;
       }
     }
   }
 }
-
 @media screen and (min-width: 768px) {
   .features {
     .online-travel-merchant-section {
       text-align: center;
 
       h2 {
-        margin: 0 auto 38px auto;
+        margin: 0 auto 38px;
         width: 500px;
         font-size: $font-size-mega-large;
         line-height: 56px;
@@ -291,21 +288,20 @@
     }
   }
 }
-
 @media screen and (max-width: 767px) {
   .features {
     h2 {
       font-size: $font-size-extreme-large;
     }
 
+    .book,
     .bookable,
-    .payment-clutch,
     .boosted,
     .dashboard,
-    .travel,
-    .book {
+    .payment-clutch,
+    .travel {
       &-section {
-        margin: 0 0 50px 0;
+        margin: 0 0 50px;
       }
     }
 
@@ -344,19 +340,19 @@
     }
 
     .online-travel-merchant-section {
-      margin: 76px 0 61px 0;
+      margin: 76px 0 61px;
 
       h2 {
         margin-bottom: 20px;
       }
 
       p {
-        margin: 0 0 27px 0;
+        margin: 0 0 27px;
       }
     }
 
     .travel-content-integration-section .container {
-      padding: 46px 16px 26px 16px;
+      padding: 46px 16px 26px;
       border-radius: 0;
 
       h2 {
@@ -370,7 +366,7 @@
 
     .customers-service-shine {
       &-section .container {
-        padding: 50px 16px 26px 16px;
+        padding: 50px 16px 26px;
         border-radius: 0;
       }
 

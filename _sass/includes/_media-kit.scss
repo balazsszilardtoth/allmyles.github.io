@@ -4,16 +4,18 @@
   }
 
   h3 {
-    font-family: Aeonik Regular;
+    font-family: Rubik;
+    font-weight: 400;
     margin-bottom: 80px;
   }
 
   h4 {
-    font-family: Aeonik Medium;
+    font-family: Rubik;
+    font-weight: 500;
   }
 
-  .favourite-allmyles-stories,
   .describing-allmyles,
+  .favourite-allmyles-stories,
   .photo-assets {
     &-section {
       margin-bottom: 80px;
@@ -24,8 +26,8 @@
     margin-bottom: 40px;
   }
 
-  .favourite-allmyles-stories,
-  .describing-allmyles {
+  .describing-allmyles,
+  .favourite-allmyles-stories {
     &-section {
       h2 {
         margin-bottom: 24px;
@@ -71,7 +73,8 @@
     }
 
     p {
-      font-family: Aeonik Medium;
+      font-family: Rubik;
+      font-weight: 500;
       color: $violet;
     }
   }
@@ -139,7 +142,6 @@
     }
   }
 }
-
 @media screen and (max-width: 1199px) {
   .media-kit {
     .favourite-allmyles-stories-section {
@@ -174,7 +176,6 @@
     }
   }
 }
-
 @media screen and (max-width: 991px) {
   .media-kit {
     h3 {
@@ -183,7 +184,6 @@
     }
   }
 }
-
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .media-kit {
     .favourite-allmyles-stories-section {
@@ -193,7 +193,6 @@
     }
   }
 }
-
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .media-kit {
     .favourite-allmyles-stories-section {
@@ -210,10 +209,8 @@
     }
   }
 }
-
 @media screen and (min-width: 768px) {
   .media-kit {
-
     h1,
     h3 {
       text-align: center;
@@ -225,7 +222,6 @@
     }
   }
 }
-
 @media screen and (max-width: 767px) {
   .media-kit {
     h1 {
@@ -233,8 +229,8 @@
       line-height: 32px;
     }
 
-    .favourite-allmyles-stories,
-    .describing-allmyles {
+    .describing-allmyles,
+    .favourite-allmyles-stories {
       &-section {
         h2 {
           font-size: $font-size-extreme-large;

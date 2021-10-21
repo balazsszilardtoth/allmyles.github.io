@@ -8,7 +8,7 @@
   .features-section {
     img {
       display: block;
-      margin: 0 auto 8px auto;
+      margin: 0 auto 8px;
       width: 71px;
       height: 93px;
     }
@@ -16,25 +16,26 @@
     h3 {
       margin-bottom: 8px;
       color: $violet;
-      font-family: Aeonik Medium;
+      font-family: Rubik;
+      font-weight: 500;
     }
 
     a {
-      margin: 40px auto 0 auto;
+      margin: 40px auto 0;
     }
   }
 
   .map-section {
     p {
       margin-bottom: 0;
-      font-family: Aeonik Light;
+      font-family: Rubik;
+      font-weight: 300;
       font-size: 22px;
       line-height: 30px;
-      letter-spacing: .2px;
+      letter-spacing: 0.2px;
     }
 
     .map-pins {
-
       .pin-1,
       .pin-2,
       .pin-3,
@@ -45,7 +46,7 @@
         background-color: $royal-blue;
         border-radius: 50%;
         transform: scale(0);
-        transition: all .3s ease-in-out;
+        transition: all 0.3s ease-in-out;
       }
     }
   }
@@ -60,7 +61,8 @@
 
       h3 {
         margin-bottom: 40px;
-        font-family: Aeonik Regular;
+        font-family: Rubik;
+        font-weight: 400;
         font-size: $font-size-extreme-large;
         line-height: 40px;
       }
@@ -72,7 +74,7 @@
     }
 
     .pricing-illustrations {
-      margin: 0 auto 40px auto;
+      margin: 0 auto 40px;
     }
 
     .pricing-project-manager {
@@ -113,7 +115,8 @@
     .pricing-monthly,
     .pricing-total {
       margin: 0 6px;
-      font-family: Aeonik Medium;
+      font-family: Rubik;
+      font-weight: 500;
       color: $violet;
       line-height: 24px;
     }
@@ -137,7 +140,7 @@
     }
 
     h2 {
-      margin: 0 0 32px 0;
+      margin: 0 0 32px;
       line-height: 32px;
     }
 
@@ -187,7 +190,7 @@
           border-top: 1px solid $athens-gray;
 
           .button-accordion-icon {
-            background: url(./../../assets/icons/open.svg) no-repeat center;
+            background: url("./../../assets/icons/open.svg") no-repeat center;
           }
         }
       }
@@ -203,7 +206,7 @@
         display: block;
         width: 14px;
         height: 14px;
-        background: url(./../../assets/icons/close.svg) no-repeat center;
+        background: url("./../../assets/icons/close.svg") no-repeat center;
       }
     }
 
@@ -216,7 +219,8 @@
 
     a {
       color: $royal-blue;
-      font-family: Aeonik Medium;
+      font-family: Rubik;
+      font-weight: 500;
       font-size: $font-size-large;
       line-height: 24px;
     }
@@ -254,7 +258,6 @@
     }
   }
 }
-
 @media screen and (min-width: 1200px) {
   .home {
     .map-section .map-pins {
@@ -298,7 +301,6 @@
     }
   }
 }
-
 @media screen and (max-width: 1199px) {
   .home {
     .landing-hero-section img {
@@ -310,7 +312,6 @@
     }
   }
 }
-
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .home {
     .map-section {
@@ -356,13 +357,11 @@
     }
   }
 }
-
 @media screen and (min-width: 992px) {
   .home {
-
     .map-section,
-    .pricing-section,
-    .plug-app-section {
+    .plug-app-section,
+    .pricing-section {
       h2 {
         font-size: $font-size-mega-large;
         line-height: 56px;
@@ -370,12 +369,12 @@
     }
 
     .landing-hero-section {
-      padding: 55px 0 238px 0;
+      padding: 55px 0 238px;
     }
 
     .map-section {
       margin-bottom: 70px;
-      padding: 90px 0 112px 0;
+      padding: 90px 0 112px;
 
       .map-text {
         max-width: 502px;
@@ -403,11 +402,10 @@
     }
 
     .faq-section {
-      margin: 83px 0 153px 0;
+      margin: 83px 0 153px;
     }
   }
 }
-
 @media screen and (max-width: 991px) {
   .home {
     .map-section {
@@ -438,7 +436,6 @@
     }
   }
 }
-
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .home {
     .landing-hero-section {
@@ -449,7 +446,7 @@
       padding-bottom: 80px;
 
       .map-text {
-        margin: 0 auto 50px auto;
+        margin: 0 auto 50px;
         max-width: 440px;
         text-align: center;
       }
@@ -496,7 +493,7 @@
     }
 
     .faq-section {
-      margin: 43px 0 67px 0;
+      margin: 43px 0 67px;
     }
 
     .plug-app-section {
@@ -506,7 +503,6 @@
     }
   }
 }
-
 @media screen and (min-width: 768px) {
   .home {
     h1 {
@@ -528,7 +524,7 @@
     }
 
     .features-section {
-      margin: 59px 0 80px 0;
+      margin: 59px 0 80px;
       text-align: center;
     }
 
@@ -539,7 +535,6 @@
 
     .map-section {
       .map-pins {
-
         .pin-1,
         .pin-2,
         .pin-3,
@@ -551,21 +546,18 @@
 
         .pin-1,
         .pin-3 {
-          box-shadow: 0 0 1px 4px rgba($melrose, .24),
-            0 0 1px 8px rgba($melrose, .24);
+          box-shadow: 0 0 1px 4px rgba($melrose, .24), 0 0 1px 8px rgba($melrose, .24);
         }
 
         .pin-4 {
           width: 24px;
           height: 24px;
-          box-shadow: 0 0 1px 8px rgba($melrose, .24),
-            0 0 1px 16px rgba($melrose, .24);
+          box-shadow: 0 0 1px 8px rgba($melrose, .24), 0 0 1px 16px rgba($melrose, .24);
         }
       }
     }
   }
 }
-
 @media screen and (max-width: 767px) {
   .home {
     h1 {
@@ -573,8 +565,8 @@
     }
 
     .map-section,
-    .pricing-section,
-    .plug-app-section {
+    .plug-app-section,
+    .pricing-section {
       h2 {
         font-size: $font-size-extreme-large;
         line-height: 32px;
@@ -594,10 +586,10 @@
     }
 
     .features-section {
-      margin: 12px 0 16px 0;
+      margin: 12px 0 16px;
 
       img {
-        margin: 0 0 8px 0;
+        margin: 0 0 8px;
       }
 
       a {
@@ -606,14 +598,13 @@
     }
 
     .map-section {
-      padding: 32px 0 38px 0;
+      padding: 32px 0 38px;
 
       .map-text {
         margin: 16px 0 32px auto;
       }
 
       .map-pins {
-
         .pin-1,
         .pin-2,
         .pin-3,
@@ -625,8 +616,7 @@
 
         .pin-1,
         .pin-3 {
-          box-shadow: 0 0 1px 3px rgba($melrose, .24),
-            0 0 1px 6px rgba($melrose, .24);
+          box-shadow: 0 0 1px 3px rgba($melrose, .24), 0 0 1px 6px rgba($melrose, .24);
         }
 
         .pin-1 {
@@ -649,8 +639,7 @@
           left: 48%;
           width: 16px;
           height: 16px;
-          box-shadow: 0 0 1px 4px rgba($melrose, .24),
-            0 0 1px 8px rgba($melrose, .24);
+          box-shadow: 0 0 1px 4px rgba($melrose, .24), 0 0 1px 8px rgba($melrose, .24);
         }
 
         .pin-5 {
@@ -693,10 +682,10 @@
     }
 
     .faq-section {
-      margin: 40px 0 50px 0;
+      margin: 40px 0 50px;
 
       h2 {
-        margin: 0 0 46px 0;
+        margin: 0 0 46px;
       }
     }
 
@@ -704,7 +693,7 @@
       margin-bottom: 40px;
 
       h2 {
-        margin: 0 auto 24px auto;
+        margin: 0 auto 24px;
         text-align: center;
       }
     }

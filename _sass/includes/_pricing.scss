@@ -4,19 +4,21 @@
   }
 
   h3 {
-    font-family: Aeonik Regular;
+    font-family: Rubik;
+    font-weight: 400;
     font-size: $font-size-extreme-large;
     line-height: 40px;
   }
 
   h4 {
-    font-family: Aeonik Medium;
+    font-family: Rubik;
+    font-weight: 500;
     font-size: $font-size-large;
     line-height: 24px;
   }
 
-  .save-employee-fees-section,
-  .packages-section {
+  .packages-section,
+  .save-employee-fees-section {
     p {
       font-size: $font-size-small;
     }
@@ -50,8 +52,10 @@
 
     .pricing-monthly,
     .pricing-total {
-      margin: 0 6px;
-      font-family: Aeonik Medium;
+      margin: 0 6pxRubik;
+      font-weight: 500;
+      font-family: Rubik;
+      font-weight: 500;
       color: $violet;
       line-height: 24px;
     }
@@ -71,7 +75,7 @@
     }
 
     .card {
-      padding: 30px 32px 32px 32px;
+      padding: 30px 32px 32px;
       min-height: 100%;
       border: 2px solid $white;
       border-radius: 16px;
@@ -79,7 +83,7 @@
       text-align: center;
 
       img {
-        margin: 15px auto 0 auto;
+        margin: 15px auto 0;
         width: 81px;
         height: 106px;
       }
@@ -96,9 +100,12 @@
         padding: 2px 0;
         width: 69px;
         color: $white;
-        background-color: $royal-blue;
+        background-coRubik;
+        font-weight: 500;
+        blue;
         border-radius: 8px;
-        font-family: Aeonik Medium;
+        font-family: Rubik;
+        font-weight: 500;
         font-size: $font-size-small;
         line-height: 20px;
       }
@@ -110,7 +117,7 @@
     }
 
     h3 {
-      margin: 3px 0 5px 0;
+      margin: 3px 0 5px;
     }
 
     a {
@@ -125,7 +132,7 @@
 
     thead {
       background-color: $royal-blue;
-      opacity: .8;
+      opacity: 0.8;
     }
 
     th {
@@ -133,7 +140,8 @@
       height: 56px;
       color: $white;
       border: none;
-      font-family: Aeonik Bold;
+      font-family: Rubik;
+      font-weight: 700;
       font-size: $font-size-large;
       line-height: 24px;
       vertical-align: middle;
@@ -152,8 +160,8 @@
       vertical-align: middle;
     }
 
-    th,
-    td {
+    td,
+    th {
       &:not(:first-child) {
         text-align: center;
       }
@@ -163,7 +171,7 @@
       display: inline-block;
       width: 25px;
       height: 24px;
-      background: url(./../../assets/icons/pricing-plans-tick-purple.svg) center/100% no-repeat;
+      background: url("./../../assets/icons/pricing-plans-tick-purple.svg") center/100% no-repeat;
     }
 
     .nav {
@@ -172,10 +180,12 @@
       .nav-link {
         margin-right: 6px;
         padding: 4px 18px;
-        color: $violet;
+        color: $violeRubik;
+        font-weight: 500;
         background-color: $hawkes-blue;
         border-radius: 24px;
-        font-family: Aeonik Medium;
+        font-family: Rubik;
+        font-weight: 500;
         font-size: $font-size-medium;
         line-height: 24px;
         text-align: center;
@@ -192,11 +202,13 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: Rubik;
+    font-weight: 500;
     height: 80px;
     color: $royal-blue !important;
     border-radius: 16px;
-    font-family: Aeonik Medium;
+    font-family: Rubik;
+    font-weight: 500;
     font-size: $font-size-large;
     line-height: 24px;
 
@@ -216,7 +228,7 @@
 
       &:after {
         content: '';
-        background: url(./../../assets/icons/pricing-plans-caret-down.svg) center/100% no-repeat;
+        background: url("./../../assets/icons/pricing-plans-caret-down.svg") center/100% no-repeat;
       }
     }
 
@@ -230,7 +242,7 @@
 
       &:after {
         content: '';
-        background: url(./../../assets/icons/pricing-plans-caret-up.svg) center/100% no-repeat;
+        background: url("./../../assets/icons/pricing-plans-caret-up.svg") center/100% no-repeat;
       }
     }
   }
@@ -293,7 +305,7 @@
           border-top: 1px solid $athens-gray;
 
           .button-accordion-icon {
-            background: url(./../../assets/icons/open.svg) no-repeat center;
+            background: url("./../../assets/icons/open.svg") no-repeat center;
           }
         }
       }
@@ -309,7 +321,7 @@
         display: block;
         width: 14px;
         height: 14px;
-        background: url(./../../assets/icons/close.svg) no-repeat center;
+        background: url("./../../assets/icons/close.svg") no-repeat center;
       }
     }
 
@@ -317,12 +329,14 @@
       padding: 0;
       color: $regent-gray;
       font-size: $font-size-large;
-      line-height: 24px;
+      line-height: Rubik;
+      font-weight: 500;
     }
 
     a {
       color: $royal-blue;
-      font-family: Aeonik Medium;
+      font-family: Rubik;
+      font-weight: 500;
       font-size: $font-size-large;
       line-height: 24px;
     }
@@ -339,11 +353,10 @@
     }
   }
 }
-
 @media screen and (min-width: 1200px) {
   .pricing {
     .packages-section .row {
-      padding: 12px 0 24px 0;
+      padding: 12px 0 24px;
     }
 
     .faq-section .faq {
@@ -351,15 +364,13 @@
     }
 
     .plans-section {
-
-      th,
-      td {
+      td,
+      th {
         width: 25%;
       }
     }
   }
 }
-
 @media screen and (max-width: 1199px) {
   .pricing {
     .packages-section {
@@ -390,7 +401,6 @@
     }
   }
 }
-
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .pricing {
     .faq-section .faq {
@@ -398,7 +408,6 @@
     }
   }
 }
-
 @media screen and (min-width: 992px) {
   .pricing {
     .save-employee-fees-section {
@@ -428,12 +437,11 @@
       margin-bottom: 103px;
 
       h2 {
-        margin: 0 0 48px 0;
+        margin: 0 0 48px;
       }
     }
   }
 }
-
 @media screen and (max-width: 991px) {
   .pricing {
     .save-employee-fees-section {
@@ -451,7 +459,7 @@
 
     .faq-section {
       h2 {
-        margin: 0 0 32px 0;
+        margin: 0 0 32px;
       }
 
       .faq {
@@ -460,7 +468,6 @@
     }
   }
 }
-
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .pricing {
     .packages-section {
@@ -470,7 +477,6 @@
     }
   }
 }
-
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .pricing {
     .save-employee-fees-section {
@@ -500,7 +506,6 @@
     }
   }
 }
-
 @media screen and (min-width: 768px) {
   .pricing {
     .save-employee-fees-section {
@@ -540,7 +545,6 @@
     }
   }
 }
-
 @media screen and (max-width: 767px) {
   .pricing {
     h1 {
@@ -560,7 +564,7 @@
       }
 
       .pricing-illustrations {
-        margin: 0 auto 25px auto;
+        margin: 0 auto 25px;
         width: 300px;
         height: 191px;
       }
