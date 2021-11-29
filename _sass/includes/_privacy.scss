@@ -8,8 +8,7 @@
 
     h5 {
       margin-bottom: 4px;
-      font-family: Rubik;
-      font-weight: 500;
+      font-family: Aeonik Medium;
       font-size: $font-size-small;
       line-height: 24px;
     }
@@ -19,7 +18,7 @@
       font-size: $font-size-large;
     }
 
-    > div {
+    >div {
       position: relative;
     }
 
@@ -46,6 +45,7 @@
     }
   }
 }
+
 @media screen and (min-width: 992px) {
   .privacy {
     .wrapper {
@@ -58,6 +58,7 @@
     }
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .privacy {
     .wrapper {
@@ -75,6 +76,7 @@
     }
   }
 }
+
 @media screen and (max-width: 767px) {
   .privacy {
     .wrapper {

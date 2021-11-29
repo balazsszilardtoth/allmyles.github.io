@@ -4,8 +4,7 @@
   }
 
   h3 {
-    font-family: Rubik;
-    font-weight: 400;
+    font-family: Aeonik Regular;
     text-align: center;
   }
 
@@ -49,6 +48,7 @@
     }
   }
 }
+
 @media screen and (min-width: 1200px) {
   .about {
     .plug-app-section img {
@@ -57,6 +57,7 @@
     }
   }
 }
+
 @media screen and (min-width: 992px) {
   .about {
     .info-section {
@@ -69,7 +70,7 @@
     }
 
     .plug-app-section {
-      padding: 92px 0 80px;
+      padding: 92px 0 80px 0;
 
       h2 {
         margin-bottom: 48px;
@@ -79,6 +80,7 @@
     }
   }
 }
+
 @media screen and (max-width: 991px) {
   .about {
     h3 {
@@ -96,6 +98,7 @@
     }
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .about {
     .plug-app-section img {
@@ -104,10 +107,11 @@
     }
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .about {
     .plug-app-section {
-      padding: 58px 0 78px;
+      padding: 58px 0 78px 0;
 
       h2 {
         margin-bottom: 40px;
@@ -115,6 +119,7 @@
     }
   }
 }
+
 @media screen and (min-width: 768px) {
   .about {
     h1 {
@@ -126,6 +131,7 @@
     }
   }
 }
+
 @media screen and (max-width: 767px) {
   .about {
     h1 {
@@ -151,7 +157,7 @@
       }
 
       h2 {
-        margin: 0 auto 24px;
+        margin: 0 auto 24px auto;
         max-width: 288px;
       }
     }

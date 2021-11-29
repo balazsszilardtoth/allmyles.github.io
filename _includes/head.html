@@ -26,7 +26,6 @@
   <link rel="preconnect" href="https://va.tawk.to" />
   <link rel="preconnect" href="//downloads.mailchimp.com" />
   <link rel="preconnect" href="//mc.us8.list-manage.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="dns-prefetch" href="https://www.facebook.com" />
   <link rel="dns-prefetch" href="https://connect.facebook.net" />
   <link rel="dns-prefetch" href="https://www.google.com" />
@@ -45,7 +44,18 @@
   <link rel="dns-prefetch" href="https://va.tawk.to" />
   <link rel="dns-prefetch" href="//downloads.mailchimp.com" />
   <link rel="dns-prefetch" href="//mc.us8.list-manage.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="preload"
+    href="{{ '/assets/fonts/Aeonik/Aeonik-Regular.otf' | relative_url }}"
+    as="font" type="font/otf" crossorigin />
+  <link rel="preload"
+    href="{{ '/assets/fonts/Aeonik/Aeonik-Bold.otf' | relative_url }}" as="font"
+    type="font/otf" crossorigin />
+  <link rel="preload"
+    href="{{ '/assets/fonts/Aeonik/Aeonik-Light.otf' | relative_url }}"
+    as="font" type="font/otf" crossorigin />
+  <link rel="preload"
+    href="{{ '/assets/fonts/Aeonik/Aeonik-Medium.otf' | relative_url }}"
+    as="font" type="font/otf" crossorigin />
   <link rel="stylesheet preload"
     href="{{ '/assets/css/vendor.min.css' | relative_url }}" as="style" />
   <link rel="stylesheet preload"
