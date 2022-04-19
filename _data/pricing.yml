@@ -48,33 +48,34 @@ plans:
     cub: true
     geek: true
     growthHacker: true
-
-  - title: Flight, hotel, car rental
+    
+  - title: Self service post booking
     cub: true
     geek: true
     growthHacker: true
-
+    
   - title: PSP independent
     cub: true
     geek: true
     growthHacker: true
 
-  - title: Self booking tool
+  - title: Flight
     cub: true
     geek: true
     growthHacker: true
-
-  - title: Self post booking features
-    cub: true
+    
+  - title: Hotel
+    cub: false
     geek: true
     growthHacker: true
-
-  - title: Hosted white label web application (optional + € 0. 02)
+    
+  - title: Car rental
     cub: false
     geek: true
     growthHacker: true
 
-  - title: Airline fare families (optional + € 0. 02)
+  - title: Airline fare families 
+    (optional + € 0. 02)
     cub: false
     geek: true
     growthHacker: true
@@ -123,10 +124,20 @@ plans:
     cub: false
     geek: true
     growthHacker: true
+    
+  - title: Hosted white label web application (optional + € 0. 02)
+    cub: false
+    geek: true
+    growthHacker: true
 
-  - title: Hosted, customisable white label web application (optional pricing per quote)
+  - title: Hosted, custom design web application (optional pricing per quote)
     cub: false
     geek: false
+    growthHacker: true
+    
+  - title: Self booking tool
+    cub: false
+    geek: true
     growthHacker: true
 
   - title: Chat boosted post booking support
