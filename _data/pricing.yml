@@ -1,5 +1,50 @@
 plans:
-  - title: AWS hosted
+  - title: End to End user journey up to purchase transaction
+    cub: true
+    geek: true
+    growthHacker: true
+
+  - title: Global Bookable Flight content (800+ airlines)
+    cub: true
+    geek: true
+    growthHacker: true
+
+  - title: Wallet based top-up payment (PSP independent)
+    cub: true
+    geek: true
+    growthHacker: true
+
+  - title: Restful Web Services
+    cub: true
+    geek: true
+    growthHacker: true
+
+  - title: Traditinonal and Low Cost Carriers
+    cub: true
+    geek: true
+    growthHacker: true
+
+  - title: Post booking dashboard and reporting
+    cub: true
+    geek: true
+    growthHacker: true
+    
+  - title: Self service post booking required (void, refund, exchange etc)
+    cub: true
+    geek: true
+    growthHacker: true
+    
+  - title: Global Bookable Hotel content (2.4 M properties)
+    cub: false
+    geek: true
+    growthHacker: true
+    
+  - title: Advanced GEO Location search algorithm
+    cub: true
+    geek: true
+    growthHacker: true
+    
+  - title: Cloud (AWS, GCP hosted API)
     cub: true
     geek: true
     growthHacker: true
@@ -8,68 +53,8 @@ plans:
     cub: true
     geek: true
     growthHacker: true
-
-  - title: Location search algorithm
-    cub: true
-    geek: true
-    growthHacker: true
-
-  - title: Full user journey
-    cub: true
-    geek: true
-    growthHacker: true
-
-  - title: Bookable content
-    cub: true
-    geek: true
-    growthHacker: true
-
-  - title: Automated payment clutch
-    cub: true
-    geek: true
-    growthHacker: true
-
-  - title: Restful API
-    cub: true
-    geek: true
-    growthHacker: true
-
-  - title: Global content
-    cub: true
-    geek: true
-    growthHacker: true
-
-  - title: Multisource
-    cub: true
-    geek: true
-    growthHacker: true
-
-  - title: Dashboard and reporting
-    cub: true
-    geek: true
-    growthHacker: true
     
-  - title: Self service post booking
-    cub: true
-    geek: true
-    growthHacker: true
-    
-  - title: PSP independent
-    cub: true
-    geek: true
-    growthHacker: true
-
-  - title: Flights
-    cub: true
-    geek: true
-    growthHacker: true
-    
-  - title: Hotel
-    cub: false
-    geek: true
-    growthHacker: true
-    
-  - title: Car rental
+  - title: Global Bookable Car rental content (17 Global providers)
     cub: false
     geek: true
     growthHacker: true
@@ -79,47 +64,52 @@ plans:
     geek: true
     growthHacker: true
 
-  - title: Airline direct content (optional + € 0. 02)
+  - title: Global Airline web content (optional + € 0. 02)
     cub: false
     geek: true
     growthHacker: true
 
+  - title: Airline ancillaries (bags, etc) booking (optional + € 0. 02)
+    cub: false
+    geek: true
+    growthHacker: true
+
+  - title: One way combinable flight fares (optional + € 0. 02)
+    cub: false
+    geek: true
+    growthHacker: true
+
+  - title: Red eye flight fares (optional + € 0. 02)
+    cub: false
+    geek: true
+    growthHacker: true
+
+  - title: Flight Calendar view (optional + € 0. 03)
+    cub: false
+    geek: true
+    growthHacker: true
+
+  - title: Flight Radius search (optional + € 0. 02)
+    cub: false
+    geek: true
+    growthHacker: true
+
+  - title: Flight Multicity search (optional + € 0. 02)
+    cub: false
+    geek: true
+    growthHacker: true
+    
+  - title: Flight Round the world search (optional + € 0. 02)
+    cub: false
+    geek: true
+    growthHacker: true
+    
   - title: Social media integration (optional + € 0. 02)
     cub: false
     geek: true
     growthHacker: true
 
   - title: Price alert function (optional + € 0. 02)
-    cub: false
-    geek: true
-    growthHacker: true
-
-  - title: Ancillary booking (optional + € 0. 02)
-    cub: false
-    geek: true
-    growthHacker: true
-
-  - title: One way combinable flights (optional + € 0. 02)
-    cub: false
-    geek: true
-    growthHacker: true
-
-  - title: Red eye flights (optional + € 0. 02)
-    cub: false
-    geek: true
-    growthHacker: true
-
-  - title: Calendar view (optional + € 0. 03)
-    cub: false
-    geek: true
-    growthHacker: true
-
-  - title: Radius search (optional + € 0. 02)
-    cub: false
-    geek: true
-    growthHacker: true
-
-  - title: Multiple city search (optional + € 0. 02)
     cub: false
     geek: true
     growthHacker: true
