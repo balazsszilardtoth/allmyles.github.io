@@ -1,5 +1,5 @@
 plans:
-  - title: End to End user journey up to purchase transaction
+  - title: End to End user journey (purchase transaction included)
     cub: true
     geek: true
     growthHacker: true
@@ -14,17 +14,17 @@ plans:
     geek: true
     growthHacker: true
 
-  - title: Restful Web Services
+  - title: Restful Web Services (low latency, fast response)
     cub: true
     geek: true
     growthHacker: true
 
-  - title: Traditional and Low Cost Carriers
+  - title: Traditional and Low Cost Carriers (full content)
     cub: true
     geek: true
     growthHacker: true
 
-  - title: Post booking dashboard and reporting
+  - title: Post booking dashboard and reporting (keep you up-to-date)
     cub: true
     geek: true
     growthHacker: true
@@ -39,12 +39,12 @@ plans:
     geek: true
     growthHacker: true
     
-  - title: Advanced GEO Location search algorithm
+  - title: Advanced GEO Location search algorithm (rich content)
     cub: true
     geek: true
     growthHacker: true
     
-  - title: Cloud (AWS, GCP hosted API)
+  - title: Cloud standard scaling (AWS, GCP hosted API)
     cub: true
     geek: true
     growthHacker: true
@@ -59,7 +59,7 @@ plans:
     geek: true
     growthHacker: true
 
-  - title: Airline fare families (optional + € 0. 02)
+  - title: Airline fare family upgrades (optional + € 0. 02)
     cub: false
     geek: true
     growthHacker: true
@@ -69,37 +69,37 @@ plans:
     geek: true
     growthHacker: true
 
-  - title: Airline ancillaries (bags, etc) booking (optional + € 0. 02)
+  - title: Airline ancillary booking (optional + € 0. 02)
     cub: false
     geek: true
     growthHacker: true
 
-  - title: One way combinable flight fares (optional + € 0. 02)
+  - title: One way combinable flights (optional + € 0. 02)
     cub: false
     geek: true
     growthHacker: true
 
-  - title: Red eye flight fares (optional + € 0. 02)
+  - title: Red eye flights (optional + € 0. 02)
     cub: false
     geek: true
     growthHacker: true
 
-  - title: Flight Calendar view (optional + € 0. 03)
+  - title: Calendar flight view (optional + € 0. 03)
     cub: false
     geek: true
     growthHacker: true
 
-  - title: Flight Radius search (optional + € 0. 02)
+  - title: Radius flight search (optional + € 0. 02)
     cub: false
     geek: true
     growthHacker: true
 
-  - title: Flight Multicity search (optional + € 0. 02)
+  - title: Multicity flight search (optional + € 0. 02)
     cub: false
     geek: true
     growthHacker: true
     
-  - title: Flight Round the world search (optional + € 0. 02)
+  - title: Round the world flight search (optional + € 0. 02)
     cub: false
     geek: true
     growthHacker: true
