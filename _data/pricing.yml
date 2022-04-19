@@ -19,7 +19,7 @@ plans:
     geek: true
     growthHacker: true
 
-  - title: Traditinonal and Low Cost Carriers
+  - title: Traditional and Low Cost Carriers
     cub: true
     geek: true
     growthHacker: true
@@ -29,7 +29,7 @@ plans:
     geek: true
     growthHacker: true
     
-  - title: Self service post booking required (void, refund, exchange etc)
+  - title: Self service booking support required (void, refund, exchange etc)
     cub: true
     geek: true
     growthHacker: true
