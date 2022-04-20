@@ -33,12 +33,7 @@ plans:
     cub: true
     geek: true
     growthHacker: true
-    
-  - title: Global Bookable Hotel content (2.4 M properties)
-    cub: false
-    geek: true
-    growthHacker: true
-    
+
   - title: Advanced GEO Location search algorithm (rich content)
     cub: true
     geek: true
@@ -51,6 +46,11 @@ plans:
 
   - title: Cloudflare CDN
     cub: true
+    geek: true
+    growthHacker: true
+       
+  - title: Global Bookable Hotel content (2.4 M properties)
+    cub: false
     geek: true
     growthHacker: true
     
