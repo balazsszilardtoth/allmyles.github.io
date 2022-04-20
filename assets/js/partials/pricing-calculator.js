@@ -65,7 +65,7 @@ function setBestFit(min, max, element) {
   if (min <= value && value <= max) {
     if (!$(element).hasClass('best-fit')) {
       $(element).addClass('best-fit');
-      $(element).prepend('<small class="best-fit-text">Best fit</small>');
+      $(element).prepend('<small class="best-fit-text">Best fit for</small>');
     }
   } else {
     $(element).removeClass('best-fit');
