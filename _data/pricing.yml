@@ -119,14 +119,14 @@ plans:
     geek: true
     growthHacker: true
 
-  - title: Hosted custom design web application (optional pricing per quote)
+  - title: Hosted, custom design web application (optional pricing per quote)
     cub: false
     geek: false
     growthHacker: true
     
   - title: Self booking tool
     cub: false
-    geek: true
+    geek: false
     growthHacker: true
 
   - title: Chat boosted post booking support
