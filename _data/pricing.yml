@@ -1,15 +1,20 @@
 plans:
-  - title: End to End user journey (purchase transaction included)
-    cub: true
-    geek: true
-    growthHacker: true
-
   - title: Global Bookable Flight content (800+ airlines)
     cub: true
     geek: true
     growthHacker: true
+    
+  - title: Traditional and Low Cost Carriers (full content)
+    cub: true
+    geek: true
+    growthHacker: true
 
-  - title: Wallet based top-up payment (PSP independent)
+  - title: End to End user journey (incl. final purchase transaction)
+    cub: true
+    geek: true
+    growthHacker: true
+
+  - title: Wallet based commercial deposit management (PSP independent)
     cub: true
     geek: true
     growthHacker: true
@@ -18,28 +23,23 @@ plans:
     cub: true
     geek: true
     growthHacker: true
-
-  - title: Traditional and Low Cost Carriers (full content)
-    cub: true
-    geek: true
-    growthHacker: true
-
+    
   - title: Post booking dashboard and reporting (keep you up-to-date)
     cub: true
     geek: true
     growthHacker: true
     
-  - title: Self service booking support required (void, refund, exchange etc)
+  - title: Self service post-booking (void, refund, exchange etc)
     cub: true
     geek: true
     growthHacker: true
 
-  - title: Advanced GEO Location search algorithm (rich content)
+  - title: Advanced Location search algorithm (GEO loc., Timezones)
     cub: true
     geek: true
     growthHacker: true
     
-  - title: Cloud standard scaling (AWS, GCP hosted API)
+  - title: Cloud based scaling (AWS, GCP hosted API)
     cub: true
     geek: true
     growthHacker: true
