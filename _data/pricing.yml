@@ -49,12 +49,7 @@ plans:
     geek: true
     growthHacker: true
        
-  - title: Global Bookable Hotel content (2.4 M properties)
-    cub: false
-    geek: true
-    growthHacker: true
-    
-  - title: Global Bookable Car rental content (17 Global providers)
+  - title: Chat boosted post booking support (optional + € 0. 02)
     cub: false
     geek: true
     growthHacker: true
@@ -125,11 +120,6 @@ plans:
     growthHacker: true
     
   - title: Self booking tool
-    cub: false
-    geek: false
-    growthHacker: true
-
-  - title: Chat boosted post booking support
     cub: false
     geek: false
     growthHacker: true
