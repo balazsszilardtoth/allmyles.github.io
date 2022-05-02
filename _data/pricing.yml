@@ -49,7 +49,7 @@ plans:
     geek: true
     growthHacker: true
        
-  - title: Chat boosted post booking support (optional + € 0. 02)
+  - title: Chat boosted post booking support (optional + € 0. 04)
     cub: false
     geek: true
     growthHacker: true
@@ -59,17 +59,17 @@ plans:
     geek: true
     growthHacker: true
 
-  - title: Global Airline web content (optional + € 0. 02)
+  - title: Global Airline web content (optional + € 0. 04)
     cub: false
     geek: true
     growthHacker: true
 
-  - title: Airline ancillary booking (optional + € 0. 02)
+  - title: Airline ancillary booking (luggage, etc) (optional + € 0. 02)
     cub: false
     geek: true
     growthHacker: true
 
-  - title: One way combinable flights (optional + € 0. 02)
+  - title: One way combinable flights (optional + € 0. 03)
     cub: false
     geek: true
     growthHacker: true
@@ -84,17 +84,17 @@ plans:
     geek: true
     growthHacker: true
 
-  - title: Radius flight search (optional + € 0. 02)
+  - title: Radius flight search (optional + € 0. 03)
     cub: false
     geek: true
     growthHacker: true
 
-  - title: Multicity flight search (optional + € 0. 02)
+  - title: Multicity flight search (optional + € 0. 04)
     cub: false
     geek: true
     growthHacker: true
     
-  - title: Round the world flight search (optional + € 0. 02)
+  - title: Round the world flight search (optional + € 0. 04)
     cub: false
     geek: true
     growthHacker: true
