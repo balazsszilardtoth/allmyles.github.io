@@ -99,6 +99,11 @@ plans:
     geek: true
     growthHacker: true
     
+  - title: Seat map (optional + € 0. 04)
+    cub: false
+    geek: true
+    growthHacker: true
+    
   - title: Social media integration (optional + € 0. 02)
     cub: false
     geek: true
