@@ -28,11 +28,7 @@ plans:
     cub: true
     geek: true
     growthHacker: true
-    
-  - title: Self service post-booking (void, refund, exchange etc)
-    cub: true
-    geek: true
-    growthHacker: true
+
 
   - title: Advanced Location search algorithm (GEO loc., Timezones)
     cub: true
@@ -46,6 +42,11 @@ plans:
 
   - title: Cloudflare CDN
     cub: true
+    geek: true
+    growthHacker: true
+        
+  - title: Self service post-booking (void, refund, exchange etc(optional + € 0. 02))
+    cub: false
     geek: true
     growthHacker: true
        
