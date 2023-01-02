@@ -16,7 +16,6 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'vips', '~> 8.6', '>= 8.6.3.1'
-  gem 'jekyll_picture_tag', '~> 2.0'
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-google-tag-manager" # Google Tag Manager
   gem "jekyll-seo-tag" # SEO
