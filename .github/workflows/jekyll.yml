@@ -11,8 +11,8 @@ jobs:
     name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout V2
-        uses: actions/checkout@v2
+      - name: Checkout V3
+        uses: actions/checkout@v3
 
       - name: Set up Ruby 3.0
         uses: actions/setup-ruby@v1
