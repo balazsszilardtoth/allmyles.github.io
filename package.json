@@ -44,6 +44,7 @@
     "emailjs-com": "^2.4.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
-    "node-gyp": "^9.3.0"
+    "node-gyp": "^9.3.0",
+    "sass": "^1.49.9"
   }
 }
