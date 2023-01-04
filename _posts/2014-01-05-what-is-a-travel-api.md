@@ -1,7 +1,7 @@
 ---
 layout: post
-title: What is a travel api - APIS for flights search and booking
-description: Learn easliy how Travel APIs work for you - Flight API or Hotel API with booking and payment - Travel APIs explained!
+title: Travel APIS for flights search and booking
+description: Learn easliy how Travel APIs work for you - Flights Search API or Hotel API with booking and payment - Travel APIs explained!
 subtitle: learn how to put together your own travel business
 date: 2014-01-05 19:21:01 +0100
 categories: inspiration
