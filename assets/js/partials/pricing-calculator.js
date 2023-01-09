@@ -30,7 +30,7 @@ function setPackage() {
   monthly.html(input.val());
 
   // Set total value
-  setTotalValue(0, 0, 20); // Free trial, 20 EUR per month
+  setTotalValue(0, 0, 0); // Free trial, 20 EUR per month
   setTotalValue(1, 599, input.val() * 0.2); // Cub, number of searches * cost per search * 1 day charged monthly
   setTotalValue(600, 1499, input.val() * 0.09); // Geek, number of searches * cost per search * 1 days charged monthly
   setTotalValue(1500, 3000, input.val() * 0.06); // Growth hacker, number of searches * cost per search * 1 days charged monthly
