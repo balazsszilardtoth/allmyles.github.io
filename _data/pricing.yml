@@ -137,13 +137,13 @@ plans:
   - title: Hosted, custom design web application
     cub: false
     geek: false
-    growthHacker: true
+    growthHacker: false
     price: Custom quote
     
   - title: Self booking tool
     cub: false
     geek: false
-    growthHacker: true
+    growthHacker: false
     price: Custom quote
 
 faq:
