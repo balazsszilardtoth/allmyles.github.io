@@ -132,19 +132,19 @@ plans:
     cub: false
     geek: false
     growthHacker: true
-    price: Custom quote
+    price: Request quote
 
   - title: Hosted, custom design web application
     cub: false
     geek: false
     growthHacker: false
-    price: Custom quote
+    price: Request quote
     
   - title: Self booking tool
     cub: false
     geek: false
     growthHacker: false
-    price: Custom quote
+    price: Request quote
 
 faq:
   - question: What is the certification fee for?
