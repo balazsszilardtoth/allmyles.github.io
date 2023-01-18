@@ -130,7 +130,7 @@ plans:
     
   - title: Hosted white label web application
     cub: false
-    geek: true
+    geek: false
     growthHacker: true
     price: € 0. 02
 
