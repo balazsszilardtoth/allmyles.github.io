@@ -39,7 +39,7 @@ plans:
     geek: true
     growthHacker: true
 
-  - title: Cloudflare CDN
+  - title: Cloudflare CDN (static content)
     cub: true
     geek: true
     growthHacker: true
