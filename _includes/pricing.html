@@ -150,15 +150,11 @@
                     <td>
                       {% if plan.geek %}
                       <span class="tick-purple"></span>
-                      {% else %}
-                      {{ plan.price }}
                       {% endif %}
                     </td>
                     <td>
                       {% if plan.growthHacker %}
                       <span class="tick-purple"></span>
-                      {% else %}
-                      {{ plan.price }}
                       {% endif %}
                     </td>
                   </tr>
@@ -203,9 +199,13 @@
                           {% endif %}
                           {% if value == "geek" and plan.geek %}
                           <span class="tick-purple"></span>
+                          {% else %}
+                          {{ plan.price }}
                           {% endif %}
                           {% if value == "growthHacker" and plan.growthHacker %}
                           <span class="tick-purple"></span>
+                          {% else %}
+                          {{ plan.price }}
                           {% endif %}
                         </td>
                       </tr>
