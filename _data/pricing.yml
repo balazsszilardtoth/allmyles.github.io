@@ -29,7 +29,6 @@ plans:
     geek: true
     growthHacker: true
 
-
   - title: Advanced Location search algorithm (GEO loc., Timezones)
     cub: true
     geek: true
@@ -45,97 +44,97 @@ plans:
     geek: true
     growthHacker: true
         
-  - title: Self service post-booking (void, refund, exchange etc(optional + € 0. 02))
+  - title: Self service post-booking (void, refund, exchange)
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 02
        
-  - title: Chat boosted post booking support (optional + € 0. 04)
+  - title: Chat boosted post booking support
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 04
 
-  - title: Airline fare family upgrades (optional + € 0. 02)
+  - title: Airline fare family upgrades
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 02
 
-  - title: Global Airline web content (optional + € 0. 04)
+  - title: Global Airline web content
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 04
 
-  - title: Airline ancillary booking (luggage, etc) (optional + € 0. 02)
+  - title: Airline ancillary booking
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 02
 
-  - title: One way combinable flights (optional + € 0. 03)
+  - title: One way combinable flights
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 03
 
-  - title: Red eye flights (optional + € 0. 02)
+  - title: Red eye flights
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 02
 
-  - title: Calendar flight view (optional + € 0. 03)
+  - title: Calendar flight view
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 03
 
-  - title: Radius flight search (optional + € 0. 03)
+  - title: Radius flight search
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 03
 
-  - title: Multicity flight search (optional + € 0. 04)
+  - title: Multicity flight search
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 04
     
-  - title: Round the world flight search (optional + € 0. 04)
+  - title: Round the world flight search
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 04
     
-  - title: Seat map (optional + € 0. 04)
+  - title: Seat map
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 04
     
-  - title: Social media integration (optional + € 0. 02)
+  - title: Social media integration
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 02
 
-  - title: Price alert function (optional + € 0. 02)
+  - title: Price alert function
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 02
     
-  - title: Hosted white label web application (optional + € 0. 02)
+  - title: Hosted white label web application
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 02
 
-  - title: Hosted, custom design web application (optional pricing per quote)
+  - title: Hosted, custom design web application
     cub: false
     geek: false
     growthHacker: true
@@ -145,7 +144,7 @@ plans:
     cub: false
     geek: false
     growthHacker: true
-    price: € 0. 02
+    price: Custom quote
 
 faq:
   - question: What is the certification fee for?
