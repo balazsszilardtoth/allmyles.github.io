@@ -100,31 +100,31 @@ plans:
 
   - title: Multicity flight search
     cub: false
-    geek: true
+    geek: false
     growthHacker: true
     price: € 0. 04
     
   - title: Round the world flight search
     cub: false
-    geek: true
+    geek: false
     growthHacker: true
     price: € 0. 04
     
   - title: Seat map
     cub: false
-    geek: true
+    geek: false
     growthHacker: true
     price: € 0. 04
     
   - title: Social media integration
     cub: false
-    geek: true
+    geek: false
     growthHacker: true
     price: € 0. 02
 
   - title: Price alert function
     cub: false
-    geek: true
+    geek: false
     growthHacker: true
     price: € 0. 02
     
