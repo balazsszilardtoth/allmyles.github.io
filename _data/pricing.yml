@@ -3,148 +3,174 @@ plans:
     cub: true
     geek: true
     growthHacker: true
+    custom: false
     
   - title: Traditional and Low Cost Carriers (full content)
     cub: true
     geek: true
     growthHacker: true
+    custom: false
 
   - title: End to End user journey (incl. final purchase transaction)
     cub: true
     geek: true
     growthHacker: true
+    custom: false
 
   - title: Wallet based commercial deposit management (PSP independent)
     cub: true
     geek: true
     growthHacker: true
+    custom: false
 
   - title: Restful Web Services (low latency, fast response)
     cub: true
     geek: true
     growthHacker: true
+    custom: false
     
   - title: Post booking dashboard and reporting (keep you up-to-date)
     cub: true
     geek: true
     growthHacker: true
+    custom: false
 
   - title: Advanced Location search algorithm (GEO loc., Timezones)
     cub: true
     geek: true
     growthHacker: true
+    custom: false
     
   - title: Cloud based scaling (AWS, GCP hosted API)
     cub: true
     geek: true
     growthHacker: true
+    custom: false
 
   - title: Cloudflare CDN (static content)
     cub: true
     geek: true
     growthHacker: true
+    custom: false
         
   - title: Self service post-booking (void, refund, exchange)
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 02
+    custom: false
        
   - title: Chat boosted post booking support
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 04
+    custom: false
 
   - title: Airline fare family upgrades
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 02
+    custom: false
 
   - title: Global Airline web content
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 04
+    custom: false
 
   - title: Airline ancillary booking
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 02
+    custom: false
 
   - title: One way combinable flights
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 03
+    custom: false
 
   - title: Red eye flights
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 02
+    custom: false
 
   - title: Calendar flight view
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 03
+    custom: false
 
   - title: Radius flight search
     cub: false
     geek: true
     growthHacker: true
     price: € 0. 03
+    custom: false
 
   - title: Multicity flight search
     cub: false
     geek: false
     growthHacker: true
     price: € 0. 04
+    custom: false
     
   - title: Round the world flight search
     cub: false
     geek: false
     growthHacker: true
     price: € 0. 04
+    custom: false
     
   - title: Seat map
     cub: false
     geek: false
     growthHacker: true
     price: € 0. 04
+    custom: false
     
   - title: Social media integration
     cub: false
     geek: false
     growthHacker: true
     price: € 0. 02
+    custom: false
 
   - title: Price alert function
     cub: false
     geek: false
     growthHacker: true
     price: € 0. 02
+    custom: false
     
   - title: Hosted white label web application
     cub: false
     geek: false
     growthHacker: true
     price: Request quote
+    custom: true
 
   - title: Hosted, custom design web application
     cub: false
     geek: false
     growthHacker: false
     price: Request quote
+    custom: true
     
   - title: Self booking tool
     cub: false
     geek: false
     growthHacker: false
     price: Request quote
+    custom: true
 
 faq:
   - question: What is the certification fee for?
