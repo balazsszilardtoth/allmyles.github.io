@@ -155,21 +155,21 @@ plans:
     cub: false
     geek: false
     growthHacker: true
-    price: Request quote
+    price:
     custom: true
 
   - title: Hosted, custom design web application
     cub: false
     geek: false
     growthHacker: false
-    price: Request quote
+    price:
     custom: true
     
   - title: Self booking tool
     cub: false
     geek: false
     growthHacker: false
-    price: Request quote
+    price:
     custom: true
 
 faq:
