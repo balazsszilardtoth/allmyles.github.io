@@ -144,7 +144,10 @@
                       {% if plan.cub %}
                       <span class="tick-purple"></span>
                       {% else %}
-                      <a href="/contact"> {{ plan.price }} </a>
+                      {{ plan.price }}
+                        {% if plan.custom %}
+                        <a href="/contact"> Request quote </a>
+                        {% endif %}
                       {% endif %}
                     </td>
                     <td>
