@@ -51,5 +51,33 @@
       "sizes": "750x1334",
       "type": "image/png"
     }
-  ]
+  ],
+  "dir": "ltr",
+  "lang": "en",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "allmyles.com",
+      "id": "allmyles.com"
+    }
+  ],
+  "categories": [
+    "business",
+    "shopping",
+    "travel"
+  ],
+  "display_override": [
+    "browser"
+  ],
+  "share_target": {
+      "action": "index.html?share-action",
+      "method": "GET",
+      "enctype": "application/x-www-form-urlencoded",
+      "params": {
+        "title": "Allmyles Travel API",
+        "text": "Travel API for the Rebels",
+        "url": "https://allmyles.com"
+      }
+    }
 }
