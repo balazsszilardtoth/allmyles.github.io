@@ -52,7 +52,70 @@ plans:
     geek: true
     growthHacker: true
     custom: false
-        
+       
+  - title: Dashboard for sales reports
+    cub: true
+    geek: true
+    growthHacker: true
+    price: € 0. 02
+    custom: false
+    
+  - title: ERP with Petty Cash module
+    cub: false
+    geek: true
+    growthHacker: true
+    price: € 0. 02
+    custom: false
+    
+  - title: ERP with Manual orders module
+    cub: false
+    geek: true
+    growthHacker: true
+    price: € 0. 02
+    custom: false
+    
+  - title: ERP with Timesheet module
+    cub: false
+    geek: true
+    growthHacker: true
+    price: € 0. 02
+    custom: false
+    
+  - title: ERP with Invoicing module
+    cub: false
+    geek: true
+    growthHacker: true
+    price: € 0. 02
+    custom: false
+    
+  - title: ERP with Banking integration module
+    cub: false
+    geek: true
+    growthHacker: true
+    price: € 0. 02
+    custom: false
+    
+  - title: ERP with CRM module
+    cub: false
+    geek: true
+    growthHacker: true
+    price: € 0. 02
+    custom: false
+    
+  - title: ERP with Partners module
+    cub: false
+    geek: true
+    growthHacker: true
+    price: € 0. 02
+    custom: false
+    
+  - title: ERP with Tax management module
+    cub: false
+    geek: true
+    growthHacker: true
+    price: € 0. 02
+    custom: false
+       
   - title: Self service post-booking (void, refund, exchange)
     cub: false
     geek: true
