@@ -7,6 +7,13 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
+  "edge_side_panel": {
+    "preferred_width": 600
+  },
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": ["auto"]
+  },
   "icons": [
       {
          "src": "/assets/images/allmyles_logo_192s.png",
@@ -68,7 +75,8 @@
     "travel"
   ],
   "display_override": [
-    "browser"
+    "browser",
+    "window-controls-overlay"
   ],
   "share_target": {
       "action": "index.html?share-action",
