@@ -7,6 +7,11 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
+  "scope_extensions": [
+    {"origin": "*.pwabuilder.com"},
+    {"origin": "docs.pwabuilder.co.uk"},
+    {"origin": "*.pwabuilder.co.uk"},
+  ],
   "edge_side_panel": {
     "preferred_width": 600
   },
