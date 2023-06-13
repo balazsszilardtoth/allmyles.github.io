@@ -8,9 +8,11 @@
   "scope": "/",
   "start_url": "/",
   "scope_extensions": [
-    {"origin": "*.pwabuilder.com"},
-    {"origin": "docs.pwabuilder.co.uk"},
-    {"origin": "*.pwabuilder.co.uk"},
+    {"origin": "*.allmyles.com"},
+    {"origin": "docs.allmyles.com"},
+    {"origin": "showcase.allmyles.com"},
+    {"origin": "status.allmyles.com"},
+    {"origin": "dashboard.allmyles.com"}
   ],
   "edge_side_panel": {
     "preferred_width": 600
