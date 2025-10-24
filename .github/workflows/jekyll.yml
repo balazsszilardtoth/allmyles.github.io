@@ -12,26 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.3.6
-
-      - name: Cache bundle dependencies
-        uses: actions/cache@v4
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gem-
-
-      - name: Install bundler
-        run: |
-          gem install bundler
-
-      - name: Set up bundle
-        run: |
-          bundle config path vendor/bundle
-          bundle install --jobs 4 --retry 3
+          bundler-cache: true
 
       - name: Use Node.js 20.x
         uses: actions/setup-node@v4
@@ -52,10 +36,10 @@ jobs:
 
       - name: Build Jekyll site
         run: |
-          RUBYOPT="-E utf-8:utf-8" npm run build
+          npm run build
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: master
