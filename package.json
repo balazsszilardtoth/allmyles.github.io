@@ -38,10 +38,10 @@
     "sass": "^1.80.7"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@popperjs/core": "^2.11.8",
     "bootstrap": "^4.6.2",
     "cookieconsent": "^3.1.1",
-    "emailjs-com": "^3.2.0",
-    "jquery": "^3.7.1",
-    "popper.js": "^1.16.1"
+    "jquery": "^3.7.1"
   }
 }
