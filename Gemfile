@@ -20,7 +20,6 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag" # SEO
   gem "jekyll-redirect-from" # 301 redirection for old urls cached by google SERP
   gem 'jekyll-sitemap' # autogenerates sitemap instead of storing sitemap.xml in root directory
-end
 # Required for Ruby 3.x
   gem 'webrick', '~> 1.8'
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
