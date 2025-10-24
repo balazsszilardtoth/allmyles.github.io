@@ -12,7 +12,7 @@ gem "jekyll", "~> 4.0.1"
 gem "minima", "~> 2.5"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
+  gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
@@ -21,12 +21,19 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from" # 301 redirection for old urls cached by google SERP
   gem 'jekyll-sitemap' # autogenerates sitemap instead of storing sitemap.xml in root directory
 end
-
+# Required for Ruby 3.x
+  gem 'webrick', '~> 1.8'
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
+# Required for Faraday v2.0+
+  gem 'faraday-retry'
+# Gems for testing
+group :test do
+  gem 'rake'
+  gem 'html-proofer'
 end
 
 # Performance-booster for watching directories on Windows
