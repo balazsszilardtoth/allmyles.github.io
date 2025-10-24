@@ -3,9 +3,16 @@ url: "http://allmyles.com/"
 
 exclude:
   - vendor
+  - Gemfile
+  - Gemfile.lock
+  - bin
+
 sass:
   sass_dir: _sass
   style: compressed
+
+# Ensure UTF-8 encoding
+encoding: utf-8
 
 plugins:
   - jekyll-seo-tag

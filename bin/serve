@@ -1,0 +1,15 @@
+#!/bin/bash
+# Serve script for Jekyll site with proper UTF-8 encoding
+# Required for Ruby 3.x compatibility
+
+export RUBYOPT="-E utf-8:utf-8"
+
+# Find jekyll executable in bundle
+JEKYLL_PATH=$(bundle show jekyll)/exe/jekyll
+
+if [ -f "$JEKYLL_PATH" ]; then
+    $JEKYLL_PATH serve "$@"
+else
+    echo "Jekyll not found. Please run 'bundle install' first."
+    exit 1
+fi
