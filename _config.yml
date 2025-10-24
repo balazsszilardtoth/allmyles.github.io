@@ -96,3 +96,16 @@ exclude:
   - assets/scss/
   - assets/js/partials/
   - README.md
+# Ensure UTF-8 encoding for Ruby 3.x compatibility
+encoding: utf-8
+
+# Exclude build files from the site
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - gulpfile.js
+  - bin
