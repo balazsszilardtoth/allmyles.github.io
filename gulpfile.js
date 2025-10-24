@@ -49,12 +49,13 @@ gulp.task('vendor-js', function () {
   return gulp
     .src([
       'node_modules/jquery/dist/jquery.slim.min.js',
+      'node_modules/@popperjs/core/dist/umd/popper.min.js',  // ← CHANGED
       'node_modules/bootstrap/js/dist/util.js',
       'node_modules/bootstrap/js/dist/collapse.js',
       'node_modules/bootstrap/js/dist/dropdown.js',
       'node_modules/bootstrap/js/dist/tab.js',
       'node_modules/cookieconsent/build/cookieconsent.min.js',
-      'node_modules/emailjs-com/dist/email.min.js',
+      'node_modules/@emailjs/browser/dist/email.min.js',  // ← CHANGED
     ])
     .pipe(sourcemaps.init())
     .pipe(concat('vendor.bundle.min.js'))
