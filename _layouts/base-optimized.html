@@ -1,0 +1,210 @@
+---
+layout: compress
+---
+<!doctype html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:website="http://ogp.me/ns/website" lang="en" itemscope itemtype="http://schema.org/WebPage" class="touch-styles">
+   <head>
+      <meta charset="utf-8">
+      <meta name="X-UA-Compatible" content="IE=Edge, chrome=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <title>Travel APIs — Flight API, Hotel API, Car Rental API from Allmyles</title>
+      <meta name="description" content="{% if page.description %}{{ page.description}}{% else %}{{ site.data.general.description}}{% endif %}"/>
+
+      <!-- Preconnect to external domains for faster resource loading -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+      <link rel="dns-prefetch" href="//rec.smartlook.com">
+      <link rel="dns-prefetch" href="//cdn.segment.com">
+      <link rel="dns-prefetch" href="//connect.facebook.net">
+      <link rel="dns-prefetch" href="//embed.tawk.to">
+      <link rel="dns-prefetch" href="//downloads.mailchimp.com">
+      <link rel="dns-prefetch" href="//cookieinfoscript.com">
+
+      <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+      <link rel="canonical" href="http://allmyles.com/"/>
+
+      <!-- Open Graph / Social Media Meta Tags -->
+      <meta property="og:site_name" content="Allmyles"/>
+      <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Travel API — Flight API, Hotel API, Car Rental API from Allmyles">
+      <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website">
+      <meta prefix="og: http://ogp.me/ns#" property="og:image" content="img/allmyles_logo.png">
+      <meta prefix="og: http://ogp.me/ns#" property="og:url" content="http://allmyles.com/">
+      <meta prefix="og: http://ogp.me/ns#" property="og:description" content="{% if page.description %}{{ page.description}}{% else %}{{ site.data.general.description}}{% endif %}">
+
+      <meta name="author" content="Allmyles Ltd.">
+      <meta itemprop="name" content="Travel APIs — Flight API, Hotel API, Car Rentl API from"/>
+      <meta itemprop="url" content="http://allmyles.com/"/>
+      <meta itemprop="description" content="{% if page.description %}{{ page.description}}{% else %}{{ site.data.general.description}}{% endif %}"/>
+
+      <meta name="twitter:title" content="Travel APIs — Flight API, Hotel API, Car Rentl API from"/>
+      <meta name="twitter:url" content="http://allmyles.com/"/>
+      <meta name="twitter:card" content="summary"/>
+      <meta name="twitter:description" content="{% if page.description %}{{ page.description}}{% else %}{{ site.data.general.description}}{% endif %}"/>
+
+      <meta name="google-site-verification" content="tB_3wuPCitQ4x9xONjL160sH4Ub7rDV6yq3USlPKvZ4" />
+
+      <!-- Optimized Font Loading with font-display swap -->
+      <link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat:700|Hind:300,600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link href="https://fonts.googleapis.com/css?family=Montserrat:700|Hind:300,600&display=swap" rel="stylesheet"></noscript>
+
+      <!-- Critical CSS - Load immediately -->
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
+      <!-- Inline Critical CSS for Above-the-Fold Content -->
+      <style type="text/css">
+         {% capture include_to_scssify %}
+         {% include main.scss %}
+         {% endcapture %}
+         {{ include_to_scssify | scssify }}
+      </style>
+
+      <!-- Defer Non-Critical Third-Party Scripts -->
+      <script>
+         // Minimal tracking initialization - defer full load
+         window.dataLayer = window.dataLayer || [];
+         window.smartlookData = { init: false };
+         window.analyticsData = { init: false };
+         window.fbqData = { init: false };
+      </script>
+   </head>
+
+<body>
+  <nav class="navbar navbar-allmyles">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+          <img src="/img/allmyles_logo.png" alt="Allmyles logo" width="150" height="40" loading="eager">
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="main-navigation">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="/why">Why</a></li>
+          <li><a href="/how">How</a></li>
+          <li><a href="/what">What We Do</a></li>
+          <li><a href="/news">News</a></li>
+          <li><a href="http://docs.allmyles.com">Docs</a></li>
+          <li><a href="https://status.allmyles.com/">Incidents</a></li>
+          <li><a href="http://dashboard.allmyles.com/">Log In</a></li>
+          <li><a href="http://dashboard.allmyles.com/">Get Started</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  {{ content }}
+
+  <section class="social-links">
+    <ul class="list-inline">
+      <li>
+        <a target="_blank" href="https://www.facebook.com/allmyles" rel="noopener" aria-label="Facebook">
+          <i class="fa fa-facebook-square"></i>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://twitter.com/allmylesconnect" rel="noopener" aria-label="Twitter">
+          <i class="fa fa-twitter-square"></i>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.linkedin.com/company/allmyles-kft-" rel="noopener" aria-label="LinkedIn">
+          <i class="fa fa-linkedin-square"></i>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="site-footer">
+    <ul class="list-inline">
+      <li><a href="/">Home</a></li>
+      <li><a href="http://docs.allmyles.com">Docs</a></li>
+      <li><a href="http://allmyles.atlassian.net">Issues</a></li>
+      <li><a href="/tos">Terms of Service</a></li>
+      <li><a href="/privacy">Privacy Policy</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+    <p>Allmyles, Károly krt 5. 1075 Budapest, Hungary <span>+36&nbsp;30&nbsp;748&nbsp;0436</span> <a href="mailto:info@allmyles.com">info@allmyles.com</a></p>
+    <p class="copyright">Images from <a href="http://images.superfamous.com/">Superfamous</a></p>
+  </footer>
+
+  <!-- Load jQuery and Bootstrap -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js" defer></script>
+
+  <!-- Defer All Third-Party Analytics/Chat Scripts -->
+  <script>
+    // Load third-party scripts after page load
+    window.addEventListener('load', function() {
+      // Delay by 3 seconds to prioritize main content
+      setTimeout(function() {
+        // Smartlook
+        (function(d) {
+          var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+          var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+          c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
+        })(document);
+        smartlook('init', '57ce1377e409c69c7ccdf3338c16d8c5b90a21a1');
+
+        // Segment Analytics
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+          analytics.load("sdFcy6xI0OhS5oLwYi1lSMY3B2Kyj4te");
+          analytics.page();
+        }}();
+
+        // Facebook Pixel
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '877131375794306');
+        fbq('track', 'PageView');
+
+        // Tawk.to Chat
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+          var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+          s1.async=true;
+          s1.src='https://embed.tawk.to/59d349974854b82732ff33e4/default';
+          s1.charset='UTF-8';
+          s1.setAttribute('crossorigin','*');
+          s0.parentNode.insertBefore(s1,s0);
+        })();
+
+        // Mailchimp
+        var script = document.createElement('script');
+        script.src = '//downloads.mailchimp.com/js/signup-forms/popup/embed.js';
+        script.setAttribute('data-dojo-config', 'usePlainJson: true, isDebug: false');
+        document.head.appendChild(script);
+        script.onload = function() {
+          require(["mojo/signup-forms/Loader"], function(L) {
+            L.start({"baseUrl":"mc.us8.list-manage.com","uuid":"34427879ce889cb69ae1b9e75","lid":"7e58348ec9"})
+          });
+        };
+
+        // Cookie Consent
+        var cookieScript = document.createElement('script');
+        cookieScript.id = 'cookieinfo';
+        cookieScript.src = '//cookieinfoscript.com/js/cookieinfo.min.js';
+        cookieScript.setAttribute('data-font-size', '10px');
+        cookieScript.setAttribute('data-divlink', '#333');
+        cookieScript.setAttribute('data-divlinkbg', '#eee');
+        cookieScript.setAttribute('data-cookie', 'CookieInfoScript');
+        cookieScript.setAttribute('data-text-align', 'left');
+        cookieScript.setAttribute('accept-on-scroll', 'True');
+        document.head.appendChild(cookieScript);
+      }, 3000);
+    });
+  </script>
+
+  <!-- Facebook Pixel Noscript -->
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=877131375794306&ev=PageView&noscript=1" /></noscript>
+
+</body>
+</html>
