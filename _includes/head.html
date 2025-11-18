@@ -57,13 +57,21 @@
   <link rel="preload"
     href="{{ '/assets/fonts/Aeonik/Aeonik-Medium.otf' | relative_url }}"
     as="font" type="font/otf" crossorigin />
-  <link rel="stylesheet preload"
-    href="{{ '/assets/css/vendor.min.css' | relative_url }}" as="style" />
-  <link rel="stylesheet preload"
-    href="{{ '/assets/css/main.min.css' | relative_url }}" as="style" />
-  <link rel="stylesheet preload"
+  <link rel="preload"
+    href="{{ '/assets/images/landing-hero.svg' | relative_url }}"
+    as="image" />
+  <link rel="preload"
+    href="{{ '/assets/css/vendor.min.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload"
+    href="{{ '/assets/css/main.min.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload"
     href="{{ '/assets/css/cookieconsent.min.css' | relative_url }}"
-    as="style" />
+    as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet" href="{{ '/assets/css/vendor.min.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/main.min.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/cookieconsent.min.css' | relative_url }}" />
+  </noscript>
   {% seo %}
   {% gtm head %}
 </head>

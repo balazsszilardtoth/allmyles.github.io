@@ -6,7 +6,7 @@
         <div class="col-12 col-md-4">
           <a href="{{ '/news' | relative_url }}">
             <img src="{{ '/assets/icons/new.svg' | relative_url }}"
-              alt="News" />
+              alt="News" loading="lazy" />
             <h4>What's New?</h4>
             <p>Say hello to the new features.</p>
           </a>
@@ -14,7 +14,7 @@
         <div class="col-12 col-md-4">
           <a href="{{ '/faq' | relative_url }}">
             <img src="{{ '/assets/icons/faq.svg' | relative_url }}"
-              alt="Frequentily Asked Questions" />
+              alt="Frequentily Asked Questions" loading="lazy" />
             <h4>Frequently Asked Questions</h4>
             <p>Have a question about something?</p>
           </a>
@@ -22,7 +22,7 @@
         <div class="col-12 col-md-4">
           <a href="https://docs.allmyles.com" target="_blank">
             <img src="{{ '/assets/icons/documentation.svg' | relative_url }}"
-              alt="API Docs" />
+              alt="API Docs" loading="lazy" />
             <h4>Documentation</h4>
             <p>Getting things done with Allmyles.</p>
           </a>
@@ -39,7 +39,7 @@
           <div class="card">
             <a href="{{ post.url | relative_url }}">
               <img src="/assets/images/blog{{ post.img | relative_url }}"
-                alt="{{ post.title }}" class="card-img-top" />
+                alt="{{ post.title }}" class="card-img-top" loading="lazy" />
               <div class="card-body">
                 <small class="card-category">{{ post.categories }}</small>
                 <h3 class="card-title">{{ post.title }}</h3>

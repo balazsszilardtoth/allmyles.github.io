@@ -7,7 +7,7 @@
         <div class="card">
           <a href="{{ post.url | relative_url }}">
             <img src="/assets/images/blog{{ post.img | relative_url }}"
-              alt="{{ post.title }}" class="card-img-top" />
+              alt="{{ post.title }}" class="card-img-top" loading="lazy" />
             <div class="card-body">
               <small class="card-category">{{ post.categories }}</small>
               <h3 class="card-title">{{ post.title }}</h3>
