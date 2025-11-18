@@ -1,5 +1,6 @@
 title: Travel API by Allmyles
 url: "http://allmyles.com/"
+repository: balazsszilardtoth/allmyles.github.io
 
 exclude:
   - vendor
